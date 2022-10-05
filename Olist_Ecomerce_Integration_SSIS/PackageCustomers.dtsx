@@ -1,0 +1,679 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="8/30/2022 1:23:44 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="ALMEIDABATISTA-"
+  DTS:CreatorName="ALMEIDABATISTA-\Fabricio"
+  DTS:DTSID="{62181F99-8E59-4B58-81E4-ED6F33F50B1A}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.694.0"
+  DTS:LocaleID="1046"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{51A181C7-7C11-4A18-9ED3-D40607D7773E}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{C44E1A5F-3BEA-4A39-AA4B-E2A4DCB6E80F}"
+      DTS:ObjectName="ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALMEIDABATISTA-\DEV;User ID=etl_service;Initial Catalog=Brazilian_Ecommerce;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package-{C44E1A5F-3BEA-4A39-AA4B-E2A4DCB6E80F}ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKFgr5Gs8oUGkqs41CredGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACT9BURVwI2WO2SpegpNTLY6nTKeUkyLxatljT+0ZiE/gAAAAAOgAAAAAIAACAAAAC/2vcojjBCqQFOtDRM4+d6fdL+BWzkHuT/YqhzySfIKyAAAAD5j5wlfMadFUheIoRvUeY0EzhHwRdMQ2jjaRyY6Vy15EAAAADV7jq4JkIAiv240c7O3gQiOQQ5UZGecFfzXtNkGa740PgGrvb3lRB/MgMhV1qmzQsDFbeCkh//jdwvMxG3Y4D9</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Customer Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{362420BF-B61C-4780-8264-8371DE9E22C1}"
+      DTS:ObjectName="Customer Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_customers_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_id&quot;"
+              DTS:DTSID="{C5504225-17BD-451D-877F-D54C3831F2ED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_unique_id&quot;"
+              DTS:DTSID="{17353DF1-7969-457A-9AD3-FE4479A43108}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_zip_code_prefix&quot;"
+              DTS:DTSID="{3C02A1C9-5BAE-4800-8FC4-4337824949A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_city&quot;"
+              DTS:DTSID="{1B2D414E-13FF-4073-B5E2-EC965195A6D2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_state&quot;"
+              DTS:DTSID="{2F92455B-D7E7-41CE-85A0-E6EFCED9B0B1}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Geolocation Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{77225744-52BF-440B-8728-50F199EF6EE4}"
+      DTS:ObjectName="Geolocation Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_geolocation_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;geolocation_zip_code_prefix&quot;"
+              DTS:DTSID="{B65FF7FB-F1D0-429B-9E61-D4543266ECD7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;geolocation_lat&quot;"
+              DTS:DTSID="{605B416D-78AC-4B4B-8F7E-5590E84D02F2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;geolocation_lng&quot;"
+              DTS:DTSID="{94F9AEF5-DD5C-46F2-9449-6ED360F3D160}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;geolocation_city&quot;"
+              DTS:DTSID="{FDED1AAE-727F-433C-B9E5-3FAFB71EAE8E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;geolocation_state&quot;"
+              DTS:DTSID="{B06B90DD-C86B-4D33-A41F-5B6337B4506A}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Customers Container"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{BCAEDBB0-7417-49BF-97F5-9958DD8682ED}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Customers Container">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Customers Container\Load_Customers_Info"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{7E9D9350-5D20-46D0-BCB7-0047EEFE8620}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Load_Customers_Info"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset"
+                  componentClassID="Microsoft.FlatFileSource"
+                  contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Flat File Source"
+                  localeId="1046"
+                  name="Get_Customers_Dataset"
+                  usesDispositions="true"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether zero-length columns are treated as null."
+                      name="RetainNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                      name="FileNameColumnName"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Customer Connection Manager]"
+                      connectionManagerRefId="Package.ConnectionManagers[Customer Connection Manager]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_id&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_id&quot;]"
+                          length="50"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_id&quot;]"
+                          name="&quot;customer_id&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_unique_id&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_unique_id&quot;]"
+                          length="50"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_unique_id&quot;]"
+                          name="&quot;customer_unique_id&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_zip_code_prefix&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_zip_code_prefix&quot;]"
+                          length="50"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_zip_code_prefix&quot;]"
+                          name="&quot;customer_zip_code_prefix&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_city&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_city&quot;]"
+                          length="50"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_city&quot;]"
+                          name="&quot;customer_city&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_state&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_state&quot;]"
+                          length="50"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_state&quot;]"
+                          name="&quot;customer_state&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_id&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="&quot;customer_id&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_unique_id&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="&quot;customer_unique_id&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_zip_code_prefix&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="&quot;customer_zip_code_prefix&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_city&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="&quot;customer_city&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].ExternalColumns[&quot;customer_state&quot;]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="&quot;customer_state&quot;" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Error Output]"
+                      isErrorOut="true"
+                      name="Flat File Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          codePage="1252"
+                          dataType="text"
+                          description="Flat File Source Error Output Column"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          name="Flat File Source Error Output Column" />
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Load_Customers_Table"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dim].[Customers]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+                      connectionManagerRefId="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].Columns[&quot;customer_id&quot;]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;customer_id&quot;"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_id]"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_id&quot;]" />
+                        <inputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].Columns[&quot;customer_unique_id&quot;]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;customer_unique_id&quot;"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_unique_id]"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_unique_id&quot;]" />
+                        <inputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].Columns[&quot;customer_zip_code_prefix&quot;]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;customer_zip_code_prefix&quot;"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_zip_code_prefix]"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_zip_code_prefix&quot;]" />
+                        <inputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].Columns[&quot;customer_city&quot;]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;customer_city&quot;"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_city]"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_city&quot;]" />
+                        <inputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].Columns[&quot;customer_state&quot;]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;customer_state&quot;"
+                          externalMetadataColumnId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_state]"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output].Columns[&quot;customer_state&quot;]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_id]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          name="customer_id" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_unique_id]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          name="customer_unique_id" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_zip_code_prefix]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="customer_zip_code_prefix" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_city]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          name="customer_city" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[customer_state]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          name="customer_state" />
+                        <externalMetadataColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input].ExternalColumns[PK_Customer]"
+                          dataType="i4"
+                          name="PK_Customer" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Customers Container\Load_Customers_Info.Paths[Flat File Source Output]"
+                  endId="Package\Customers Container\Load_Customers_Info\Load_Customers_Table.Inputs[OLE DB Destination Input]"
+                  name="Flat File Source Output"
+                  startId="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset.Outputs[Flat File Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="182.666666666667,42.6666666666667"
+          Id="Package\Customers Container\Load_Customers_Info"
+          TopLeft="40.2916647947083,3.81666421423358" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="280.666666666667,162.666666666667"
+          Size="280.666666666667,205.333333333334"
+          Id="Package\Customers Container"
+          TopLeft="8.5265128291212E-14,29.8999994653463" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Customers Container\Load_Customers_Info">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="189.333333333334,42.6666666666667"
+          Id="Package\Customers Container\Load_Customers_Info\Load_Customers_Table"
+          TopLeft="99.9999985098839,229.449995897114" />
+        <NodeLayout
+          Size="193.333333333334,42.6666666666667"
+          Id="Package\Customers Container\Load_Customers_Info\Get_Customers_Dataset"
+          TopLeft="59.9999991059303,81.8999985355139" />
+        <EdgeLayout
+          Id="Package\Customers Container\Load_Customers_Info.Paths[Flat File Source Output]"
+          TopLeft="156.666665772597,124.566665202181">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="37.9999994039536,104.883330694934"
+              Start="0,0"
+              End="37.9999994039536,97.3833306949339">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.4416653474669" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.4416653474669"
+                    Point2="0,52.4416653474669"
+                    Point3="4,52.4416653474669" />
+                  <mssgle:LineSegment
+                    End="33.9999994039536,52.4416653474669" />
+                  <mssgle:CubicBezierSegment
+                    Point1="33.9999994039536,52.4416653474669"
+                    Point2="37.9999994039536,52.4416653474669"
+                    Point3="37.9999994039536,56.4416653474669" />
+                  <mssgle:LineSegment
+                    End="37.9999994039536,97.3833306949339" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Customers Container\Load_Customers_Info\Load_Customers_Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

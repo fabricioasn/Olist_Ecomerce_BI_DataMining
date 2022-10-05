@@ -1,0 +1,706 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="8/31/2022 5:07:15 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="ALMEIDABATISTA-"
+  DTS:CreatorName="ALMEIDABATISTA-\Fabricio"
+  DTS:DTSID="{C3289219-A0CF-4F87-BE05-3C8C6065CB8C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.694.0"
+  DTS:LocaleID="1046"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{8E77793F-D9FA-407A-B035-8CDCC7CF2242}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4393508A-7876-497E-A093-204CC98E926D}"
+      DTS:ObjectName="ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALMEIDABATISTA-\DEV;User ID=etl_service;Initial Catalog=Brazilian_Ecommerce;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package1-{4393508A-7876-497E-A093-204CC98E926D}ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKFgr5Gs8oUGkqs41CredGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAh73LOkcAdTdlsGMWdm4CQ/9gsWiJSZFKeoX7Xit0QAwAAAAAOgAAAAAIAACAAAABY+WuZoVZm2aVz0IYxq9JKEmN8f5GSLs1ByySDVrViUCAAAADj/O3guzgj4QP5IhP7sRT8jWcY2oHrALqSFujotLF9X0AAAAB5dq9ekGYxjJaNdoMG9zHO6XWT+iYkPwgUtRdCGGo+5DMF1fQLDqr79aD3mEYpvr2iePgnws798knYsVhODGi8</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{9E2F376F-5DE4-4228-B248-9E9B0CD71165}"
+      DTS:ObjectName="ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALMEIDABATISTA-\DEV;User ID=etl_service;Initial Catalog=Brazilian_Ecommerce;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package1-{9E2F376F-5DE4-4228-B248-9E9B0CD71165}ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKFgr5Gs8oUGkqs41CredGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAszwJEsyCV85QwTs8JO2mkyZ9SulGNO++Oc8ArJY/qUQAAAAAOgAAAAAIAACAAAADbjvLenYF4ormAAa5QZ6j3habDCBC55QMg08TyZNj2OyAAAAAtBkpJJydLRymYswJICfffrMA1aNo3K+dtlYYIzMD+TkAAAADG5YCu/8qAKDCbOqXrBz04yjKjCtw+gSxYEd08sSGXTtaIlmZ0T+9kNjzlTofnNwBReGl7ME31vNth8zjtx+8I</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Customer Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{362420BF-B61C-4780-8264-8371DE9E22C1}"
+      DTS:ObjectName="Customer Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_customers_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_id&quot;"
+              DTS:DTSID="{C5504225-17BD-451D-877F-D54C3831F2ED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_unique_id&quot;"
+              DTS:DTSID="{17353DF1-7969-457A-9AD3-FE4479A43108}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_zip_code_prefix&quot;"
+              DTS:DTSID="{3C02A1C9-5BAE-4800-8FC4-4337824949A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_city&quot;"
+              DTS:DTSID="{1B2D414E-13FF-4073-B5E2-EC965195A6D2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_state&quot;"
+              DTS:DTSID="{2F92455B-D7E7-41CE-85A0-E6EFCED9B0B1}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[OrderItems Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{790629C0-AFEF-42D4-9209-04DEBB48B5CA}"
+      DTS:ObjectName="OrderItems Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_order_items_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id&quot;"
+              DTS:DTSID="{F28C58D1-613B-4B09-A272-7C06F26BF427}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_item_id&quot;"
+              DTS:DTSID="{F47BF39C-7535-4E78-93EC-A33E76A77E30}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;product_id&quot;"
+              DTS:DTSID="{F31E644A-6066-46CC-9661-39D54BA1D7CC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;seller_id&quot;"
+              DTS:DTSID="{48731348-9310-4AA3-9AB7-8FA7ED6C78FD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="135"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;shipping_limit_date&quot;"
+              DTS:DTSID="{D47A9B40-85DB-4ED7-B622-3012D4E7A489}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;price&quot;"
+              DTS:DTSID="{44214E57-66EE-4B4F-9051-453F043B9E78}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;freight_value&quot;"
+              DTS:DTSID="{98892EA6-C2F7-4FB8-B99C-CA46631C26D4}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Payments Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{283B0FF3-828B-432E-B347-86B7DBDB44E7}"
+      DTS:ObjectName="Payments Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_order_payments_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id&quot;"
+              DTS:DTSID="{EC4D5F6B-CD8A-42ED-AC06-D0033E2FDB21}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;payment_sequential&quot;"
+              DTS:DTSID="{DA0C9C46-F63E-4881-842C-919E75174B1B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;payment_type&quot;"
+              DTS:DTSID="{E3BB5A0A-B30D-40C8-90BE-65DBC7D1C1CA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;payment_installments&quot;"
+              DTS:DTSID="{AD0FB13D-E10B-442C-BD6C-72CBD0A273C6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;payment_value&quot;"
+              DTS:DTSID="{F77913AE-88DA-40A1-9D2D-C7D1607B0CA3}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\DimPayments Sequence Container"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{E1282BF7-8BAD-4CE9-A3CC-B7E3494ADA4F}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DimPayments Sequence Container">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\DimPayments Sequence Container\DimPayments Data Flow"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{DD832BEA-2FC9-4EB4-801D-DCD98D71D7D3}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DimPayments Data Flow"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="DimPayments Table Destionation"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dim].[DimPayments]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">65001</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">true</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+                      connectionManagerRefId="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].Columns[&quot;payment_sequential&quot;]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;payment_sequential&quot;"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_sequential]"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_sequential&quot;]" />
+                        <inputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].Columns[&quot;payment_type&quot;]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;payment_type&quot;"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_type]"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_type&quot;]" />
+                        <inputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].Columns[&quot;payment_installments&quot;]"
+                          cachedDataType="i4"
+                          cachedName="&quot;payment_installments&quot;"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_installments]"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_installments&quot;]" />
+                        <inputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].Columns[&quot;payment_value&quot;]"
+                          cachedDataType="decimal"
+                          cachedName="&quot;payment_value&quot;"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_value]"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_value&quot;]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_sequential]"
+                          dataType="ui1"
+                          name="payment_sequential" />
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_type]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="payment_type" />
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_installments]"
+                          dataType="i2"
+                          name="payment_installments" />
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input].ExternalColumns[payment_value]"
+                          dataType="numeric"
+                          name="payment_value"
+                          precision="12"
+                          scale="2" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source"
+                  componentClassID="Microsoft.FlatFileSource"
+                  contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Flat File Source"
+                  localeId="1046"
+                  name="Flat File Source"
+                  usesDispositions="true"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether zero-length columns are treated as null."
+                      name="RetainNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                      name="FileNameColumnName"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Payments Connection Manager]"
+                      connectionManagerRefId="Package.ConnectionManagers[Payments Connection Manager]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_sequential&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_sequential&quot;]"
+                          length="50"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_sequential&quot;]"
+                          name="&quot;payment_sequential&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_type&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_type&quot;]"
+                          length="50"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_type&quot;]"
+                          name="&quot;payment_type&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_installments&quot;]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_installments&quot;]"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_installments&quot;]"
+                          name="&quot;payment_installments&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_value&quot;]"
+                          dataType="decimal"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_value&quot;]"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].Columns[&quot;payment_value&quot;]"
+                          name="&quot;payment_value&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;order_id&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;order_id&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_sequential&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;payment_sequential&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_type&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;payment_type&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_installments&quot;]"
+                          dataType="i4"
+                          name="&quot;payment_installments&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[&quot;payment_value&quot;]"
+                          dataType="decimal"
+                          name="&quot;payment_value&quot;" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Error Output]"
+                      isErrorOut="true"
+                      name="Flat File Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          codePage="65001"
+                          dataType="text"
+                          description="Flat File Source Error Output Column"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          name="Flat File Source Error Output Column" />
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\DimPayments Sequence Container\DimPayments Data Flow.Paths[Flat File Source Output]"
+                  endId="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation.Inputs[OLE DB Destination Input]"
+                  name="Flat File Source Output"
+                  startId="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source.Outputs[Flat File Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="194.666666666667,42.6666666666667"
+          Id="Package\DimPayments Sequence Container\DimPayments Data Flow"
+          TopLeft="70.3333314706882,25.0333307995399" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="327.333333333334,225.333333333334"
+          Size="327.333333333334,268.666666666667"
+          Id="Package\DimPayments Sequence Container"
+          TopLeft="54.3749991897494,74.0999986749888" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\DimPayments Sequence Container\DimPayments Data Flow">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="152,42.6666666666667"
+          Id="Package\DimPayments Sequence Container\DimPayments Data Flow\Flat File Source"
+          TopLeft="58.1249991338701,28.5999994885922" />
+        <NodeLayout
+          Size="234.666666666667,42.6666666666667"
+          Id="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation"
+          TopLeft="13.7499997951091,167.69999700129" />
+        <EdgeLayout
+          Id="Package\DimPayments Sequence Container\DimPayments Data Flow.Paths[Flat File Source Output]"
+          TopLeft="132.604166131156,71.2666661552588">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,96.4333308460315"
+              Start="0,0"
+              End="0,88.9333308460315">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,88.9333308460315" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DimPayments Sequence Container\DimPayments Data Flow\DimPayments Table Destionation">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

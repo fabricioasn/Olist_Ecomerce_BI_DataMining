@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/12/2022 1:15:46 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="ALMEIDABATISTA-"
+  DTS:CreatorName="ALMEIDABATISTA-\Fabricio"
+  DTS:DTSID="{B583DD86-C612-4B71-B6D3-E13E1732ADC9}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.694.0"
+  DTS:LocaleID="1046"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{391A26F8-8B7E-4177-BAB0-C907D6BEE03B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{801C8059-41BE-43E3-8A9B-DF6AAB8689F2}"
+      DTS:ObjectName="ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALMEIDABATISTA-\DEV;User ID=etl_service;Initial Catalog=Brazilian_Ecommerce;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package1-{801C8059-41BE-43E3-8A9B-DF6AAB8689F2}ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKFgr5Gs8oUGkqs41CredGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD5NGXfmFgqonF/SSmEn2b3kVV6qlo20B7yVs9v0WcjogAAAAAOgAAAAAIAACAAAADzRT3KVeS5hZB7zRl1Bru4gkrXUivLgRTIWgi7iuTAaCAAAABYYWrjaF/QzJ1CJeDyWU4RUvLhnZwVMiy/0uAZ/BAaJ0AAAABEVdhojv6y7VQJnOcNoiMxjqFj8jmxkrPhurW89NyWPtCiprQyJDgATdztTxdGS8qIXSBYCgt8wfaXdAxSpNH2</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Fact Order Dataset File]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{C73039CE-EC8D-45AF-B7BD-DA683C95EB4B}"
+      DTS:ObjectName="Fact Order Dataset File">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id"
+              DTS:DTSID="{049767DA-83E5-4694-AB67-0EAC53C0FD75}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;customer_id&quot;&quot;"
+              DTS:DTSID="{90FE9018-9AD4-428C-BCD9-F306594C1C6F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_status&quot;&quot;"
+              DTS:DTSID="{FCA900BB-073D-4F12-84A1-FAF865C4E2F3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_purchase_timestamp&quot;&quot;"
+              DTS:DTSID="{01B29769-AC4D-4071-8394-655C15555B4A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_approved_at&quot;&quot;"
+              DTS:DTSID="{8A7660CB-8F20-4E93-ABEA-A5D0ACE03F9F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_carrier_date&quot;&quot;"
+              DTS:DTSID="{0E124812-6378-4F1E-8899-4CDA13A60738}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_customer_date&quot;&quot;"
+              DTS:DTSID="{D8059288-9D11-4CA3-9475-CAA25B5E68A1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_estimated_delivery_date&quot;&quot;"
+              DTS:DTSID="{5F172AEE-7115-43A3-B1E2-F3C17A1041E5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;PK_FactOrder&quot;&quot;&quot;"
+              DTS:DTSID="{7D9FB743-6C6F-4A39-B6AB-E70D1E953846}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Fact Order Dataset Identity]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{67D7CFD4-7F5D-45E4-B876-CDDA9F1C27F7}"
+      DTS:ObjectName="Fact Order Dataset Identity">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id"
+              DTS:DTSID="{BA41ADEF-2ABE-4A22-B5F3-01427B2A3635}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;customer_id&quot;&quot;"
+              DTS:DTSID="{D90AAD75-7349-493C-943D-FED1B6B52915}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_status&quot;&quot;"
+              DTS:DTSID="{BF9F8E63-741A-47CB-B31E-752CD20402CB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_purchase_timestamp&quot;&quot;"
+              DTS:DTSID="{7DC105A3-8A83-4A23-8C44-70B8C786223A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_approved_at&quot;&quot;"
+              DTS:DTSID="{989115E1-CD71-43F7-B801-84B281F223A9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_carrier_date&quot;&quot;"
+              DTS:DTSID="{98C75482-7505-4959-ACF5-E71AE7902E06}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_customer_date&quot;&quot;"
+              DTS:DTSID="{F1AECDCF-C5AF-446A-88FD-9BB498DDD3BE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_estimated_delivery_date&quot;&quot;"
+              DTS:DTSID="{E7ADFC9B-9E1E-471C-B923-7CA3BD5E01D5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;id&quot;&quot;&quot;"
+              DTS:DTSID="{873A4CEB-FECB-4CBF-B5C9-F622B56997EE}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FactOrders Datasat Flat File]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{C9305198-2D21-4E2E-87C3-DBF598D56C87}"
+      DTS:ObjectName="FactOrders Datasat Flat File">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id"
+              DTS:DTSID="{D8632E1E-8B98-4439-96E8-C255D2FCF82D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;customer_id&quot;&quot;"
+              DTS:DTSID="{B2DD21A2-9F06-4EA6-8DEF-36C9794B1260}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_status&quot;&quot;"
+              DTS:DTSID="{317CCB36-25DE-413F-B288-2852334EF93F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_purchase_timestamp&quot;&quot;"
+              DTS:DTSID="{EBF79EC3-DD40-4D03-8471-AAA431CF42FA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_approved_at&quot;&quot;"
+              DTS:DTSID="{9699B4F0-076F-4920-A396-0FE17653BD80}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_carrier_date&quot;&quot;"
+              DTS:DTSID="{FD14EA0F-D431-407C-9917-3D1022588A70}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_customer_date&quot;&quot;"
+              DTS:DTSID="{BB101330-DBA3-4887-9704-00191E6E1F74}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_estimated_delivery_date&quot;&quot;"
+              DTS:DTSID="{D6807123-CAFD-4455-B18B-72E188CBBAC2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;PK_FactOrder&quot;&quot;&quot;"
+              DTS:DTSID="{53B554C7-7B59-400F-8C3F-FE692A3D3F07}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="OrderDataset"
+      DTS:DTSID="{3A671674-75C5-4598-84B5-83258C869416}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id&quot;"
+              DTS:DTSID="{5FE44A13-53B3-42EC-A698-B4877479ED52}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;customer_id&quot;"
+              DTS:DTSID="{C5441A4A-7250-4573-B4D2-A14E3B4866C9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_status&quot;"
+              DTS:DTSID="{C1AD3D5C-7ED7-472B-81C4-049C411378AD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_purchase_timestamp&quot;"
+              DTS:DTSID="{E4A58B50-6D87-40AB-8E8E-6EEE240FC3BA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_approved_at&quot;"
+              DTS:DTSID="{36B4F1FA-1670-42EE-BB17-6E81D6A93D09}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_delivered_carrier_date&quot;"
+              DTS:DTSID="{1C5F1124-10E9-4C93-801D-F56F43F66881}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_delivered_customer_date&quot;"
+              DTS:DTSID="{B43AF0B5-9FA2-44E9-A144-AFFF73630122}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_estimated_delivery_date&quot;"
+              DTS:DTSID="{EB3BAC3B-F69E-4D73-85CB-CDDEA8BC7F3F}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F2B7E37C-3318-4985-8D9E-979DD0B1DA36}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id"
+              DTS:DTSID="{1FE3FD7B-43DB-4488-9916-8038DB7E7932}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;customer_id&quot;&quot;"
+              DTS:DTSID="{148ABA6E-A628-40A1-8BB8-19FA390AD52B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_status&quot;&quot;"
+              DTS:DTSID="{1F4F914D-A45C-4D89-8096-FD477402F80B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_purchase_timestamp&quot;&quot;"
+              DTS:DTSID="{8F83578D-AE37-4AD5-BB10-6B513C14F14E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_approved_at&quot;&quot;"
+              DTS:DTSID="{69B90948-853F-4A5B-850F-D754E3372319}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_carrier_date&quot;&quot;"
+              DTS:DTSID="{BEF9F5A0-7519-4B78-BB29-512D2145C574}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_customer_date&quot;&quot;"
+              DTS:DTSID="{F86B41E9-C5BA-42E4-8F9A-50274FF0B107}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_estimated_delivery_date&quot;&quot;"
+              DTS:DTSID="{5DCD9DDE-BB14-4087-B4D7-ED5EE22ED8D8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;id&quot;&quot;&quot;"
+              DTS:DTSID="{045832AB-C98A-4502-B507-35DB6F582095}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{75A97366-2990-41EB-BD0D-D58EFCB89CA0}"
+      DTS:ObjectName="Flat File Connection Manager 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id"
+              DTS:DTSID="{2B699DB3-AC8C-484E-971C-6AB4C87D73BC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;customer_id&quot;&quot;"
+              DTS:DTSID="{8FB8BEF9-2A50-45DD-993D-A12D1AC99134}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_status&quot;&quot;"
+              DTS:DTSID="{694C4AE7-1D4C-4D72-9156-EF90A0EE859B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_purchase_timestamp&quot;&quot;"
+              DTS:DTSID="{20C4C47D-B29D-419A-B7D7-B443ADBC16C2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_approved_at&quot;&quot;"
+              DTS:DTSID="{915A7F18-F00F-4ABC-883E-661107280322}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_carrier_date&quot;&quot;"
+              DTS:DTSID="{BFDC310B-54FD-447A-B03A-4FC6CF988B61}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_customer_date&quot;&quot;"
+              DTS:DTSID="{933A3B6D-90A8-4709-AA48-5BFA3F93CFE7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_estimated_delivery_date&quot;&quot;"
+              DTS:DTSID="{319C747F-CE56-4B9A-86A5-91CCB0EA1364}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="19"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;PK_FactOrder&quot;&quot;&quot;"
+              DTS:DTSID="{A81C07E8-DAED-4B6E-B98C-539052898309}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Order Flat File Dataset]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{ABECF69C-4F63-4509-838A-D99295F8BAC0}"
+      DTS:ObjectName="Order Flat File Dataset">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1046"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="H:\Documents\DOCUMENTOS_FACULDADE\POSGRAD DATASCIENCE\Data Mining\Olist_ECommerce\olist_orders_dataset.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;order_id"
+              DTS:DTSID="{162057B4-D43E-4C69-B360-D5E98C763045}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;customer_id&quot;&quot;"
+              DTS:DTSID="{09291CD1-3332-48B7-B01E-6F1DD0AD337F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_status&quot;&quot;"
+              DTS:DTSID="{1F3AEA9A-128F-4C75-8B58-206DC2E891DE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_purchase_timestamp&quot;&quot;"
+              DTS:DTSID="{A0FB56F1-8092-4504-AA4E-426D25F9DCB8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_approved_at&quot;&quot;"
+              DTS:DTSID="{801A853C-EBF2-4616-8038-1CF2F2A1D085}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_carrier_date&quot;&quot;"
+              DTS:DTSID="{243BF88C-7747-4B8D-B82F-D3771BB807B3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_delivered_customer_date&quot;&quot;"
+              DTS:DTSID="{1D40BA98-6382-4F6E-833C-8169549CFD3B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;order_estimated_delivery_date&quot;&quot;"
+              DTS:DTSID="{ED0D81D5-619C-49A3-943F-F464FFF33DC5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="&quot;&quot;id&quot;&quot;&quot;"
+              DTS:DTSID="{D3F8E1CA-E91C-43FF-8D59-DFB2918A345D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\DimOrdersContainer"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{B55BDA37-CEB6-4CC9-8F02-A59CFB7C561E}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DimOrdersContainer">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\DimOrdersContainer\Load DimOrders Data Flow"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{D0E838FE-DB95-4C66-9CB5-242866ABF2C8}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Load DimOrders Data Flow"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="FactOrder Table Load"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dim].[DimOrder]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">65001</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">true</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+                      connectionManagerRefId="Package.ConnectionManagers[ALMEIDABATISTA-\DEV.Brazilian_Ecommerce.etl_service]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input].Columns[&quot;order_id]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;order_id"
+                          externalMetadataColumnId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].Columns[&quot;order_id]" />
+                        <inputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input].Columns[&quot;&quot;order_status&quot;&quot;]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="&quot;&quot;order_status&quot;&quot;"
+                          externalMetadataColumnId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input].ExternalColumns[order_status]"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].Columns[&quot;&quot;order_status&quot;&quot;]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input].ExternalColumns[order_id]"
+                          codePage="65001"
+                          dataType="str"
+                          length="100"
+                          name="order_id" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input].ExternalColumns[order_status]"
+                          codePage="65001"
+                          dataType="str"
+                          length="100"
+                          name="order_status" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset"
+                  componentClassID="Microsoft.FlatFileSource"
+                  contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Flat File Source"
+                  localeId="1046"
+                  name="FactOrdersDataset"
+                  usesDispositions="true"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether zero-length columns are treated as null."
+                      name="RetainNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                      name="FileNameColumnName"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 2]"
+                      connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 2]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].Columns[&quot;order_id]"
+                          codePage="65001"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;order_id]"
+                          length="50"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].Columns[&quot;order_id]"
+                          name="&quot;order_id"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].Columns[&quot;&quot;order_status&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;order_status&quot;&quot;]"
+                          length="50"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].Columns[&quot;&quot;order_status&quot;&quot;]"
+                          name="&quot;&quot;order_status&quot;&quot;"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;order_id]"
+                          codePage="65001"
+                          dataType="str"
+                          length="200"
+                          name="&quot;order_id" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;customer_id&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="200"
+                          name="&quot;&quot;customer_id&quot;&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;order_status&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="200"
+                          name="&quot;&quot;order_status&quot;&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;order_purchase_timestamp&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;&quot;order_purchase_timestamp&quot;&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;order_approved_at&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;&quot;order_approved_at&quot;&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;order_delivered_carrier_date&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;&quot;order_delivered_carrier_date&quot;&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;order_delivered_customer_date&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;&quot;order_delivered_customer_date&quot;&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;order_estimated_delivery_date&quot;&quot;]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          name="&quot;&quot;order_estimated_delivery_date&quot;&quot;" />
+                        <externalMetadataColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output].ExternalColumns[&quot;&quot;PK_FactOrder&quot;&quot;&quot;]"
+                          dataType="ui4"
+                          name="&quot;&quot;PK_FactOrder&quot;&quot;&quot;" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Error Output]"
+                      isErrorOut="true"
+                      name="Flat File Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          codePage="65001"
+                          dataType="text"
+                          description="Flat File Source Error Output Column"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          name="Flat File Source Error Output Column" />
+                        <outputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\DimOrdersContainer\Load DimOrders Data Flow.Paths[Flat File Source Output]"
+                  endId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load.Inputs[OLE DB Destination Input]"
+                  name="Flat File Source Output"
+                  startId="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset.Outputs[Flat File Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="206.666666666667,42.6666666666667"
+          Id="Package\DimOrdersContainer\Load DimOrders Data Flow"
+          TopLeft="25.5416638820122,6.14999998837712" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="246,102.666666666667"
+          Size="246,146"
+          Id="Package\DimOrdersContainer"
+          TopLeft="86.8749987054618,70.1999987447257" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\DimOrdersContainer\Load DimOrders Data Flow">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="166.666666666667,42.6666666666667"
+          Id="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrdersDataset"
+          TopLeft="71.2499989382922,37.6999993258715" />
+        <NodeLayout
+          Size="181.333333333334,42.6666666666667"
+          Id="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load"
+          TopLeft="69.9999989569188,181.349996757209" />
+        <EdgeLayout
+          Id="Package\DimOrdersContainer\Load DimOrders Data Flow.Paths[Flat File Source Output]"
+          TopLeft="157.624998947605,80.3666659925382">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,100.983330764671"
+              Start="0,0"
+              End="0,93.4833307646712">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,93.4833307646712" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DimOrdersContainer\Load DimOrders Data Flow\FactOrder Table Load">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
