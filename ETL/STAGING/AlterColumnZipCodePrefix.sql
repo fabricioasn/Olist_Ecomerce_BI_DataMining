@@ -1,0 +1,2 @@
+ALTER TABLE [DIM].[CUSTOMERS] 
+ALTER COLUMN [customer_zip_code_prefix] VARCHAR(60)
