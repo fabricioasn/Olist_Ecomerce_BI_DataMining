@@ -1,0 +1,3095 @@
+customer_state,seller_state,customer_city,seller_city,DENSE_RANK_CUSTOMER_SELLER_STATE
+AC,SP,rio branco,sao paulo,1
+AC,MG,rio branco,sete lagoas,2
+AC,GO,rio branco,morrinhos,3
+AC,SP,rio branco,bauru,4
+AL,SP,maragogi,barretos,1
+AL,RJ,penedo,rio de janeiro,2
+AL,SP,maceio,monte alegre do sul,3
+AL,PR,maceio,foz do iguacu,4
+AL,SP,maceio,sao paulo,5
+AL,SP,delmiro gouveia,mogi mirim,6
+AL,RS,ibateguara,porto alegre,7
+AL,SC,arapiraca,nova trento,8
+AL,SP,maceio,igaracu do tiete,9
+AL,SP,arapiraca,sao paulo,10
+AL,SP,jequia da praia,sao paulo,11
+AM,SP,manaus,osasco,1
+AM,SP,manaus,sao paulo,2
+AM,PR,manaus,curitiba,3
+AP,RN,macapa,natal,1
+AP,SP,macapa,pedreira,2
+BA,SP,vitoria da conquista,sao paulo,1
+BA,MG,itabuna,belo horizonte,2
+BA,SP,salvador,assis,3
+BA,MT,paulo afonso,cuiaba,4
+BA,SP,jequie,sao paulo,5
+BA,PR,salvador,maringa,6
+BA,SP,salvador,sao paulo,7
+BA,RS,santa brigida,uruguaiana,8
+BA,PR,salvador,curitiba,9
+BA,SP,salvador,sao paulo,10
+BA,MG,teixeira de freitas,belo horizonte,11
+BA,PR,juazeiro,cascavel,12
+BA,SP,salvador,ibitinga,13
+BA,SP,paulo afonso,sao paulo,14
+BA,RS,salvador,canoas,15
+BA,MG,salvador,pocos de caldas,16
+BA,SP,salvador,sao jose dos campos,17
+BA,SP,buritirama,tupa,18
+BA,SP,valenca,sao paulo,19
+BA,MG,valenca,sao joao del rei,20
+BA,MG,salvador,betim,21
+BA,PR,salvador,foz do iguacu,22
+BA,SP,salvador,sao paulo,23
+BA,SP,jequie,santo andre,24
+BA,SP,ilheus,igaracu do tiete,25
+BA,SP,salvador,sao paulo,26
+BA,MG,euclides da cunha,belo horizonte,27
+BA,SP,salvador,sao paulo,28
+BA,SP,salvador,sao paulo,29
+BA,SP,bom jesus da lapa,serra negra,30
+BA,SP,guanambi,mogi das cruzes,31
+BA,RJ,santa maria da vitoria,belford roxo,32
+BA,SP,salvador,santo andre,33
+BA,MG,alagoinhas,uba,34
+BA,SP,luis eduardo magalhaes,jundiai,35
+BA,PR,mucuri,maringa,36
+BA,RJ,tanhacu,rio de janeiro,37
+BA,SP,ubaira,sao paulo,38
+BA,SP,salvador,sao paulo,39
+BA,SP,capim grosso,campinas,40
+BA,SP,ipira,campinas,41
+BA,SP,inhambupe,ibitinga,42
+BA,MG,feira de santana,belo horizonte,43
+BA,SP,feira de santana,mogi das cruzes,44
+BA,PR,ilheus,maringa,45
+BA,SP,salvador,sao paulo,46
+BA,PR,inhambupe,curitiba,47
+BA,SP,vitoria da conquista,chapeco,48
+BA,SC,salvador,joinville,49
+BA,SP,salvador,itajobi,50
+BA,SP,brejolandia,santo andre,51
+BA,SP,senhor do bonfim,andradas,52
+BA,SP,jacobina,olimpia,53
+BA,MG,cruz das almas,belo horizonte,54
+BA,SP,feira de santana,sao paulo,55
+BA,SP,ilheus,sao  paulo,56
+BA,PR,salvador,curitiba,57
+BA,SP,vitoria da conquista,diadema,58
+BA,SP,salvador,osasco,59
+BA,SP,salvador,pompeia,60
+BA,SP,salvador,sao paulo,61
+BA,SP,guanambi,curitiba,62
+BA,PR,queimadas,francisco beltrao,63
+BA,SP,salvador,campinas,64
+BA,PR,luis eduardo magalhaes,fazenda rio grande,65
+BA,MG,salvador,baependi,66
+BA,SP,salvador,sao paulo,67
+BA,MG,salvador,uberlandia,68
+BA,RJ,salvador,rio de janeiro,69
+BA,SP,aracatu,marilia,70
+BA,SP,vitoria da conquista,sao paulo,71
+BA,SP,luis eduardo magalhaes,jacarei,72
+BA,SP,salvador,sao jose do rio preto,73
+BA,RJ,jeremoabo,santo antonio de padua,74
+BA,SP,candido sales,sao paulo,75
+BA,SC,itarantim,blumenau,76
+BA,PR,salvador,apucarana,77
+BA,PR,salvador,curitiba,78
+BA,SP,salvador,sao carlos,79
+BA,SP,itabuna,sao paulo,80
+BA,PR,guanambi,campo largo,81
+BA,SP,salvador,sao paulo,82
+BA,SP,itapetinga,sao paulo,83
+BA,SP,salvador,sao jose do rio preto,84
+BA,PR,salvador,curitiba,85
+BA,PR,serrinha,colombo,86
+BA,SP,feira de santana,santo andre,87
+BA,MG,arembepe,juiz de fora,88
+BA,RS,boquira,novo hamburgo,89
+BA,SC,salvador,paulo lopes,90
+BA,RJ,salvador,sao joao de meriti,91
+BA,SP,salvador,sao jose do rio preto,92
+BA,SP,salvador,ibitinga,93
+BA,SP,itacare,campinas,94
+BA,MG,itaberaba,montes claros,95
+BA,SP,salvador,limeira,96
+BA,PR,serrolandia,curitiba,97
+BA,RJ,nucleo residencial pilar,armacao dos buzios,98
+BA,MG,ubata,belo horizonte,99
+BA,SP,salvador,sao paulo,100
+BA,PR,ubaira,paranavai,101
+BA,SP,brumado,sao paulo,102
+BA,DF,salvador,brasilia,103
+BA,RJ,teixeira de freitas,rio de janeiro,104
+BA,SP,salvador,taboao da serra,105
+BA,RJ,serrinha,rio de janeiro,106
+BA,SP,itabuna,sao caetano do sul,107
+BA,SP,salvador,sao paulo,108
+BA,RJ,feira de santana,sao joao de meriti,109
+BA,SP,rio do antonio,sao paulo,110
+BA,MG,salvador,belo horizonte,111
+CE,SP,parambu,sao paulo,1
+CE,SP,fortaleza,sao paulo,2
+CE,SP,camocim,itaquaquecetuba,3
+CE,SP,fortaleza,ferraz de vasconcelos,4
+CE,PR,fortaleza,maringa,5
+CE,PR,maracanau,mandirituba,6
+CE,SP,tiangua,sao paulo,7
+CE,SP,fortaleza,osasco,8
+CE,ES,fortaleza,viana,9
+CE,PR,fortaleza,maringa,10
+CE,SP,fortaleza,marilia,11
+CE,SP,independencia,campinas,12
+CE,SC,fortaleza,sao francisco do sul,13
+CE,MG,sobral,itauna,14
+CE,SP,caucaia,sao paulo,15
+CE,SP,eusebio,sao jose do rio preto,16
+CE,SP,carius,sao paulo,17
+CE,SP,fortaleza,sao paulo,18
+CE,MG,fortaleza,borda da mata,19
+CE,MG,jaguaribara,conselheiro lafaiete,20
+CE,SP,fortaleza,campinas,21
+CE,SP,fortaleza,braganca paulista,22
+CE,SP,fortaleza,tanabi,23
+CE,SP,parambu,sao carlos,24
+CE,SP,carire,mineiros do tiete,25
+CE,SC,russas,itajai,26
+CE,SP,fortaleza,sao paulo,27
+CE,SP,croata,lencois paulista,28
+CE,SP,pacoti,fernandopolis,29
+CE,SP,fortaleza,bauru,30
+CE,SP,fortaleza,santo andre,31
+CE,MG,fortaleza,sete lagoas,32
+CE,SP,reriutaba,clementina,33
+CE,SP,caninde,pedreira,34
+CE,SC,fortaleza,xanxere,35
+CE,MG,fortaleza,contagem,36
+CE,RJ,fortaleza,barra mansa,37
+CE,SP,hidrolandia,osasco,38
+CE,PR,fortaleza,curitiba,39
+CE,SP,redencao,sao paulo,40
+CE,MG,fortaleza,belo horizonte,41
+CE,SP,fortaleza,riberao preto,42
+DF,SP,brasilia,sao paulo,1
+DF,PE,brasilia,caruaru,2
+DF,SP,brasilia,pederneiras,3
+DF,SP,brasilia,sao jose dos campos,4
+DF,MG,brasilia,vespasiano,5
+DF,BA,brasilia,barro alto,6
+DF,MG,brasilia,divinopolis,7
+DF,SP,brasilia,mombuca,8
+DF,RJ,brasilia,rio de janeiro,9
+DF,MG,brasilia,uba,10
+DF,PR,brasilia,guaratuba,11
+DF,SP,brasilia,birigui,12
+DF,SP,brasilia,sao paulo,13
+DF,RS,brasilia,carazinho,14
+DF,RS,brasilia,porto alegre,15
+DF,SP,brasilia,sao paulo,16
+DF,SP,brasilia,sao paulo,17
+DF,SP,brasilia,araras,18
+DF,SP,brasilia,sbc,19
+DF,SP,brasilia,limeira,20
+DF,PR,brasilia,cascavel,21
+DF,SC,brasilia,blumenau,22
+DF,SP,brasilia,guarulhos,23
+DF,SP,brasilia,ibitinga,24
+DF,SP,brasilia,sao bernardo do campo,25
+DF,SP,brasilia,sao jose do rio preto,26
+DF,RJ,brasilia,nova friburgo,27
+DF,SP,brasilia,sao paulo,28
+DF,RJ,brasilia,rio de janeiro,29
+DF,PR,brasilia,curitiba,30
+DF,SP,brasilia,embu das artes,31
+DF,SP,brasilia,sao paulo,32
+DF,SP,brasilia,embu das artes,33
+DF,SC,brasilia,gaspar,34
+DF,SP,brasilia,itapetininga,35
+DF,MG,brasilia,belo horizonte,36
+DF,SP,brasilia,ribeirao preto,37
+DF,SP,brasilia,sao paulo,38
+DF,SP,brasilia,sao paulo,39
+DF,SP,brasilia,sao paulo,40
+DF,RS,brasilia,imbe,41
+DF,SP,brasilia,maua,42
+DF,SP,brasilia,guaira,43
+DF,RS,brasilia,santa maria,44
+DF,SP,brasilia,itatiba,45
+DF,SP,brasilia,sao paulo,46
+DF,SP,brasilia,sao paulo,47
+DF,SP,brasilia,ferraz de vasconcelos,48
+DF,SP,brasilia,sao paulo,49
+DF,SP,brasilia,mogi das cruzes,50
+DF,SP,brasilia,sao paulo,51
+DF,SP,brasilia,ribeirao preto,52
+DF,MG,brasilia,santa rita do sapucai,53
+DF,MG,brasilia,belo horizonte,54
+DF,RJ,brasilia,rio de janeiro,55
+DF,SP,brasilia,salto,56
+DF,SP,brasilia,birigui,57
+DF,SP,brasilia,araras,58
+ES,RJ,nova venecia,rio de janeiro,1
+ES,RJ,cachoeiro de itapemirim,rio de janeiro,2
+ES,SP,cachoeiro de itapemirim,salto,3
+ES,SP,serra,goioere,4
+ES,SP,vitoria,bauru,5
+ES,SP,cariacica,santo andre,6
+ES,RJ,serra,barra mansa,7
+ES,SP,vitoria,sao roque,8
+ES,SP,barra de sao francisco,ribeirao preto,9
+ES,SC,cariacica,brusque,10
+ES,SP,vila velha,sao bernardo do campo,11
+ES,SP,sao mateus,sao paulo,12
+ES,SP,barra de sao francisco,sorocaba,13
+ES,SC,vila velha,florianopolis,14
+ES,SP,agua doce do norte,praia grande,15
+ES,PR,vila velha,curitiba,16
+ES,MG,vitoria,sabara,17
+ES,SP,cariacica,sao caetano do sul,18
+ES,SP,aracruz,garca,19
+ES,SP,serra,sao paulo,20
+ES,SP,vila velha,ibitinga,21
+ES,SP,sao mateus,limeira,22
+ES,SP,vila velha,birigui,23
+ES,SP,vila velha,sao paulo,24
+ES,RS,vitoria,canoas,25
+ES,SP,serra,rio claro,26
+ES,SP,serra,franca,27
+ES,SP,serra,sao paulo,28
+ES,SP,vila velha,braganca paulista,29
+ES,SC,serra,jaragua do sul,30
+ES,PR,braco do rio,sarandi,31
+ES,RS,vila velha,viamao,32
+ES,SP,cariacica,cerqueira cesar,33
+ES,SP,vitoria,sao paulo,34
+ES,SP,vitoria,ao bernardo do campo,35
+ES,SP,alfredo chaves,ribeirao preto,36
+ES,SP,cariacica,sao paulo,37
+ES,SC,vitoria,criciuma,38
+ES,SP,itaipava,campinas,39
+ES,SP,vitoria,sao paulo,40
+ES,MG,conceicao do castelo,tiradentes,41
+ES,SP,cachoeiro de itapemirim,embu guacu,42
+ES,MG,serra,varginha,43
+ES,MG,vila velha,belo horizonte,44
+ES,SC,aracruz,rio do oeste,45
+ES,SC,fundao,rio do sul,46
+ES,SP,vitoria,franca,47
+ES,MS,cachoeiro de itapemirim,campo grande,48
+ES,PR,dores do rio preto,santa terezinha de itaipu,49
+ES,SP,serra,sao paulo,50
+ES,MG,cachoeiro de itapemirim,contagem,51
+ES,SP,serra,campinas,52
+ES,MG,serra,belo horizonte,53
+ES,SP,serra,sao paulo,54
+ES,SP,marataizes,robeirao preto,55
+ES,SP,vitoria,sao paulo,56
+ES,SP,vila velha,sao paulo,57
+ES,SP,cachoeiro de itapemirim,osasco,58
+ES,SP,vitoria,diadema,59
+ES,PR,vila velha,londrina,60
+ES,SP,serra,sao paulo,61
+ES,SP,ecoporanga,sao paulo,62
+ES,PR,fundao,maringa,63
+ES,SP,vila velha,amparo,64
+ES,SP,cachoeiro de itapemirim,presidente prudente,65
+GO,SP,luziania,osasco,1
+GO,SP,rio verde,jaboticabal,2
+GO,SP,goias,ibitinga,3
+GO,SP,vianopolis,barueri,4
+GO,SC,goiania,blumenau,5
+GO,SP,neropolis,sao pauo,6
+GO,SP,goiania,sao paulo,7
+GO,MG,caldas novas,campanha,8
+GO,SP,aparecida de goiania,sao paulo,9
+GO,SP,goiania,santa barbara d oeste,10
+GO,SP,itumbiara,franca,11
+GO,SC,rio verde,garopaba,12
+GO,SP,jatai,sao bernardo do campo,13
+GO,MG,anapolis,prados,14
+GO,RS,anicuns,bento goncalves,15
+GO,SP,rio verde,serra negra,16
+GO,SC,goiania,blumenau,17
+GO,SP,goiania,sao paulo,18
+GO,SP,jatai,limeira,19
+GO,PR,goiania,curitiba,20
+GO,MG,goiania,belo horizonte,21
+GO,SP,caldas novas,guarulhos,22
+GO,SP,goiania,santos,23
+GO,SP,goiania,guarulhos,24
+GO,SP,jussara,sao paulo,25
+GO,RS,goiatuba,montenegro,26
+GO,SP,rianapolis,sao paulo,27
+GO,SP,pires do rio,sao paulo,28
+GO,MG,goiania,contagem,29
+GO,SC,aparecida de goiania,florianopolis,30
+GO,SP,anapolis,santo andre,31
+GO,SP,goianesia,araraquara,32
+GO,SC,goiania,timbo,33
+GO,RJ,goiania,nova iguacu,34
+GO,RS,goiania,campina das missoes,35
+GO,SP,goiania,sorocaba,36
+GO,SP,neropolis,guarulhos,37
+GO,MG,luziania,belo horizonte,38
+GO,PR,campos belos,cascavel,39
+GO,SC,itumbiara,joinville,40
+GO,SP,novo gama,sao paulo,41
+GO,MT,goianesia,cuiaba,42
+GO,PR,rio verde,umuarama,43
+GO,SP,goianesia,sao paulo,44
+GO,SP,caldas novas,sorocaba,45
+GO,SP,mineiros,americana,46
+GO,SC,goiania,sao bento do sul,47
+GO,PR,anapolis,curitiba,48
+GO,MG,goiania,ilicinea,49
+GO,RJ,jatai,rio de janeiro,50
+GO,PR,inhumas,londrina,51
+MA,SP,chapadinha,sao paulo,1
+MA,SP,alto parnaiba,sorocaba,2
+MA,SP,sitio novo,catanduva,3
+MA,PB,caxias,serra redonda,4
+MA,SP,sao luis,sao paulo,5
+MA,SC,sao luis,brusque,6
+MA,SC,sao jose de ribamar,jaragua do sul,7
+MA,RS,sao luis,canoas,8
+MA,SP,urbano santos,sao paulo,9
+MA,SP,coelho neto,ibitinga,10
+MA,SP,sao luis,jaboticabal,11
+MA,SP,joao lisboa,batatais,12
+MA,SP,sao joao do paraiso,sao paulo,13
+MA,SC,sao luis,brusque,14
+MA,PE,sao luis,recife,15
+MA,SP,imperatriz,sao jose do rio preto,16
+MA,SC,sao luis,presidente getulio,17
+MA,MG,centro novo do maranhao,juiz de fora,18
+MA,SP,barra do corda,mogi guacu,19
+MA,SP,sao luis,santana de parnaiba,20
+MA,SP,sao luis,sao paulo,21
+MG,SP,itapecerica,mogi guacu,1
+MG,SP,mendonca,sao paulo,2
+MG,PR,oliveira,curitiba,3
+MG,SP,uberlandia,tabatinga,4
+MG,SP,belo horizonte,tatui,5
+MG,SP,sobralia,santo andre,6
+MG,SP,montes claros,guaruja,7
+MG,SC,belo horizonte,barra velha,8
+MG,SP,visconde do rio branco,osasco,9
+MG,SP,vicosa,ibitinga,10
+MG,SP,belo horizonte,caxias do sul,11
+MG,SP,mutum,sao paulo,12
+MG,MG,belo horizonte,araguari,13
+MG,SP,governador valadares,birigui,14
+MG,SP,belo horizonte,sao paulo,15
+MG,PR,serrania,londrina,16
+MG,SP,belo horizonte,sao paulo,17
+MG,SP,itajuba,ribeirao preto,18
+MG,SP,uberlandia,sao paulo,19
+MG,SC,belo horizonte,orleans,20
+MG,DF,campo belo,brasilia,21
+MG,SP,itaobim,sao paulo,22
+MG,SP,belo horizonte,sao paulo,23
+MG,GO,betim,santa terezinha de goias,24
+MG,MG,conceicao do mato dentro,guiricema,25
+MG,PR,alem paraiba,curitiba,26
+MG,SC,juiz de fora,itajai,27
+MG,PR,arinos,curitiba,28
+MG,SP,uberlandia,santos,29
+MG,SP,montes claros,sao paulo,30
+MG,RJ,ipatinga,niteroi,31
+MG,RJ,uberlandia,sao goncalo,32
+MG,SC,itajuba,joinville,33
+MG,MG,belo horizonte,belo horizonte,34
+MG,SP,juiz de fora,laranjeiras do sul,35
+MG,SP,belo horizonte,sao paulo,36
+MG,SC,belo horizonte,florianopolis,37
+MG,SP,frutal,sao paulo,38
+MG,SP,belo horizonte,itapevi,39
+MG,RJ,belo horizonte,rio de janeiro,40
+MG,GO,setubinha,goiania,41
+MG,RJ,ipaba,rio de janeiro,42
+MG,SC,formoso,blumenau,43
+MG,SP,betim,jaci,44
+MG,RJ,lavras,rio de janeiro,45
+MG,SP,belo horizonte,sertanopolis,46
+MG,RJ,mateus leme,rio de janeiro,47
+MG,MG,maravilhas,belo horizonte,48
+MG,SP,capelinha,taboao da serra,49
+MG,PR,juiz de fora,toledo,50
+MG,SP,paracatu,sao paulo,51
+MG,PR,belo horizonte,curitiba,52
+MG,SC,juiz de fora,blumenau,53
+MG,RS,contagem,santa rosa,54
+MG,SP,campanha,sao jose do rio preto,55
+MG,SP,uberlandia,sao joaquim da barra,56
+MG,SP,belo horizonte,sao paulo,57
+MG,SP,lajinha,sao paulo,58
+MG,SP,vespasiano,osasco,59
+MG,PR,claudio,curitiba,60
+MG,SP,belo horizonte,indaiatuba,61
+MG,PR,tres coracoes,londrina,62
+MG,SP,uberaba,atibaia,63
+MG,AC,itajuba,rio branco,64
+MG,SP,contagem,sao paulo,65
+MG,SP,patrocinio,sao jose do rio preto,66
+MG,SP,belo horizonte,monteiro lobato,67
+MG,SP,curvelo,guarulhos,68
+MG,SP,belo horizonte,mococa,69
+MG,RJ,ipatinga,nova iguacu,70
+MG,RS,pitangui,horizontina,71
+MG,SP,sao lourenco,sao paulo,72
+MG,SP,belo horizonte,sao paulo,73
+MG,SP,leopoldina,sao paulo,74
+MG,SP,belo horizonte,santana de parnaiba,75
+MG,SP,campina verde,jundiai,76
+MG,SP,astolfo dutra,porto ferreira,77
+MG,SP,bom despacho,aracatuba,78
+MG,MG,belo horizonte,monte siao,79
+MG,SP,uberaba,sao paulo,80
+MG,SP,patos de minas,sao paulo,81
+MG,SP,mar de espanha,piracicaba,82
+MG,RS,itajuba,porto alegre,83
+MG,RJ,montes claros,aperibe,84
+MG,RJ,juiz de fora,nova iguacu,85
+MG,SP,sao joao del rei,campinas,86
+MG,SP,belo horizonte,guarulhos,87
+MG,RJ,belo horizonte,rio de janeiro,88
+MG,SP,campos gerais,sao carlos,89
+MG,SP,uberlandia,taubate,90
+MG,PR,juiz de fora,maringa,91
+MG,PR,tres pontas,curitiba,92
+MG,PR,sete lagoas,curitiba,93
+MG,SC,patrocinio,jaragua do sul,94
+MG,PR,lavras,imbituva,95
+MG,SP,miradouro,sao paulo,96
+MG,SP,itabira,taubate,97
+MG,MG,fronteira,belo horizonte,98
+MG,SP,belo horizonte,sao paulo,99
+MG,SP,leopoldina,votuporanga,100
+MG,SP,belo horizonte,presidente prudente,101
+MG,SP,juiz de fora,mogi das cruzes,102
+MG,SC,bambui,ararangua,103
+MG,SP,juiz de fora,sao paulo,104
+MG,SP,sete lagoas,sao paulo,105
+MG,GO,congonhas,goiania,106
+MG,SP,juiz de fora,sao paulo,107
+MG,MG,belo horizonte,divinopolis,108
+MG,SP,alfredo vasconcelos,sao paulo,109
+MG,SP,sao jose da barra,sao paulo,110
+MG,SP,malacacheta,mogi das cruses,111
+MG,SP,itauna,atibaia,112
+MG,RS,belo horizonte,caxias do sul,113
+MG,SP,vicosa,laguna,114
+MG,SP,santa barbara,atibaia,115
+MG,MG,ribeirao das neves,juiz de fora,116
+MG,MG,belo horizonte,dores de campos,117
+MG,SP,belo horizonte,campinas,118
+MG,SP,contagem,pitangueiras,119
+MG,PR,unai,curitiba,120
+MG,SP,uberaba,sao paulo,121
+MG,SP,alem paraiba,ibitinga,122
+MG,SC,paraisopolis,joinville,123
+MG,CE,montes claros,pacatuba,124
+MG,GO,belo horizonte,formosa,125
+MG,SP,contagem,sao paulo,126
+MG,PR,betim,entre rios do oeste,127
+MG,SP,mantena,sao carlos,128
+MG,PR,betim,cascavel,129
+MG,DF,sao joao del rei,brasilia,130
+MG,MG,juiz de fora,belo horizonte,131
+MG,SP,jaiba,ribeirao preto,132
+MG,MG,piumhii,uberaba,133
+MG,SP,capela nova,sao paulo,134
+MG,MG,caldas,coronel fabriciano,135
+MG,RJ,belo horizonte,sao goncalo,136
+MG,SP,uberlandia,sao paulo,137
+MG,SP,belo horizonte,pirassununga,138
+MG,SP,belo horizonte,campinas,139
+MG,MG,carmo do paranaiba,belo horizonte,140
+MG,SP,belo horizonte,sao paulo,141
+MG,SP,governador valadares,sao paulo,142
+MG,RS,guaraciaba,novo hamburgo,143
+MG,SC,belo horizonte,itajai,144
+MG,PR,guaxupe,curitiba,145
+MG,PR,caratinga,curitiba,146
+MG,MG,nova lima,joao pinheiro,147
+MG,SP,contagem,sao paulo,148
+MG,SP,belo horizonte,lencois paulista,149
+MG,SP,governador valadares,sao paulo,150
+MG,MG,belo horizonte,lagoa santa,151
+MG,SP,januaria,sao paulo,152
+MG,PR,formiga,curitiba,153
+MG,SP,pitangui,sao paulo,154
+MG,MG,timoteo,belo horizonte,155
+MG,SP,espera feliz,campinas,156
+MG,SP,formiga,campinas,157
+MG,SP,martins soares,sao paulo,158
+MG,SP,lagoa grande,guarulhos,159
+MG,SP,belo horizonte,ibitinga,160
+MG,SP,belo horizonte,osasco,161
+MG,SP,patos de minas,maua,162
+MG,SP,uberaba,sao paulo,163
+MG,SP,cambui,sao paulo,164
+MG,SP,ouro branco,itaquaquecetuba,165
+MG,RJ,belo horizonte,rio de janeiro,166
+MG,PR,coronel fabriciano,curitiba,167
+MG,SC,itauna,laurentino,168
+MG,SP,belo horizonte,valinhos,169
+MG,MG,itabira,belo horizonte,170
+MG,PR,belo horizonte,curitiba,171
+MG,SP,bambui,ribeirao preto,172
+MG,MG,araguari,jacutinga,173
+MG,SP,para de minas,sao paulo,174
+MG,DF,uberaba,brasilia,175
+MG,RJ,extrema,rio de janeiro,176
+MG,MG,uniao de minas,vicosa,177
+MG,SP,montes claros,sao paulo,178
+MG,SP,unai,ribeirao pires,179
+MG,MG,santana do paraiso,lambari,180
+MG,PR,santa rita do sapucai,curitiba,181
+MG,PR,pirapora,fazenda rio grande,182
+MG,SP,joao monlevade,mogi das cruzes,183
+MG,SC,montes claros,treze tilias,184
+MG,SP,sao joao del rei,sao paulo,185
+MG,SP,belo horizonte,barretos,186
+MG,MG,juiz de fora,betim,187
+MG,ES,timoteo,vitoria,188
+MG,MG,coracao de jesus,belo horizonte,189
+MG,PR,juiz de fora,curitiba,190
+MG,SP,belo horizonte,osasco,191
+MG,SP,montes claros,sao paulo,192
+MG,RS,belo horizonte,santo angelo,193
+MG,SP,belo horizonte,campinas,194
+MG,RJ,ribeirao das neves,belford roxo,195
+MG,SP,governador valadares,itatiba,196
+MG,SP,belo horizonte,sao paulo,197
+MG,SP,brazopolis,osasco,198
+MG,SP,belo horizonte,sao paulo,199
+MG,MG,pouso alegre,belo horizont,200
+MG,SP,itapecerica,sao paulo,201
+MG,PR,ipatinga,curitiba,202
+MG,SP,belo horizonte,sao paulo,203
+MG,SP,uberaba,aruja,204
+MG,SC,belo horizonte,palhoca,205
+MG,RS,bom despacho,campo bom,206
+MG,SP,lima duarte,sao paulo,207
+MG,SP,belo horizonte,sao paulo,208
+MG,PR,belo horizonte,maringa,209
+MG,PR,ponte nova,curitiba,210
+MG,PE,juiz de fora,recife,211
+MG,SP,contagem,santo andre,212
+MG,SP,ipiacu,paulinia,213
+MG,PR,belo horizonte,curitiba,214
+MG,SP,ipatinga,sao paulo,215
+MG,SP,muriae,sao paulo,216
+MG,SP,itajuba,guarulhos,217
+MG,PR,juiz de fora,ponta grossa,218
+MG,SP,baependi,sao paulo,219
+MG,SP,governador valadares,sao paulo,220
+MG,SP,serra bonita,sao paulo,221
+MG,DF,machado,brasilia,222
+MG,SP,betim,sao paulo,223
+MG,SP,santo antonio do monte,catanduva,224
+MG,PR,belo horizonte,curitiba,225
+MG,RJ,uberlandia,petropolis,226
+MG,RJ,montes claros,sao goncalo,227
+MG,SP,belo horizonte,sao paulo,228
+MG,MG,araguari,borda da mata,229
+MG,SP,belo horizonte,itaquaquecetuba,230
+MG,PR,contagem,curitiba,231
+MG,SP,carmo de minas,sao jose dos campos,232
+MG,SP,itajuba,sao bernardo do campo,233
+MG,PR,azurita,umuarama,234
+MG,SP,bras pires,sao paulo,235
+MG,SP,belo horizonte,sao paulo,236
+MG,SP,belo horizonte,sao paulo,237
+MG,PR,pocos de caldas,rolandia,238
+MG,SP,paraopeba,birigui,239
+MG,SP,belo horizonte,sao paulo,240
+MG,MG,matozinhos,patos de minas,241
+MG,SP,juiz de fora,indaiatuba,242
+MG,DF,belo horizonte,brasilia,243
+MG,SC,maravilhas,blumenau,244
+MG,SP,belo horizonte,santo andre,245
+MG,SP,belo horizonte,ribeirao preto,246
+MG,DF,sao lourenco,brasilia,247
+MG,SP,jesuania,ribeirao preto,248
+MG,SP,belo horizonte,sao paulo,249
+MG,SP,belo horizonte,praia grande,250
+MG,SP,itaobim,maua,251
+MG,SP,piedade do rio grande,florianopolis,252
+MG,PR,betim,curitiba,253
+MG,SP,joao monlevade,sao jose dos campos,254
+MG,SP,belo horizonte,mogi das cruzes,255
+MG,SP,belo horizonte,sao paulo,256
+MG,GO,paraguacu,abadia de goias,257
+MG,SP,jordania,sao carlos,258
+MG,GO,belo horizonte,goiania,259
+MG,RS,congonhal,canoas,260
+MG,SP,belo horizonte,santos,261
+MG,SP,lagoa da prata,sao paulo,262
+MG,SP,belo vale,sao paulo,263
+MG,SP,pocos de caldas,lorena,264
+MG,SP,varzea da palma,louveira,265
+MG,SP,sabara,marilia,266
+MG,SC,belo horizonte,joinville,267
+MG,BA,curvelo,eunapolis,268
+MG,SP,belo horizonte,sao paulo,269
+MG,SP,manhuacu,sao paulo,270
+MG,PR,sao benedito,curitiba,271
+MG,BA,teofilo otoni,salvador,272
+MG,SP,ribeirao das neves,santo andre,273
+MG,SP,rio casca,diadema,274
+MG,SP,itauna,santo andre,275
+MG,SC,ouro preto,balneario camboriu,276
+MG,SP,belo horizonte,campinas,277
+MG,SP,joao monlevade,osasco,278
+MG,SP,belo horizonte,sao paulo,279
+MG,MG,sao joao del rei,belo horizonte,280
+MG,SP,belo horizonte,mogi guacu,281
+MG,SP,piumhii,sorocaba,282
+MG,SC,oliveira,xaxim,283
+MG,SP,ouro preto,campinas,284
+MG,SP,uberaba,sao paulo,285
+MG,SP,belo horizonte,sao roque,286
+MG,SP,ervalia,sao paulo,287
+MG,SP,pocos de caldas,cotia,288
+MG,SC,nova lima,blumenau,289
+MG,PR,uberlandia,santa terezinha de itaipu,290
+MG,SP,belo horizonte,sao bernardo do campo,291
+MG,RJ,belo horizonte,petropolis,292
+MG,RS,belo horizonte,condor,293
+MG,SP,belo horizonte,birigui,294
+MG,SP,belo horizonte,ribeirao preto,295
+MG,SP,contagem,sao paulo,296
+MG,MG,igarape,pedro leopoldo,297
+MG,RS,barbacena,porto alegre,298
+MG,SC,araxa,palhoca,299
+MG,SP,santos dumont,pradopolis,300
+MG,SP,belo horizonte,sao paulo,301
+MG,PR,belo horizonte,curitiba,302
+MG,SP,betim,jaci,303
+MG,SC,santo antonio do monte,massaranduba,304
+MG,SP,mar de espanha,sao paulo,305
+MG,SP,pouso alegre,sao paulo,306
+MG,SP,araxa,sao paulo,307
+MG,SP,belo horizonte,sao paulo,308
+MG,RJ,lavras,barra mansa,309
+MG,SP,belo horizonte,sao paulo,310
+MG,PR,ituiutaba,curitiba,311
+MG,RS,belo horizonte,porto alegre,312
+MG,SP,rio preto,porto ferreira,313
+MG,SP,belo horizonte,santana de parnaiba,314
+MG,SP,belo horizonte,sao bernardo do campo,315
+MG,SP,itauna,jau,316
+MG,PR,juiz de fora,curitiba,317
+MG,SP,muzambinho,itapecerica da serra,318
+MG,BA,montes claros,salvador,319
+MG,SP,contagem,bauru,320
+MG,SP,varginha,sao paulo,321
+MG,MG,belo horizonte,uberaba,322
+MG,SP,belo horizonte,sao paulo,323
+MG,SP,joao pinheiro,sao paulo,324
+MG,SP,belo horizonte,campinas,325
+MG,PR,belo horizonte,cascavel,326
+MG,SP,belo horizonte,americana,327
+MG,PR,divinopolis,uniao da vitoria,328
+MG,SP,campina verde,campinas,329
+MG,SP,belo horizonte,pedreira,330
+MG,RS,belo horizonte,triunfo,331
+MG,SP,belo horizonte,catanduva,332
+MG,SC,belo horizonte,itapema,333
+MG,SP,varginha,sao paulo,334
+MG,DF,belo horizonte,brasilia,335
+MG,SP,diamantina,atibaia,336
+MG,PR,uberlandia,sao jose dos pinhais,337
+MG,SP,santa cruz do prata,registro,338
+MG,SP,monte santo de minas,sao paulo,339
+MG,MG,patos de minas,tiradentes,340
+MG,SP,patos de minas,americana,341
+MG,SP,uberaba,sao paulo,342
+MG,SP,claraval,sao paulo,343
+MG,RS,muriae,farroupilha,344
+MG,SP,nova serrana,sao bernardo do campo,345
+MG,PR,verissimo,londrina,346
+MG,GO,belo horizonte,jaragua,347
+MG,SP,belo horizonte,itatiba,348
+MG,SP,paracatu,mogi das cruzes,349
+MG,SP,belo horizonte,sao paulo,350
+MG,SP,bocaiuva,sao paulo,351
+MG,SP,contagem,mogi das cruzes,352
+MG,SP,belo horizonte,ipua,353
+MG,SP,carmo do cajuru,jacarei,354
+MG,MG,belo horizonte,uberaba,355
+MG,RS,belo horizonte,sao leopoldo,356
+MG,SC,belo horizonte,chapeco,357
+MG,RJ,carandai,rio de janeiro,358
+MG,SP,barbacena,sao paulo,359
+MG,SP,belo horizonte,jundiai,360
+MG,MG,itabirito,belo horizonte,361
+MG,SP,juiz de fora,sao paulo,362
+MG,SP,bambui,taubate,363
+MS,SC,campo grande,sao ludgero,1
+MS,SP,tres lagoas,sao paulo,2
+MS,SP,campo grande,campinas,3
+MS,PR,chapadao do sul,toledo,4
+MS,MG,caarapo,belo horizonte,5
+MS,SP,campo grande,sao paulo,6
+MS,SP,maracaju,sao paulo,7
+MS,SP,chapadao do sul,sao paulo,8
+MS,SP,paranaiba,itapetininga,9
+MS,SP,corumba,ribeirao preto,10
+MS,ES,campo grande,cariacica,11
+MS,PR,campo grande,maringa,12
+MS,PR,campo grande,cascavel,13
+MS,SP,nova alvorada do sul,sao paulo,14
+MS,SP,campo grande,sao caetano do sul,15
+MS,SP,dourados,barueri,16
+MS,SP,campo grande,ipaussu,17
+MS,GO,dourados,anapolis,18
+MS,RJ,campo grande,nilopolis,19
+MT,SP,rondonopolis,sao jose do rio preto,1
+MT,MG,sorriso,vicosa,2
+MT,RJ,tangara da serra,paracambi,3
+MT,SP,cuiaba,marilia,4
+MT,SP,paranaita,sao paulo,5
+MT,SP,campo novo do parecis,porto ferreira,6
+MT,SP,santo antonio do leverger,sorocaba,7
+MT,SP,sinop,sao paulo,8
+MT,SP,sapezal,sao paulo,9
+MT,SP,cuiaba,caxias do sul,10
+MT,PR,alta floresta,campo largo,11
+MT,RS,cuiaba,porto alegre,12
+MT,PB,varzea grande,sao bento,13
+MT,SP,tangara da serra,sao paulo,14
+MT,SP,cuiaba,campinas,15
+MT,PR,novo sao joaquim,curitiba,16
+MT,SP,cuiaba,sao paulo,17
+MT,PR,cuiaba,londrina,18
+MT,RJ,cuiaba,rio de janeiro,19
+MT,SC,cuiaba,rio do sul,20
+MT,SP,primavera do leste,paulinia,21
+MT,MG,caceres,lagoa da prata,22
+MT,RJ,varzea grande,rio de janeiro,23
+MT,SC,caceres,blumenau,24
+PA,PR,ananindeua,maringa,1
+PA,MG,nova ipixuna,belo horizonte,2
+PA,SP,ulianopolis,marilia,3
+PA,SP,santarem,guarulhos,4
+PA,SP,belem,sao paulo,5
+PA,RJ,ananindeua,rio de janeiro,6
+PA,SP,belem,sao caetano do sul,7
+PA,SP,novo repartimento,ribeirao preto,8
+PA,SP,belem,maua,9
+PA,CE,belem,fortaleza,10
+PA,SP,belem,sao paulo,11
+PA,SP,belem,guarulhos,12
+PA,RJ,santarem,petropolis,13
+PA,BA,belem,salvador,14
+PA,SP,belem,batatais,15
+PA,SP,belem,sao bernardo do campo,16
+PA,SP,altamira,sao paulo,17
+PA,SP,paragominas,sao paulo,18
+PA,SP,paragominas,sao bernardo do campo,19
+PA,SP,belem,sao paulo,20
+PA,PR,abaetetuba,curitiba,21
+PA,SP,belem,sao paulo,22
+PA,SP,belem,santa barbara d'oeste,23
+PA,MG,belem,belo horizonte,24
+PA,SP,parauapebas,sao bernardo do campo,25
+PA,PR,jacunda,francisco beltrao,26
+PA,SP,belem,sao paulo,27
+PA,RS,santarem,rio grande,28
+PA,PR,bom jesus do tocantins,curitiba,29
+PA,SP,ananindeua,sao paulo,30
+PA,ES,santarem,cachoeiro de itapemirim,31
+PA,RS,xinguara,sao leopoldo,32
+PA,SP,ananindeua,sao paulo,33
+PA,SP,barcarena,sao sebastiao da grama,34
+PA,PR,belem,pinhalao,35
+PA,SC,belem,blumenau,36
+PA,SP,sao sebastiao da boa vista,itapecerica da serra,37
+PB,RS,joao pessoa,porto alegre,1
+PB,SP,joao pessoa,sao bernardo do campo,2
+PB,SP,joao pessoa,guarulhos,3
+PB,SP,alhandra,sao paulo,4
+PB,MG,campina grande,claudio,5
+PB,SC,joao pessoa,florianopolis,6
+PB,MG,joao pessoa,contagem,7
+PB,SP,joao pessoa,sao paulo,8
+PB,PR,campina grande,maringa,9
+PB,SP,guarabira,sao paulo,10
+PB,SP,sousa,ribeirao preto,11
+PB,SP,joao pessoa,sao caetano do sul,12
+PB,SP,campina grande,belo horizonte,13
+PB,PR,joao pessoa,maringa,14
+PE,SP,jaboatao dos guararapes,auriflama,1
+PE,SP,camaragibe,sao paulo,2
+PE,PR,afogados da ingazeira,maringa,3
+PE,SP,ouricuri,juiz de fora,4
+PE,SP,recife,sao paulo,5
+PE,SC,recife,curitibanos,6
+PE,SP,santa cruz,sao paulo,7
+PE,SP,joaquim nabuco,taboao da serra,8
+PE,SP,garanhuns,sao paulo,9
+PE,SP,paulista,sao paulo,10
+PE,SP,jaboatao dos guararapes,assis,11
+PE,SC,recife,florianopolis,12
+PE,SP,olinda,limeira,13
+PE,RS,dormentes,carazinho,14
+PE,RJ,belo jardim,rio de janeiro,15
+PE,PR,recife,curitiba,16
+PE,SP,olinda,sao paulo,17
+PE,RS,sao joaquim do monte,imigrante,18
+PE,SP,goiana,sao paulo,19
+PE,SP,jaboatao dos guararapes,presidente prudente,20
+PE,SP,recife,sao paulo,21
+PE,SP,vitoria de santo antao,sao paulo,22
+PE,SP,recife,santa barbara d'oeste,23
+PE,SP,condado,guaruja,24
+PE,PR,ipubi,maringa,25
+PE,SP,ilha de itamaraca,catanduva,26
+PE,SP,recife,araraquara,27
+PE,SP,olinda,ibitinga,28
+PE,SP,recife,francisco morato,29
+PE,RJ,recife,rio de janeiro,30
+PE,SP,afogados da ingazeira,guarulhos,31
+PE,SP,cabo de santo agostinho,sao paulo,32
+PE,SP,mirandiba,salto,33
+PE,SP,caruaru,ribeirao pretp,34
+PE,RJ,caruaru,rio de janeiro,35
+PE,MG,carpina,belo horizonte,36
+PE,SP,jupi,ribeirao preto,37
+PE,SP,santa cruz do capibaribe,pinhais,38
+PE,GO,recife,goiania,39
+PE,SP,belo jardim,sao paulo,40
+PE,RS,surubim,porto alegre,41
+PE,RJ,caruaru,rio de janeiro,42
+PI,SP,teresina,limeira,1
+PI,PR,teresina,guarapuava,2
+PI,SP,teresina,aracatuba,3
+PI,RJ,picos,rio de janeiro,4
+PI,PE,parnaiba,recife,5
+PI,PR,teresina,campo largo,6
+PI,SP,lagoinha do piaui,franca,7
+PI,PR,teresina,maringa,8
+PI,SP,piracuruca,sao paulo,9
+PI,BA,teresina,salvador,10
+PR,MG,curitiba,camanducaia,1
+PR,RS,maringa,bento goncalves,2
+PR,DF,pato branco,brasilia,3
+PR,SP,curitiba,ribeirao preto,4
+PR,SP,pato branco,sao paulo,5
+PR,PR,curitiba,loanda,6
+PR,SP,londrina,ribeirao preto,7
+PR,SC,coronel vivida,timbo,8
+PR,CE,sao jose dos pinhais,fortaleza,9
+PR,RS,maringa,estancia velha,10
+PR,SP,londrina,sao paulo,11
+PR,SP,curitiba,sao paulo,12
+PR,RJ,colombo,rio de janeiro,13
+PR,SP,sao jose dos pinhais,ribeirao preto,14
+PR,PR,alto parana,curitiba,15
+PR,GO,jesuitas,piracanjuba,16
+PR,RS,curitiba,caxias do sul,17
+PR,SP,missal,praia grande,18
+PR,SP,terra boa,ribeirao preto,19
+PR,SP,curitiba,sao paulo,20
+PR,SP,colonia vitoria,franca,21
+PR,SP,telemaco borba,pedreira,22
+PR,RJ,curitiba,sao goncalo,23
+PR,SP,londrina,santana de parnaiba,24
+PR,SC,arapoti,floranopolis,25
+PR,RJ,londrina,rio de janeiro,26
+PR,MG,curitiba,congonhas,27
+PR,SP,paranagua,sao paulo,28
+PR,SP,sao jose dos pinhais,guaimbe,29
+PR,MG,itaipulandia,divinopolis,30
+PR,SP,curitiba,tupa,31
+PR,SP,curitiba,sorocaba,32
+PR,SP,maringa,novo horizonte,33
+PR,SP,quatro barras,sao paulo,34
+PR,SP,londrina,itu,35
+PR,SP,dois vizinhos,piracicaba,36
+PR,SP,foz do iguacu,bauru,37
+PR,SP,florestopolis,sao caetano do sul,38
+PR,SP,assis chateaubriand,sumare,39
+PR,SP,londrina,sao paulo,40
+PR,SP,santa mariana,sao paulo,41
+PR,RJ,curitiba,rio de janeiro,42
+PR,SP,curitiba,campinas,43
+PR,MS,curitiba,campo grande,44
+PR,MG,centenario do sul,belo horizonte,45
+PR,PR,foz do iguacu,toledo,46
+PR,SP,sao jose dos pinhais,sao paulo,47
+PR,SP,realeza,taboao da serra,48
+PR,RS,curitiba,caxias do sul,49
+PR,SP,sao jose dos pinhais,sao paulo,50
+PR,RS,piraquara,porto alegre,51
+PR,SP,assis chateaubriand,campinas,52
+PR,SP,paicandu,sao paulo,53
+PR,RJ,andira,angra dos reis,54
+PR,SP,curitiba,pedregulho,55
+PR,PR,cruzeiro do oeste,sao jose dos pinhais,56
+PR,SP,marechal candido rondon,mogi das cruzes,57
+PR,MG,uniao da vitoria,juiz de fora,58
+PR,SP,curitiba,sao paulo,59
+PR,RJ,maringa,teresopolis,60
+PR,SP,londrina,sao bernardo do campo,61
+PR,SP,itapejara d'oeste,santana de parnaiba,62
+PR,SP,curitiba,sao paulo,63
+PR,SP,cambe,brotas,64
+PR,SP,curitiba,sao paulo,65
+PR,SP,curitiba,sao paulo,66
+PR,SP,campo mourao,ibitinga,67
+PR,SP,sao jose dos pinhais,sao paulo,68
+PR,SP,jaguariaiva,santo andre,69
+PR,RJ,rio bonito do iguacu,mesquita,70
+PR,PR,bituruna,toledo,71
+PR,SP,porecatu,sao paulo,72
+PR,SP,colombo,mogi das cruzes,73
+PR,SP,abatia,capivari,74
+PR,MG,capanema,divinopolis,75
+PR,PE,curitiba,recife,76
+PR,SP,curitiba,sao roque,77
+PR,DF,curitiba,brasilia,78
+PR,RJ,curitiba,rio de janeiro,79
+PR,SP,pato branco,cotia,80
+PR,SP,curitiba,sao paulo,81
+PR,PR,curitiba,arapongas,82
+PR,SP,sao jorge do ivai,sao paulo,83
+PR,SP,apucarana,sao paulo,84
+PR,RS,piraquara,ivoti,85
+PR,SP,curitiba,sao paulo,86
+PR,SP,pato branco,sao caetano do sul,87
+PR,SP,curitiba,botucatu,88
+PR,SP,cianorte,sao paulo sp,89
+PR,RS,ponta grossa,caxias do sul,90
+PR,SP,londrina,jacarei,91
+PR,RS,curitiba,ronda alta,92
+PR,PR,bandeirantes,pinhais,93
+PR,PR,curitiba,curitiba,94
+PR,RJ,curitiba,nova friburgo,95
+PR,SP,curitiba,marilia,96
+PR,SP,curitiba,sao paulo,97
+PR,SP,manoel ribas,londrina,98
+PR,SP,colombo,campinas,99
+PR,SC,maringa,taio,100
+PR,SP,jaboti,sp,101
+PR,RJ,curitiba,petropolis,102
+PR,CE,foz do iguacu,eusebio,103
+PR,RS,mangueirinha,venancio aires,104
+PR,SP,curitiba,sao paulo,105
+PR,SP,pinhais,sao paulo,106
+PR,SP,uniao da vitoria,sao paulo,107
+PR,SP,maringa,ibitinga,108
+PR,SP,santa mariana,sorocaba,109
+PR,RS,florestopolis,novo hamburgo,110
+PR,SP,nova santa rosa,barueri,111
+PR,MG,toledo,tres coracoes,112
+PR,SP,maringa,ribeirao preto,113
+PR,SP,pinhais,ibitinga,114
+PR,RO,curitiba,ji parana,115
+PR,SP,umuarama,carapicuiba,116
+PR,SP,jacarezinho,capivari,117
+PR,RJ,campina grande do sul,rio de janeiro,118
+PR,SP,francisco beltrao,orlandia,119
+PR,SP,colombo,guarulhos,120
+PR,PR,foz do jordao,londrina,121
+PR,SP,curitiba,sao paulo,122
+PR,SP,fazenda rio grande,valinhos,123
+PR,SP,pontal do parana,ribeirao preto,124
+PR,MG,cascavel,juiz de fora,125
+PR,DF,pinhais,brasilia,126
+PR,RJ,congonhinhas,duque de caxias,127
+PR,PR,quatro barras,maringa,128
+PR,SP,cianorte,indaiatuba,129
+PR,MG,cianorte,ibirite,130
+PR,SP,londrina,ibitinga,131
+PR,SC,curitiba,treze tilias,132
+PR,SP,curitiba,sao paulo,133
+PR,SP,almirante tamandare,ibitinga,134
+PR,PR,curitiba,cornelio procopio,135
+PR,SP,doce grande,osasco,136
+PR,SP,ceu azul,guariba,137
+PR,SC,toledo,tubarao,138
+PR,SP,curitiba,cananeia,139
+PR,PR,coronel domingos soares,curitiba,140
+PR,MG,paranagua,belo horizonte,141
+PR,SC,curitiba,sao jose,142
+PR,GO,jaguapita,goiania,143
+PR,SP,araucaria,santos,144
+PR,SP,nova santa rosa,sao paulo,145
+PR,SP,colombo,sao paulo,146
+PR,SP,curitiba,osasco,147
+PR,PR,ribeirao do pinhal,itaipulandia,148
+PR,SP,curitiba,sao paulo,149
+PR,SP,ponta grossa,jacarei,150
+PR,PR,paranagua,arapongas,151
+PR,RJ,quatro barras,nova friburgo,152
+PR,SC,campina da lagoa,joinville,153
+PR,SP,toledo,ibitinga,154
+PR,MG,bituruna,belo horizonte,155
+PR,SP,curitiba,sao bernardo do campo,156
+PR,SP,ponta grossa,barueri,157
+PR,SC,terra roxa,itajai,158
+PR,MG,rio negro,timoteo,159
+PR,ES,clevelandia,muqui,160
+PR,RJ,apucarana,niteroi,161
+PR,PR,curitiba,bandeirantes,162
+PR,SP,curitiba,sao paulo,163
+RJ,PE,niteroi,brejao,1
+RJ,SP,rio de janeiro,penapolis,2
+RJ,SP,rio de janeiro,salto,3
+RJ,MG,rio de janeiro,belo horizonte,4
+RJ,SP,mage,sao paulo,5
+RJ,SC,rio de janeiro,sao jose,6
+RJ,RJ,rio de janeiro,saquarema,7
+RJ,SP,rio de janeiro,sao paulo,8
+RJ,SC,mendes,lages,9
+RJ,SP,rio de janeiro,sao paulo,10
+RJ,SP,rio de janeiro,echapora,11
+RJ,SP,rio de janeiro,pradopolis,12
+RJ,SP,rio de janeiro,santo andre,13
+RJ,RJ,saquarema,rio de janeiro,14
+RJ,SP,rio de janeiro,jaguariuna,15
+RJ,RJ,rio de janeiro,macae,16
+RJ,MG,rio de janeiro,tres coracoes,17
+RJ,SP,paracambi,barueri,18
+RJ,RS,nova friburgo,caxias do sul,19
+RJ,SC,angra dos reis,balenario camboriu,20
+RJ,SP,mage,sao paulo,21
+RJ,SP,mage,sao paulo,22
+RJ,RS,rio de janeiro,jacutinga,23
+RJ,SP,nilopolis,sao paulo,24
+RJ,RJ,campos dos goytacazes,rio de janeiro,25
+RJ,SP,rio de janeiro,ribeirao preto,26
+RJ,SP,barra mansa,franca,27
+RJ,SP,rio de janeiro,ibitinga,28
+RJ,SP,rio de janeiro,campinas,29
+RJ,SP,rio de janeiro,santo andre,30
+RJ,SP,resende,mogi das cruzes,31
+RJ,GO,rio de janeiro,goiania,32
+RJ,SP,rio das flores,ibitinga,33
+RJ,PR,nova iguacu,apucarana,34
+RJ,RJ,rio de janeiro,niteroi,35
+RJ,SP,rio de janeiro,sao jose dos campos,36
+RJ,SP,niteroi,suzano,37
+RJ,PR,belford roxo,curitiba,38
+RJ,SP,rio de janeiro,santo antonio de posse,39
+RJ,SP,rio de janeiro,maua,40
+RJ,PR,rio de janeiro,londrina,41
+RJ,SP,rio de janeiro,sao paulo,42
+RJ,RS,cabo frio,porto alegre,43
+RJ,SP,marica,tocantins,44
+RJ,PR,carapebus,maringa,45
+RJ,MG,rio de janeiro,santa rita do sapucai,46
+RJ,SP,rio de janeiro,sao paulo,47
+RJ,SP,rio de janeiro,santo andre,48
+RJ,SP,mage,votorantim,49
+RJ,PR,campos dos goytacazes,ponta grossa,50
+RJ,SP,rio de janeiro,pedreira,51
+RJ,SP,rio de janeiro,sao jose do rio preto,52
+RJ,SP,rio de janeiro,santa barbara D'Oeste,53
+RJ,MG,macae,campo do meio,54
+RJ,SP,rio das ostras,sao paulo,55
+RJ,SP,rio de janeiro,sao paulo,56
+RJ,RS,niteroi,porto alegre,57
+RJ,SP,belford roxo,sao paulo,58
+RJ,SP,paracambi,sao paulo,59
+RJ,PR,parati,colombo,60
+RJ,SP,sao joao de meriti,diadema,61
+RJ,SP,rio claro,sorocaba,62
+RJ,SP,nova friburgo,cosmopolis,63
+RJ,RJ,avelar,rio de janeiro,64
+RJ,SP,mage,dois corregos,65
+RJ,PR,guapimirim,sao jose dos pinhais,66
+RJ,PR,rio de janeiro,curitiba,67
+RJ,PR,rio de janeiro,sao jose dos pinhais,68
+RJ,SP,vassouras,sao paulo,69
+RJ,SP,rio de janeiro,atibaia,70
+RJ,SP,cantagalo,itapecerica da serra,71
+RJ,RS,rio de janeiro,parai,72
+RJ,SP,cordeiro,sao paulo,73
+RJ,SP,rio de janeiro,itajobi,74
+RJ,SP,rio de janeiro,itaquaquecetuba,75
+RJ,SP,rio de janeiro,sao paulo,76
+RJ,SP,rio de janeiro,sao paulo,77
+RJ,SP,rio de janeiro,sao caetano do sul,78
+RJ,SP,rio de janeiro,jaguariuna,79
+RJ,SP,araruama,sao paulo,80
+RJ,PR,rio de janeiro,curitiba,81
+RJ,SP,rio de janeiro,guarulhos,82
+RJ,ES,macae,vila velha,83
+RJ,SP,marica,sao paulo,84
+RJ,PR,japeri,curitiba,85
+RJ,SP,guapimirim,ribeirao pires,86
+RJ,SP,rio de janeiro,franca,87
+RJ,SC,rio de janeiro,sao miguel d'oeste,88
+RJ,SP,rio de janeiro,sao roque,89
+RJ,RJ,volta redonda,rio de janeiro,90
+RJ,MG,niteroi,oliveira,91
+RJ,SP,resende,pedrinhas paulista,92
+RJ,SP,rio de janeiro,sao paulo,93
+RJ,RS,petropolis,porto alegre,94
+RJ,PR,rio de janeiro,pato bragado,95
+RJ,SP,rio de janeiro,sao paulo,96
+RJ,SP,armacao dos buzios,sao paulo,97
+RJ,SP,nova friburgo,sao paulo,98
+RJ,SP,petropolis,sao paulo,99
+RJ,SP,barra mansa,sao paulo,100
+RJ,SC,iguaba grande,porto belo,101
+RJ,MG,rio de janeiro,ipatinga,102
+RJ,SP,volta redonda,guarulhos,103
+RJ,SP,rio de janeiro,americana,104
+RJ,MG,rio de janeiro,uberlandia,105
+RJ,SP,itaborai,sao paulo,106
+RJ,SP,volta redonda,sao paulo,107
+RJ,GO,campos dos goytacazes,goiania,108
+RJ,SP,barra de sao joao,tabatinga,109
+RJ,PR,rio de janeiro,curitiba,110
+RJ,RJ,rio de janeiro,niteroi,111
+RJ,SP,rio de janeiro,santos,112
+RJ,SP,barra mansa,rio claro,113
+RJ,RS,rio de janeiro,lajeado,114
+RJ,SP,rio de janeiro,cotia,115
+RJ,SP,rio de janeiro,cruzeiro,116
+RJ,SP,rio de janeiro,sorocaba,117
+RJ,MG,niteroi,muriae,118
+RJ,SP,rio de janeiro,sao paulo,119
+RJ,SP,rio de janeiro,sao paulo,120
+RJ,SP,rio de janeiro,sao paulo,121
+RJ,SP,macae,botucatu,122
+RJ,PR,mendes,curitiba,123
+RJ,SP,rio de janeiro,presidente prudente,124
+RJ,SP,rio de janeiro,sao paulo,125
+RJ,SP,rio de janeiro,maua,126
+RJ,SP,rio de janeiro,sao carlos,127
+RJ,SC,mage,laurentino,128
+RJ,SP,rio de janeiro,cotia,129
+RJ,RJ,rio de janeiro,rio de janeiro,130
+RJ,PR,cambuci,apucarana,131
+RJ,SP,rio de janeiro,santo andre,132
+RJ,SE,rio das ostras,aracaju,133
+RJ,RS,sao goncalo,caxias do sul,134
+RJ,PR,macae,arapongas,135
+RJ,RS,rio de janeiro,caxias do sul,136
+RJ,SP,rio de janeiro,praia grande,137
+RJ,SP,rio de janeiro,barueri,138
+RJ,SP,rio de janeiro,sao paulo,139
+RJ,SC,nova friburgo,brusque,140
+RJ,SP,macae,sorocaba,141
+RJ,SP,itaborai,sao paulo,142
+RJ,SP,rio de janeiro,santo andre,143
+RJ,SP,rio de janeiro,araras,144
+RJ,SP,rio de janeiro,itaporanga,145
+RJ,PR,marica,curitiba,146
+RJ,SP,rio de janeiro,praia grande,147
+RJ,SP,rio de janeiro,guarulhos,148
+RJ,SP,rio de janeiro,sao bernardo do campo,149
+RJ,SP,rio de janeiro,sao paulo,150
+RJ,MG,rio de janeiro,belo horizonte,151
+RJ,PR,niteroi,arapongas,152
+RJ,SP,rio de janeiro,sao paulo,153
+RJ,ES,armacao dos buzios,vila velha,154
+RJ,RJ,rio de janeiro,rio bonito,155
+RJ,SP,rio de janeiro,sao paulo,156
+RJ,SP,rio de janeiro,sao paulo,157
+RJ,MG,rio de janeiro,santa rita do sapucai,158
+RJ,SP,barra do pirai,jundiai,159
+RJ,RJ,marica,rio de janeiro,160
+RJ,MG,petropolis,uba,161
+RJ,SP,rio de janeiro,sao paulo,162
+RJ,SC,niteroi,florianopolis,163
+RJ,SP,teresopolis,sp,164
+RJ,SP,niteroi,ibitinga,165
+RJ,SP,rio de janeiro,jau,166
+RJ,RJ,rio de janeiro,rio de janeiro,167
+RJ,SP,niteroi,limeira,168
+RJ,SP,rio de janeiro,osasco,169
+RJ,PR,rio de janeiro,cambe,170
+RJ,SP,sao sebastiao do paraiba,sao paulo,171
+RJ,PR,nova iguacu,pato branco,172
+RJ,SP,barra de sao joao,sao jose dos campos,173
+RJ,MG,sao joao de meriti,contagem,174
+RJ,SP,itaborai,botucatu,175
+RJ,SP,rio de janeiro,sao paulo,176
+RJ,PR,rio de janeiro,ponta grossa,177
+RJ,SP,rio de janeiro,sao paulo,178
+RJ,SP,niteroi,sao paulo,179
+RJ,GO,rio de janeiro,luziania,180
+RJ,MG,rio de janeiro,joao monlevade,181
+RJ,SC,rio de janeiro,jaragua do sul,182
+RJ,SP,campos dos goytacazes,sao paulo,183
+RJ,SP,campos dos goytacazes,sao paulo,184
+RJ,RJ,rio de janeiro,duque de caxias,185
+RJ,PR,rio de janeiro,curitiba,186
+RJ,SP,rio de janeiro,sao paulo,187
+RJ,MG,mage,belo horizonte,188
+RJ,MG,sao goncalo,uba,189
+RJ,PR,rio de janeiro,maringa,190
+RJ,SP,barra mansa,ribeirao preto,191
+RJ,PR,rio de janeiro,curitiba,192
+RJ,SP,rio de janeiro,sao paulo,193
+RJ,PR,rio de janeiro,curitiba,194
+RJ,SP,rio de janeiro,ibitinga,195
+RJ,SP,rio de janeiro,guarulhos,196
+RJ,SP,rio de janeiro,rio claro,197
+RJ,SP,duque de caxias,sao paulo,198
+RJ,RJ,campos dos goytacazes,tres rios,199
+RJ,SP,petropolis,sao paulo,200
+RJ,SP,rio de janeiro,barueri,201
+RJ,SP,rio de janeiro,sao paulo,202
+RJ,SP,rio de janeiro,pedreira,203
+RJ,ES,rio de janeiro,vitoria,204
+RJ,RS,rio de janeiro,lajeado,205
+RJ,SP,rio das ostras,sao paulo,206
+RJ,SP,rio de janeiro,sao paulo,207
+RJ,PR,rio de janeiro,loanda,208
+RJ,PR,rio de janeiro,curitiba,209
+RJ,PR,rio de janeiro,curitiba,210
+RJ,MG,rio das ostras,formiga,211
+RJ,SP,rio de janeiro,osasco,212
+RJ,SP,sao joao de meriti,atibaia,213
+RJ,SP,niteroi,mogi guacu,214
+RJ,SP,belford roxo,sumare,215
+RJ,RJ,rio de janeiro,rio de janeiro,216
+RJ,PR,rio de janeiro,toledo,217
+RJ,PR,sao goncalo,toledo,218
+RJ,SP,rio de janeiro,americana,219
+RJ,SC,rio de janeiro,blumenau,220
+RJ,SP,niteroi,osasco,221
+RJ,MG,rio de janeiro,borda da mata,222
+RJ,SP,werneck,sao paulo,223
+RJ,SP,rio de janeiro,fernando prestes,224
+RJ,SP,miguel pereira,sao paulo,225
+RJ,PR,bom jesus do itabapoana,curitiba,226
+RJ,SP,niteroi,campinas,227
+RJ,SP,campos dos goytacazes,sao paulo,228
+RJ,SP,itaguai,taubate,229
+RJ,SP,rio de janeiro,ribeirao preto,230
+RJ,SP,campos dos goytacazes,ibitinga,231
+RJ,SP,rio de janeiro,sao paulo,232
+RJ,MG,rio de janeiro,alfenas,233
+RJ,SP,nova iguacu,sao paulo,234
+RJ,RJ,rio de janeiro,rio de janeiro,235
+RJ,SP,nova iguacu,ribeirao preto,236
+RJ,MG,rio de janeiro,nova lima,237
+RJ,SP,rio de janeiro,buritama,238
+RJ,SP,araruama,conchal,239
+RJ,SP,niteroi,sao paulo,240
+RJ,SP,armacao dos buzios,sao jose dos campos,241
+RJ,PR,rio de janeiro,curitiba,242
+RJ,SP,niteroi,ibitinga,243
+RJ,SP,niteroi,ribeirao preto,244
+RJ,SP,tres rios,catanduva,245
+RJ,PR,rio de janeiro,curitiba,246
+RJ,PR,rio de janeiro,londrina,247
+RJ,SP,rio de janeiro,presidente prudente,248
+RJ,SP,rio de janeiro,sao paulo,249
+RJ,SP,rio de janeiro,sao paulo,250
+RJ,SC,seropedica,sao jose,251
+RJ,PR,rio de janeiro,colombo,252
+RJ,SP,petropolis,sao paulo,253
+RJ,BA,campos dos goytacazes,ipira,254
+RJ,SP,rio de janeiro,campinas,255
+RJ,PR,rio de janeiro,curitiba,256
+RJ,SP,rio de janeiro,sao paluo,257
+RJ,PR,rio de janeiro,maringa,258
+RJ,SP,cabo frio,sao paulo,259
+RJ,SP,rio de janeiro,sao bernardo do campo,260
+RJ,RJ,rio de janeiro,sao goncalo,261
+RJ,SP,arraial do cabo,sao paulo,262
+RJ,PR,teresopolis,pitanga,263
+RJ,SP,rio de janeiro,osasco,264
+RJ,SP,nova iguacu,sao paulo,265
+RJ,SP,rio de janeiro,franca,266
+RJ,SP,rio de janeiro,ipira,267
+RJ,SP,sao goncalo,sao paulo,268
+RJ,SP,sao goncalo,amparo,269
+RJ,SC,petropolis,itajai,270
+RJ,SP,rio de janeiro,rio claro,271
+RJ,SP,bom jesus do itabapoana,sao paulo,272
+RJ,PR,sao goncalo,maringa,273
+RJ,SP,rio de janeiro,pinhalzinho,274
+RJ,SC,rio de janeiro,campos novos,275
+RJ,SP,rio de janeiro,limeira,276
+RJ,SP,aperibe,rio das pedras,277
+RJ,SC,miracema,joinville,278
+RJ,PR,rio de janeiro,cascavel,279
+RJ,SP,nilopolis,limeira,280
+RJ,SP,rio de janeiro,campinas,281
+RJ,SP,niteroi,osasco,282
+RJ,MG,paracambi,uberlandia,283
+RJ,PR,carmo,curitiba,284
+RJ,MG,rio de janeiro,coronel fabriciano,285
+RJ,SP,rio de janeiro,aruja,286
+RJ,SP,belford roxo,sao paulo,287
+RJ,SP,sao goncalo,sao paulo,288
+RJ,SP,rio de janeiro,sao jose do rio preto,289
+RJ,SP,rio de janeiro,piracicaba,290
+RJ,SP,rio de janeiro,sao joao da boa vista,291
+RJ,SC,rio de janeiro,criciuma,292
+RJ,RJ,rio de janeiro,mesquita,293
+RJ,SP,pirai,fernandopolis,294
+RJ,SP,rio de janeiro,sao paulo,295
+RJ,SP,paraiba do sul,guarulhos,296
+RJ,MG,cabo frio,mateus leme,297
+RJ,SP,rio de janeiro,campo limpo paulista,298
+RJ,SP,rio de janeiro,sao paulo,299
+RJ,SP,porto real,sao paulo,300
+RJ,PR,sao joao de meriti,bocaiuva do sul,301
+RJ,SP,rio de janeiro,jaguariuna,302
+RJ,SP,rio de janeiro,sao paulo,303
+RJ,SP,rio de janeiro,barueri,304
+RJ,RS,rio de janeiro,soledade,305
+RJ,SP,paty do alferes,sao paulo,306
+RJ,SP,marica,osasco,307
+RJ,SP,belford roxo,sao paulo,308
+RJ,SP,volta redonda,santo andre,309
+RJ,SP,rio de janeiro,piracicaba,310
+RJ,SP,cabo frio,sao paulo,311
+RJ,RJ,paraiba do sul,rio de janeiro,312
+RJ,SP,rio de janeiro,itapevi,313
+RJ,SP,rio de janeiro,taboao da serra,314
+RJ,SP,volta redonda,sao paulo,315
+RJ,PR,rio de janeiro,colombo,316
+RJ,SP,guapimirim,ibitinga,317
+RJ,MG,teresopolis,betim,318
+RJ,SP,rio de janeiro,auriflama,319
+RJ,SC,rio de janeiro,tubarao,320
+RJ,DF,niteroi,brasilia,321
+RJ,SC,mage,cordilheira alta,322
+RJ,MG,rio de janeiro,ouro preto,323
+RJ,PR,rio de janeiro,maringa,324
+RJ,PR,campos dos goytacazes,curitiba,325
+RJ,MG,belford roxo,belo horizonte,326
+RJ,SP,niteroi,scao jose do rio pardo,327
+RJ,SP,rio de janeiro,praia grande,328
+RJ,SP,rio de janeiro,sao paulo,329
+RJ,SP,marica,laranjal paulista,330
+RJ,SP,rio de janeiro,sorocaba,331
+RJ,SP,paraty,sao paulo,332
+RJ,MG,rio das ostras,ribeirao das neves,333
+RJ,SP,rio de janeiro,sao paulo,334
+RJ,SP,niteroi,bauru,335
+RJ,PR,nova friburgo,medianeira,336
+RJ,SP,macae,sao paulo,337
+RJ,SP,rio de janeiro,sao jose dos campos,338
+RJ,RS,duque de caxias,caxias do sul,339
+RJ,SP,rio de janeiro,campinas,340
+RJ,SP,sao pedro da aldeia,pirituba,341
+RJ,PR,rio de janeiro,curitiba,342
+RJ,SP,rio de janeiro,sao paulo,343
+RJ,PR,niteroi,londrina,344
+RJ,SP,volta redonda,sao paulo,345
+RJ,SP,rio de janeiro,bauru,346
+RJ,SP,rio de janeiro,ribeirao preto,347
+RJ,SP,rio de janeiro,sao paulo,348
+RJ,SC,rio de janeiro,joinville,349
+RJ,SP,vassouras,sao paulo,350
+RJ,DF,mage,gama,351
+RJ,SP,rio de janeiro,sao paulo,352
+RJ,SP,rio de janeiro,sao bernardo do campo,353
+RJ,SP,rio de janeiro,ribeirao preto,354
+RJ,RS,rio de janeiro,bento goncalves,355
+RJ,SP,niteroi,sao bernardo do campo,356
+RJ,SP,rio de janeiro,sao paulo,357
+RJ,RJ,rio de janeiro,rio de janeiro,358
+RJ,PR,campos dos goytacazes,pinhais,359
+RJ,PE,mesquita,caruaru,360
+RJ,PR,nova iguacu,curitiba,361
+RJ,PR,cabo frio,apucarana,362
+RJ,PR,niteroi,colombo,363
+RJ,PR,rio de janeiro,curitiba,364
+RJ,PR,duque de caxias,curitiba,365
+RJ,SP,rio de janeiro,sao paulo,366
+RJ,SP,rio de janeiro,sao paulo,367
+RJ,PR,rio de janeiro,curitiba,368
+RJ,RS,rio de janeiro,porto alegre,369
+RJ,SP,rio de janeiro,sao paulo,370
+RJ,DF,rio de janeiro,brasilia,371
+RJ,SP,rio de janeiro,franca,372
+RJ,SP,petropolis,sao paulo,373
+RJ,SP,rio de janeiro,sao bernardo do campo,374
+RJ,SP,rio de janeiro,santos,375
+RJ,SP,rio de janeiro,lencois paulista,376
+RJ,RS,macae,santa cruz do sul,377
+RJ,SP,rio de janeiro,ibitinga,378
+RJ,SP,rio de janeiro,sao paulo,379
+RJ,RJ,araruama,rio de janeiro,380
+RJ,SP,rio bonito,presidente prudente,381
+RJ,PR,barra mansa,fazenda rio grande,382
+RJ,DF,rio de janeiro,brasilia,383
+RJ,SP,rio de janeiro,sao paulo,384
+RJ,SP,rio de janeiro,americana,385
+RJ,GO,rio de janeiro,rio verde,386
+RJ,SP,sao goncalo,sao paulo,387
+RJ,SC,rio de janeiro,itajai,388
+RJ,SP,niteroi,bofete,389
+RJ,SP,petropolis,ribeirao preto,390
+RJ,SC,teresopolis,picarras,391
+RJ,ES,rio de janeiro,vitoria,392
+RJ,SP,resende,sao paulo,393
+RJ,SP,cantagalo,sao paulo,394
+RJ,PR,rio de janeiro,curitiba,395
+RJ,PR,volta redonda,curitiba,396
+RJ,RJ,rio de janeiro,rio de janeiro,397
+RJ,SP,rio de janeiro,ibitinga,398
+RJ,SP,rio de janeiro,pedreira,399
+RJ,SP,niteroi,sao paulo,400
+RJ,PR,rio de janeiro,rolandia,401
+RJ,MG,rio de janeiro,pocos de caldas,402
+RJ,PE,volta redonda,recife,403
+RJ,MG,rio de janeiro,montes claros,404
+RJ,SP,sao goncalo,sao paulo,405
+RJ,DF,teresopolis,brasilia,406
+RJ,MG,rio de janeiro,jacutinga,407
+RJ,SP,arraial do cabo,valinhos,408
+RJ,SP,rio de janeiro,ibitinga,409
+RJ,PR,rio de janeiro,curitiba,410
+RJ,GO,rio de janeiro,goiania,411
+RJ,SP,teresopolis,araraquara,412
+RJ,RJ,niteroi,petropolis,413
+RJ,SC,rio de janeiro,palhoca,414
+RN,SP,natal,santos,1
+RN,SP,alto do rodrigues,sao paulo,2
+RN,DF,natal,brasilia,3
+RN,SP,natal,sao paulo,4
+RN,DF,goianinha,brasilia,5
+RN,SP,mossoro,sao paulo,6
+RN,SP,jucurutu,araraquara,7
+RN,SP,natal,sao paulo,8
+RN,MG,jardim do serido,pocos de caldas,9
+RN,SP,serra de sao bento,sao paulo,10
+RN,SP,natal,amparo,11
+RN,SP,apodi,ribeirao preto,12
+RN,SC,natal,sao bento do sul,13
+RN,SP,natal,itaquaquecetuba,14
+RO,SP,espigao do oeste,mirassol,1
+RO,SP,porto velho,garca,2
+RO,SP,porto velho,indaiatuba,3
+RO,SP,cerejeiras,limeira,4
+RO,SP,porto velho,sao paulo,5
+RO,SC,vilhena,navegantes,6
+RR,SP,boa vista,sao paulo,1
+RS,SP,ijui,sao paulo,1
+RS,SP,novo hamburgo,sao paulo,2
+RS,SC,colorado,imbituba,3
+RS,DF,frederico westphalen,brasilia,4
+RS,RS,porto alegre,tres de maio,5
+RS,SC,passo fundo,joinville,6
+RS,SP,sao leopoldo,ibitinga,7
+RS,SP,flores da cunha,sao paulo,8
+RS,SP,rio grande,sao paulo,9
+RS,SP,gravatai,sao paulo,10
+RS,SP,gravatai,ribeirao preto,11
+RS,PB,pelotas,campina grande,12
+RS,SP,guaiba,sao paulo,13
+RS,SP,roca sales,salto,14
+RS,MG,esteio,uba,15
+RS,SP,caxias do sul,sao jose do rio preto,16
+RS,SP,sao leopoldo,sao jose do rio preto,17
+RS,SC,gravatai,joinville,18
+RS,SC,porto alegre,brusque,19
+RS,SC,pelotas,joinville,20
+RS,RJ,nova prata,rio de janeiro,21
+RS,SP,venancio aires,sao paulo,22
+RS,GO,nova prata,goiania,23
+RS,PR,osvaldo kroeff,apucarana,24
+RS,SP,porto alegre,taboao da serra,25
+RS,SP,santa maria,birigui,26
+RS,SP,alvorada,ribeirao preto,27
+RS,SP,gramado,sao paulo,28
+RS,SP,tapejara,sao paulo,29
+RS,RS,santiago,porto alegre,30
+RS,SP,porto alegre,porto ferreira,31
+RS,SP,caxias do sul,araraquara,32
+RS,SP,rosario do sul,santo andre,33
+RS,SP,lajeado,santos,34
+RS,SP,viamao,sao jose do rio pardo,35
+RS,SP,sao luiz gonzaga,sao paulo,36
+RS,PR,canoas,colombo,37
+RS,SP,sapiranga,sao paulo,38
+RS,PI,caxias do sul,teresina,39
+RS,PR,esteio,japira,40
+RS,MG,ijui,juiz de fora,41
+RS,MG,uruguaiana,arinos,42
+RS,SP,capao da canoa,sao paulo,43
+RS,MG,osorio,divisa nova,44
+RS,SP,canoas,sao caetano do sul,45
+RS,MG,passo fundo,formiga,46
+RS,SP,rio grande,sao paulo,47
+RS,SP,porto alegre,sao paulo,48
+RS,SP,porto alegre,sao paulo,49
+RS,PR,novo hamburgo,curitiba,50
+RS,SP,tres coroas,sao paulo,51
+RS,SP,pelotas,sao paulo,52
+RS,MG,flores da cunha,belo horizonte,53
+RS,SP,bage,sao bernardo do campo,54
+RS,SP,guapore,sao paulo,55
+RS,RS,cachoeirinha,caxias do sul,56
+RS,PR,santa clara do sul,maringa,57
+RS,SP,porto alegre,sp,58
+RS,SP,bage,sao paulo,59
+RS,SP,porto alegre,sao paulo,60
+RS,SC,venancio aires,tubarao,61
+RS,SP,dona francisca,guarulhos,62
+RS,SP,porto alegre,cotia,63
+RS,MG,canoas,belo horizonte,64
+RS,MG,caxias do sul,alfenas,65
+RS,SC,sapiranga,balneario camboriu,66
+RS,SC,porto alegre,florianopolis,67
+RS,PR,porto alegre,curitiba,68
+RS,SP,charqueadas,franco da rocha,69
+RS,SP,santiago,sao paulo,70
+RS,RS,dois irmaos,pelotas,71
+RS,SP,serafina correa,tiete,72
+RS,SP,porto alegre,sao paulo,73
+RS,MG,bento goncalves,contagem,74
+RS,MG,porto alegre,araxa,75
+RS,SC,santa maria do herval,canoinhas,76
+RS,SC,sao gabriel,criciuma,77
+RS,PR,porto alegre,ponta grossa,78
+RS,MG,porto alegre,divinopolis,79
+RS,RJ,porto alegre,rio de janeiro,80
+RS,SP,porto alegre,vera cruz,81
+RS,SP,porto alegre,sao caetano do sul,82
+RS,SP,porto xavier,salto,83
+RS,SP,ijui,valinhos,84
+RS,SP,barao de cotegipe,mogi das cruzes,85
+RS,RJ,santa maria,rio de janeiro,86
+RS,SP,arroio dos ratos,sao paulo,87
+RS,SP,sao lourenco do sul,sao paulo,88
+RS,SP,sao leopoldo,ibitinga,89
+RS,PR,santo angelo,curitiba,90
+RS,PR,rio grande,apucarana,91
+RS,SP,santa maria,sao paulo,92
+RS,PR,santo antonio da patrulha,curitiba,93
+RS,SP,sao vendelino,mairinque,94
+RS,SP,pinto bandeira,sando andre,95
+RS,SP,bento goncalves,sao paulo,96
+RS,SP,ijui,ibitinga,97
+RS,RS,erechim,portao,98
+RS,SP,porto alegre,sao paulo,99
+RS,SP,caxias do sul,carapicuiba,100
+RS,SP,imbe,sao paulo,101
+RS,SP,porto alegre,sao paulo,102
+RS,SP,rio grande,sbc,103
+RS,SC,serio,pinhalzinho,104
+RS,SP,tramandai,santo andre,105
+RS,SP,santa vitoria do palmar,piracicaba,106
+RS,SP,cachoeirinha,sao paulo,107
+RS,SP,canoas,sao paulo,108
+RS,SP,sao gabriel,sorocaba,109
+RS,SP,taquara,guarulhos,110
+RS,PR,passo fundo,curitiba,111
+RS,SP,estrela,bauru,112
+RS,SP,gravatai,sao paulo,113
+RS,SP,porto alegre,bauru,114
+RS,RJ,charqueadas,barra mansa,115
+RS,SP,nao-me-toque,sao paulo,116
+RS,SP,sao leopoldo,sao paulo,117
+RS,SP,porto alegre,pompeia,118
+RS,SP,porto alegre,engenheiro coelho,119
+RS,PR,canoas,parana,120
+RS,SC,palmitinho,indaial,121
+RS,SP,caxias do sul,paulinia,122
+RS,MG,novo hamburgo,contagem,123
+RS,SP,morro reuter,piracicaba,124
+RS,SP,porto alegre,macatuba,125
+RS,SP,esteio,indaiatuba,126
+RS,SP,sananduva,guaruja,127
+RS,SP,porto alegre,santo andre,128
+RS,SP,porto alegre,socorro,129
+RS,SP,julio de castilhos,sao paulo,130
+RS,SP,sao leopoldo,cajamar,131
+RS,SP,sao gabriel,santa barbara D'Oeste,132
+RS,SP,formigueiro,sao paulo,133
+RS,RJ,estancia velha,rio de janeiro,134
+RS,SP,porto alegre,sao paulo,135
+RS,MG,bage,belo horizonte,136
+RS,MG,santa maria,uberlandia,137
+RS,PR,alegrete,maringa,138
+RS,RS,santiago,canoas,139
+RS,SP,caxias do sul,santa rosa de viterbo,140
+RS,SP,sao jeronimo,ribeirao preto,141
+RS,SC,novo hamburgo,curitibanos,142
+RS,SP,sao lourenco do sul,guarulhos,143
+RS,SP,panambi,guarulhos,144
+RS,MG,porto alegre,araguari,145
+RS,SP,bom principio,guaruja,146
+RS,SP,rosario do sul,ribeirao preto,147
+RS,SP,porto alegre,lorena,148
+RS,SP,sao gabriel,itaquaquecetuba,149
+RS,SP,santa maria,bauru,150
+RS,SP,porto alegre,jundiai,151
+RS,SP,pelotas,marilia,152
+RS,PR,dom feliciano,campo mourao,153
+RS,SP,porto alegre,sao paulo,154
+RS,RS,porto alegre,novo hamburgo,155
+RS,SP,aguas claras,sao paulo,156
+RS,PR,gravatai,maringa,157
+RS,SP,soledade,sao paulo,158
+RS,SP,santo angelo,sorocaba,159
+RS,SP,porto alegre,sao paulo,160
+RS,SP,ijui,cajamar,161
+RS,SP,santa maria,santo andre,162
+RS,RJ,porto alegre,marica,163
+RS,SP,porto alegre,presidente prudente,164
+RS,PR,novo hamburgo,cascavel,165
+RS,MG,caxias do sul,ribeirao das neves,166
+RS,MG,porto alegre,pouso alegre,167
+RS,RS,alegrete,porto alegre,168
+RS,SP,porto alegre,sao paulo,169
+RS,PR,cachoeirinha,palotina,170
+RS,MG,porto alegre,claudio,171
+RS,RS,sao sebastiao do cai,pelotas,172
+SC,MG,agronomica,belo horizonte,1
+SC,SP,chapeco,sao paulo,2
+SC,PR,porto uniao,sao jose dos pinhais,3
+SC,SP,florianopolis,barueri,4
+SC,SP,florianopolis,sao paulo,5
+SC,RJ,blumenau,rio de janeiro,6
+SC,RJ,faxinal dos guedes,itaborai,7
+SC,SP,joinville,sao paulo,8
+SC,PR,sao miguel do oeste,formosa do oeste,9
+SC,RS,urussanga,arvorezinha,10
+SC,GO,sao jose,uruacu,11
+SC,SP,criciuma,bauru,12
+SC,SC,irineopolis,jaragua do sul,13
+SC,SP,forquilhinha,sao paulo,14
+SC,SP,imbituba,sao paulo,15
+SC,PR,mafra,colombo,16
+SC,RJ,joinville,mesquita,17
+SC,PR,florianopolis,cascavel,18
+SC,SP,florianopolis,sao paulo,19
+SC,SP,florianopolis,jundiai,20
+SC,RJ,araquari,rio de janeiro,21
+SC,SP,florianopolis,sao paulo,22
+SC,PR,tubarao,curitiba,23
+SC,SP,florianopolis,marilia,24
+SC,SP,aurora,sao paulo,25
+SC,BA,imbuia,bahia,26
+SC,SP,garopaba,sao paulo,27
+SC,PR,sao jose,curitiba,28
+SC,SP,criciuma,ribeirao preto,29
+SC,SP,timbo,sao jose do rio preto,30
+SC,RJ,florianopolis,sao goncalo,31
+SC,SP,sao pedro de alcantara,sao paulo,32
+SC,SP,ibiam,sao jose do rio preto,33
+SC,SP,blumenau,osvaldo cruz,34
+SC,CE,benedito novo,mucambo,35
+SC,SP,criciuma,santo andre,36
+SC,SP,tubarao,sao paulo,37
+SC,RJ,chapeco,rio de janeiro,38
+SC,MG,joinville,tres coracoes,39
+SC,SP,apiuna,franca,40
+SC,SP,joinville,sorocaba,41
+SC,SP,sao bento do sul,santos,42
+SC,SP,itajai,santana de parnaiba,43
+SC,SP,florianopolis,diadema,44
+SC,RJ,rio negrinho,volta redonda,45
+SC,SP,ituporanga,aruja,46
+SC,GO,florianopolis,goiania,47
+SC,SP,itajai,indaiatuba,48
+SC,SP,lages,sao roque,49
+SC,SP,videira,santo andre,50
+SC,SP,joinville,amparo,51
+SC,SP,pomerode,carapicuiba,52
+SC,PR,seara,mandaguari,53
+SC,SP,jaragua do sul,sao jose do rio preto,54
+SC,CE,joinville,fortaleza,55
+SC,SP,criciuma,sao paulo,56
+SC,MG,santa rosa de lima,belo horizonte,57
+SC,PR,anita garibaldi,londrina,58
+SC,SP,tubarao,jaguariuna,59
+SC,SP,canoinhas,sao paulo,60
+SC,SP,joacaba,guarulhos,61
+SC,SP,florianopolis,guarulhos,62
+SC,MG,joinville,belo horizonte,63
+SC,SP,palhoca,ibitinga,64
+SC,MG,monte castelo,belo horizonte,65
+SC,SP,sao joao batista,marapoama,66
+SC,SP,florianopolis,sao carlos,67
+SC,SP,sao bento do sul,limeira,68
+SC,SP,morro da fumaca,guarulhos,69
+SC,CE,florianopolis,fortaleza,70
+SC,SP,fraiburgo,sao paulo,71
+SC,SP,faxinal dos guedes,sao vicente,72
+SC,RS,tubarao,canoas,73
+SC,SP,florianopolis,sao bernardo do campo,74
+SC,SP,bombinhas,barueri,75
+SC,SP,rio das antas,sao paulo,76
+SC,SP,ituporanga,sao paulo,77
+SC,SP,criciuma,santos,78
+SC,SP,itapiranga,santa barbara d'oeste,79
+SC,SP,jaragua do sul,sao paulo,80
+SC,SP,indaial,sao paulo,81
+SC,PR,criciuma,campo magro,82
+SC,SP,fraiburgo,sao paulo,83
+SC,MG,brusque,claudio,84
+SC,MG,rio negrinho,belo horizonte,85
+SC,RS,jaragua do sul,paraiso do sul,86
+SC,PR,sao jose,toledo,87
+SC,PR,joinville,curitiba,88
+SC,SP,florianopolis,carapicuiba,89
+SC,SP,pinhalzinho,sao jose do rio preto,90
+SC,SP,ituporanga,guarulhos,91
+SC,SP,lages,ibitinga,92
+SC,SP,palhoca,sao paulo,93
+SC,SC,governador celso ramos,jaguaruna,94
+SC,SP,nova veneza,birigui,95
+SC,MG,blumenau,patos de minas,96
+SC,RJ,porto uniao,rio de janeiro,97
+SC,RS,laguna,porto alegre,98
+SC,SP,orleans,sao paulo,99
+SC,SP,joinville,laranjal paulista,100
+SC,SP,jaragua do sul,sao paulo,101
+SC,SP,florianopolis,sao paulo,102
+SC,SP,anita garibaldi,presidente prudente,103
+SC,PR,florianopolis,cambe,104
+SC,SP,sao lourenco do oeste,sao paulo,105
+SC,SP,itaiopolis,sao paulo,106
+SC,PR,itajai,apucarana,107
+SC,PR,florianopolis,maringa,108
+SC,RJ,florianopolis,rio de janeiro,109
+SC,SC,chapeco,brusque,110
+SC,SP,itajai,jau,111
+SC,SP,sao jose,sorocaba,112
+SC,PR,urussanga,castro,113
+SC,SP,florianopolis,franca,114
+SC,MG,armazem,belo horizonte,115
+SC,SC,tubarao,jaragua do sul,116
+SC,RJ,lages,rio de janeiro,117
+SC,SP,blumenau,jacarei,118
+SC,SP,blumenau,diadema,119
+SC,SP,sao jose do cerrito,sao jose do rio preto,120
+SE,SP,aracaju,ribeirao preto,1
+SE,SP,aquidaba,pilar do sul,2
+SE,SP,aracaju,sao paulo,3
+SE,PR,aracaju,curitiba,4
+SE,MG,aracaju,formiga,5
+SE,SP,aracaju,sao paulo,6
+SE,SP,aracaju,sao paulo,7
+SE,RS,aracaju,venancio aires,8
+SE,SP,aracaju,sao paulo,9
+SE,SP,aracaju,sao jose do rio preto,10
+SE,SP,aracaju,assis,11
+SE,RJ,aracaju,niteroi,12
+SE,SP,aracaju,boituva,13
+SE,SP,indiaroba,sao paulo,14
+SE,SP,aracaju,sao paulo,15
+SP,SP,osasco,campinas,1
+SP,SP,sao paulo,braganca paulista,2
+SP,RJ,valinhos,rio de janeiro,3
+SP,GO,sao paulo,anapolis,4
+SP,SP,sao paulo,itirapina,5
+SP,SC,campinas,tubarao,6
+SP,BA,jacarei,lauro de freitas,7
+SP,BA,piracaia,porto seguro,8
+SP,SP,sao paulo,guaruja,9
+SP,SP,sao paulo,sao paulo,10
+SP,PR,sao paulo,arapongas,11
+SP,SP,sao paulo,sao bernardo do campo,12
+SP,SP,ibiuna,sao paulo,13
+SP,PR,campinas,curitiba,14
+SP,SP,sao paulo,sao paulo,15
+SP,SC,sao jose dos campos,garopaba,16
+SP,SP,santo andre,tupa,17
+SP,SP,pirassununga,guarulhos,18
+SP,PR,sao paulo,sao jose dos pinhais,19
+SP,SP,sao paulo,sao paulo,20
+SP,SP,guaruja,sao paulo,21
+SP,DF,cotia,brasilia,22
+SP,DF,sao paulo,brasilia,23
+SP,SP,campos do jordao,piracicaba,24
+SP,MG,jacarei,congonhal,25
+SP,MG,itupeva,belo horizonte,26
+SP,SP,sao paulo,osasco,27
+SP,SP,aguai,valinhos,28
+SP,SC,biritiba-mirim,joinville,29
+SP,RJ,sao paulo,petropolis,30
+SP,RS,campinas,santo antonio da patrulha,31
+SP,PR,jandira,ponta grossa,32
+SP,SP,salto,santana de parnaiba,33
+SP,SP,carapicuiba,santo andre,34
+SP,SP,pontal,sao carlos,35
+SP,SP,jandira,sao paulo,36
+SP,MG,laranjal paulista,contagem,37
+SP,SC,sao jose dos campos,jaragua do sul,38
+SP,SP,maua,ibitinga,39
+SP,SP,taubate,catanduva,40
+SP,SP,sao paulo,ribeirao pires,41
+SP,SP,jau,cotia,42
+SP,SC,guarulhos,rio do sul,43
+SP,SP,sorocaba,sorocaba,44
+SP,RJ,campinas,rio de janeiro,45
+SP,SP,cacapava,sao paulo,46
+SP,SP,paulinia,sao paulo,47
+SP,SP,guaira,sao paulo,48
+SP,SP,sao paulo,araraquara,49
+SP,SP,sao paulo,rio claro,50
+SP,RN,sao paulo,rio de janeiro,51
+SP,SP,sao paulo,sao paulo,52
+SP,SP,sao paulo,nhandeara,53
+SP,SP,sao paulo,sao paulo,54
+SP,SP,taubate,sao carlos,55
+SP,SP,ribeirao preto,sao paulo,56
+SP,RJ,guarulhos,rio de janeiro,57
+SP,RJ,ibitinga,rio de janeiro,58
+SP,SP,iguape,santos,59
+SP,PR,campinas,curitiba,60
+SP,SP,sao paulo,franca,61
+SP,PR,sao paulo,curitiba,62
+SP,BA,jundiai,salvador,63
+SP,SP,ribeirao preto,diadema,64
+SP,SP,maua,lencois paulista,65
+SP,SP,bom jesus dos perdoes,guarulhos,66
+SP,SP,guarulhos,carapicuiba,67
+SP,SP,serrana,sao paulo,68
+SP,SP,sao paulo,sao paulo,69
+SP,SP,sao paulo,sao paulo,70
+SP,SP,guarulhos,sao paulo,71
+SP,MG,francisco morato,belo horizonte,72
+SP,SP,sao jose dos campos,sao paulo,73
+SP,SP,sao paulo,limeira,74
+SP,MG,diadema,claudio,75
+SP,SP,sao paulo,osvaldo cruz,76
+SP,SP,sao paulo,carapicuiba,77
+SP,SP,carapicuiba,osasco,78
+SP,MT,sao paulo,jaciara,79
+SP,SP,embu das artes,guarulhos,80
+SP,SP,guarulhos,ferraz de  vasconcelos,81
+SP,SP,potirendaba,mirandopolis,82
+SP,SP,sao paulo,jacarei,83
+SP,SP,sao paulo,itu,84
+SP,SC,osasco,videira,85
+SP,SP,sorocaba,itapecerica da serra,86
+SP,PB,osasco,mamanguape,87
+SP,MG,candido mota,ponte nova,88
+SP,GO,sao paulo,goiania,89
+SP,SP,sao paulo,sao paulo,90
+SP,SP,guarulhos,sao paulo,91
+SP,RS,sao paulo,caxias do sul,92
+SP,SP,sao paulo,sao bernardo do campo,93
+SP,RJ,sao paulo,resende,94
+SP,SP,campinas,sao paulo,95
+SP,SP,sao paulo,sao paulo,96
+SP,SC,sao paulo,florianopolis,97
+SP,SP,guarulhos,sorocaba,98
+SP,SP,sao paulo,sorocaba,99
+SP,SP,sao paulo,maua,100
+SP,SP,americana,bauru,101
+SP,MG,olimpia,belo horizonte,102
+SP,MG,francisco morato,caratinga,103
+SP,SP,sao paulo,cafelandia,104
+SP,SC,taboao da serra,sao ludgero,105
+SP,SP,campinas,sao bernardo do campo,106
+SP,SP,sao paulo,sao paulo,107
+SP,SP,taubate,porto ferreira,108
+SP,RS,sao paulo,tres coroas,109
+SP,SP,ribeirao preto,santo andre,110
+SP,SP,guarulhos,sao paulo,111
+SP,SP,campinas,osasco,112
+SP,MG,sao paulo,claudio,113
+SP,SP,santos,laranjal paulista,114
+SP,SP,mogi das cruzes,sao paulo,115
+SP,SP,sao bernardo do campo,americana,116
+SP,SP,sao bernardo do campo,sao paulo,117
+SP,SP,sao paulo,sao paulo,118
+SP,SP,sao paulo,guarulhos,119
+SP,SP,ribeirao preto,penapolis,120
+SP,SP,santo andre,vicente de carvalho,121
+SP,PR,sao paulo,londrina,122
+SP,SC,sao bernardo do campo,florianopolis,123
+SP,SP,guarulhos,sao paulo,124
+SP,PR,santos,fazenda rio grande,125
+SP,SP,osasco,sao paulo,126
+SP,RJ,campinas,rio de janeiro,127
+SP,PR,santos,curitiba,128
+SP,SP,diadema,sao paulo,129
+SP,PR,jundiai,curitiba,130
+SP,SP,sao jose dos campos,bauru,131
+SP,SP,serra negra,santos,132
+SP,SP,sao paulo,marechal candido rondon,133
+SP,SP,itapevi,mogi das cruzes,134
+SP,RS,bebedouro,porto alegre,135
+SP,SP,sao paulo,sao paulo,136
+SP,SP,tatui,sao paulo,137
+SP,PR,guarulhos,curitiba,138
+SP,SP,sao paulo,sao paulo,139
+SP,SP,sao paulo,cotia,140
+SP,SP,sao paulo,limeira,141
+SP,SP,sao paulo,ibitinga,142
+SP,SP,santa rita do passa quatro,sao paulo,143
+SP,SC,sao paulo,concordia,144
+SP,SP,sao paulo,sao paulo,145
+SP,SP,jundiai,sao paulo,146
+SP,GO,osasco,goiania,147
+SP,MG,santos,santa rita do sapucai,148
+SP,PR,diadema,curitiba,149
+SP,RJ,ribeirao pires,nilopolis,150
+SP,SP,sao paulo,pompeia,151
+SP,SP,sao roque,mogi guacu,152
+SP,SP,limeira,franca,153
+SP,SP,sao paulo,rio de janeiro,154
+SP,SC,caraguatatuba,luiz alves,155
+SP,SP,sao jose do rio preto,osasco,156
+SP,SC,campinas,criciuma,157
+SP,SP,sao paulo,santana de parnaiba,158
+SP,SP,guarulhos,sao paulo,159
+SP,SP,barueri,guarulhos,160
+SP,SP,embu das artes,limeira,161
+SP,SC,sao paulo,blumenau,162
+SP,MG,aracatuba,belo horizonte,163
+SP,SP,santo andre,jales,164
+SP,SP,sao paulo,sao paulo,165
+SP,SP,sao paulo,sao paulo,166
+SP,SP,campinas,sao paulo,167
+SP,SP,itapui,franca,168
+SP,SP,sao jose do rio preto,ribeirao pires,169
+SP,SP,santos,sao paulo,170
+SP,SP,barretos,sao carlos,171
+SP,SP,sao paulo,ribeirao pires,172
+SP,PR,vinhedo,londrina,173
+SP,SP,campinas,taubate,174
+SP,PR,sao paulo,cascavael,175
+SP,SC,salto,sao jose,176
+SP,RJ,bertioga,paraiba do sul,177
+SP,MG,rio das pedras,passos,178
+SP,PR,sao paulo,francisco beltrao,179
+SP,GO,sao paulo,uruacu,180
+SP,RJ,sao paulo,rio de janeiro,181
+SP,SC,sao jose do rio preto,porto belo,182
+SP,SP,mogi das cruzes,campinas,183
+SP,SP,lorena,sao paulo,184
+SP,SP,santo andre,marilia,185
+SP,SC,santos,icara,186
+SP,RS,sao paulo,lajeado,187
+SP,SP,jundiai,santo andre,188
+SP,SP,sao bernardo do campo,maua,189
+SP,MG,sao paulo,claudio,190
+SP,RS,piracicaba,campo bom,191
+SP,SP,sao paulo,sao paulo,192
+SP,SP,taboao da serra,monte alto,193
+SP,SP,ilhabela,sao paulo,194
+SP,SP,sao paulo,fernandopolis,195
+SP,SC,vinhedo,blumenau,196
+SP,SP,pindamonhangaba,guarulhos,197
+SP,MG,caieiras,belo horizonte,198
+SP,SC,embu das artes,brusque,199
+SP,SP,santo anastacio,poa,200
+SP,SP,francisco morato,sao paulo,201
+SP,PR,registro,curitiba,202
+SP,SP,bauru,itu,203
+SP,SC,presidente prudente,joinville,204
+SP,PR,aruja,curitiba,205
+SP,PR,sao paulo,londrina,206
+SP,MG,santa barbara d'oeste,sete lagoas,207
+SP,SP,sao paulo,mogi das cruzes,208
+SP,CE,sao paulo,fortaleza,209
+SP,SP,osasco,cordeiropolis,210
+SP,MG,sao vicente,uberlandia,211
+SP,GO,sao paulo,anapolis,212
+SP,RJ,jundiai,rio de janeiro,213
+SP,SP,sao paulo,sao paulo,214
+SP,SP,terra roxa,piracicaba,215
+SP,PR,americana,arapongas,216
+SP,SP,sao paulo,volta redonda,217
+SP,SC,sao paulo,blumenau,218
+SP,RJ,santo andre,rio de janeiro,219
+SP,PR,osasco,curitiba,220
+SP,GO,ribeirao preto,goiania,221
+SP,SP,sao jose dos campos,sorocaba,222
+SP,SP,sao paulo,campinas,223
+SP,SC,taboao da serra,garuva,224
+SP,MG,cotia,bonfinopolis de minas,225
+SP,SP,sao carlos,catanduva,226
+SP,RJ,sao paulo,rio de janeiro,227
+SP,SP,barueri,artur nogueira,228
+SP,SP,sao paulo,santos,229
+SP,SP,piracicaba,sao paulo,230
+SP,MG,sao paulo,belo horizonte,231
+SP,PB,sao paulo,joao pessoa,232
+SP,SC,sao paulo,araquari,233
+SP,SP,sao paulo,belo horizonte,234
+SP,RS,sao paulo,novo hamburgo,235
+SP,PR,ribeirao preto,ponta grossa,236
+SP,SC,poa,joinville,237
+SP,SP,taubate,jaci,238
+SP,SP,sao paulo,sumare,239
+SP,SP,sao paulo,maua,240
+SP,PR,santos,guaira,241
+SP,ES,bocaina,cachoeiro de itapemirim,242
+SP,SP,sorocaba,serrana,243
+SP,PR,sao paulo,rolandia,244
+SP,SP,sao paulo,sao paulo,245
+SP,SP,suzano,sao paulo,246
+SP,PR,sao paulo,sao  jose dos pinhais,247
+SP,SP,santo andre,boituva,248
+SP,SP,americana,sao paulo,249
+SP,SP,sao paulo,sao paulo,250
+SP,SP,sao paulo,sao paulo,251
+SP,SP,holambra,mairipora,252
+SP,SP,sao paulo,sao paulo,253
+SP,SP,bauru,campinas,254
+SP,MG,carapicuiba,pocos de caldas,255
+SP,PR,sao paulo,curitiba,256
+SP,SC,taboao da serra,jaguaruna,257
+SP,PR,sao paulo,arapongas,258
+SP,SP,sao paulo,vila velha,259
+SP,SC,sao paulo,joinville,260
+SP,MG,americana,juiz de fora,261
+SP,MG,sao roque,fronteira,262
+SP,PR,sao paulo,maringa,263
+SP,SP,bauru,sao paulo,264
+SP,ES,sao paulo,cariacica,265
+SP,PR,ribeirao preto,colombo,266
+SP,SP,iguape,rio claro,267
+SP,SP,mirassol,ibitinga,268
+SP,PR,sao paulo,curitiba,269
+SP,PR,sao paulo,londrina,270
+SP,MG,ribeirao preto,montes claros,271
+SP,SP,diadema,sao paulo,272
+SP,SP,sao paulo,sao bernardo do campo,273
+SP,SP,sao paulo,guarulhos,274
+SP,RS,sao paulo,canoas,275
+SP,SP,santo andre,sao paulo,276
+SP,RJ,itapevi,rio de janeiro,277
+SP,PR,sao paulo,curitiba,278
+SP,RO,sao paulo,porto velho,279
+SP,BA,sao paulo,salvador,280
+SP,MG,santos,contagem,281
+SP,PR,sao paulo,pato branco,282
+SP,SP,araraquara,ribeirao preto,283
+SP,SP,sao paulo,presidente prudente,284
+SP,SP,sao paulo,mogi das cruzes,285
+SP,SP,sao paulo,sao jose do rio preto,286
+SP,SP,taquaritinga,sao paulo,287
+SP,SP,sao bernardo do campo,sao paulo,288
+SP,SP,jales,sao jose do rio preto,289
+SP,SP,bariri,sao paulo,290
+SP,SP,sao carlos,sao paulo,291
+SP,RJ,caieiras,bom jardim,292
+SP,SP,santo andre,ibitinga,293
+SP,SP,ourinhos,sao paulo,294
+SP,SP,santa cruz do rio pardo,sao paulo,295
+SP,SP,guarulhos,presidente prudente,296
+SP,SP,votuporanga,sao paulo,297
+SP,SP,piraju,porto alegre,298
+SP,SP,piracicaba,sao paulo,299
+SP,SP,mogi-guacu,sao paulo,300
+SP,RS,sao paulo,porto alegre,301
+SP,SP,sao paulo,boituva,302
+SP,SP,cotia,atibaia,303
+SP,SP,itu,sao jose dos campos,304
+SP,PR,osasco,california,305
+SP,SP,sao paulo,araraquara,306
+SP,SP,santos,guarulhos,307
+SP,SP,piracicaba,tupa,308
+SP,SP,matao,sao paulo,309
+SP,RJ,sao paulo,rio de janeiro,310
+SP,SP,itanhaem,sao bernardo do campo,311
+SP,SP,sao paulo,limeira,312
+SP,SP,jacarei,sao paulo,313
+SP,SP,sao paulo,itaquaquecetuba,314
+SP,RJ,ribeirao preto,nova friburgo,315
+SP,MG,santa barbara d'oeste,belo horizonte,316
+SP,MG,osasco,itau de minas,317
+SP,SC,sao paulo,florianopolis,318
+SP,SP,barretos,sao bernardo do campo,319
+SP,SP,sorocaba,holambra,320
+SP,PR,praia grande,pinhais,321
+SP,PR,praia grande,londrina,322
+SP,SP,paulinia,ribeirao preto,323
+SP,SP,sao paulo,birigui,324
+SP,RJ,sao paulo,nova iguacu,325
+SP,SP,sao jose do rio preto,guarulhos,326
+SP,SP,pedrinhas paulista,sao pedro,327
+SP,SC,sao paulo,lages,328
+SP,SP,sao paulo,porto ferreira,329
+SP,SP,campinas,carapicuiba,330
+SP,PR,embu das artes,ampere,331
+SP,MG,sao paulo,belo horizonte,332
+SP,PR,mogi das cruzes,sao jose dos pinhais,333
+SP,SP,tupa,guaruja,334
+SP,SC,sao paulo,florianopolis,335
+SP,SP,sao paulo,mogi mirim,336
+SP,SC,sao paulo,joinville,337
+SP,DF,sao paulo,brasilia df,338
+SP,SP,sao paulo,sao jose dos campos,339
+SP,SP,bauru,sao paulo,340
+SP,SP,campinas,campinas,341
+SP,SP,queluz,hortolandia,342
+SP,MG,guarulhos,belo horizonte,343
+SP,PR,embu-guacu,maringa,344
+SP,PR,sao paulo,toledo,345
+SP,SP,limeira,pedreira,346
+SP,SP,sao paulo,sao paulo,347
+SP,SP,sao paulo,sao paulo,348
+SP,SP,sao carlos,sao paulo,349
+SP,SP,sao paulo,sao paulo,350
+SP,SP,sao paulo,sorocaba,351
+SP,SC,sao paulo,brusque,352
+SP,RJ,cerquilho,rio de janeiro,353
+SP,SP,lins,sao paulo,354
+SP,SP,sao caetano do sul,guarulhos,355
+SP,PR,paulinia,curitiba,356
+SP,SP,jundiai,sao paulo,357
+SP,SP,guarulhos,santo andre,358
+SP,SP,sao jose dos campos,presidente epitacio,359
+SP,RS,santos,porto alegre,360
+SP,SP,sao paulo,ibitinga,361
+SP,SP,tatui,sao paulo,362
+SP,BA,sao paulo,arraial d'ajuda (porto seguro),363
+SP,SP,lencois paulista,serra negra,364
+SP,SP,suzano,sao paulo,365
+SP,MG,braganca paulista,borda da mata,366
+SP,PR,sao paulo,curitiba,367
+SP,SP,osasco,ubatuba,368
+SP,SP,serra negra,sao paulo,369
+SP,SP,sao paulo,catanduva,370
+SP,RJ,pindamonhangaba,rio de janeiro,371
+SP,SP,sao bernardo do campo,sao paulo,372
+SP,RJ,osasco,macae,373
+SP,BA,sao paulo,lauro de freitas,374
+SP,SP,sao jose do rio preto,ribeirao preto,375
+SP,RS,francisco morato,venancio aires,376
+SP,MS,jacarei,campo grande,377
+SP,SC,sertaozinho,navegantes,378
+SP,SP,bastos,sao bernardo do campo,379
+SP,SP,guaruja,sao paulo,380
+SP,PR,sao paulo,curitiba,381
+SP,SP,sorocaba,ibitinga,382
+SP,PR,sao paulo,maringa,383
+SP,RS,sao paulo,santa maria,384
+SP,SP,embu das artes,sao jose do rio preto,385
+SP,SP,itaporanga,mirassol,386
+SP,SP,sao paulo,osasco,387
+SP,RS,limeira,canoas,388
+SP,RJ,caraguatatuba,rio de janeiro,389
+SP,SP,taboao da serra,sao bernardo do campo,390
+SP,SP,ribeirao preto,sao jose do rio preto,391
+SP,SP,santos,sao paulo,392
+SP,SP,embu das artes,santo andre,393
+SP,RS,embu-guacu,ipe,394
+SP,RN,santo andre,messias targino,395
+SP,SP,itaquaquecetuba,campinas,396
+SP,MG,sao bernardo do campo,varginha,397
+SP,ES,sao paulo,domingos martins,398
+SP,SP,sao jose dos campos,sao paulo,399
+SP,RS,sao bernardo do campo,cachoeirinha,400
+SP,SP,guarulhos,sao paulo,401
+SP,SP,sorocaba,sao bernardo do campo,402
+SP,SP,atibaia,s jose do rio preto,403
+SP,SP,garca,ribeirao preto,404
+SP,SP,limeira,taruma,405
+SP,SP,sao paulo,sao paulo,406
+SP,MG,sao paulo,uberlandia,407
+SP,SP,bauru,limeira,408
+SP,SP,sao paulo,sao paulo,409
+SP,SP,sao paulo,sao paulo,410
+SP,SP,sumare,sorocaba,411
+SP,SP,sao paulo,ribeirao preto,412
+SP,SP,sao bernardo do campo,sao paulo,413
+SP,SP,guarulhos,sao paulo,414
+SP,SP,riolandia,sao paulo,415
+SP,RJ,pinhalzinho,rio de janeiro,416
+SP,PR,sao paulo,maringa,417
+SP,SP,taubate,suzano,418
+SP,CE,sao paulo,juzeiro do norte,419
+SP,MG,santana de parnaiba,divinopolis,420
+SP,SP,sao paulo,sao paulo,421
+SP,RS,ferraz de vasconcelos,flores da cunha,422
+SP,SC,guaruja,imbituba,423
+SP,PR,ubatuba,londrina,424
+SP,SP,sao paulo,sao paulo,425
+SP,PR,sao paulo,curitiba,426
+SP,SP,sao paulo,sao paulo,427
+SP,SP,santa barbara d'oeste,sao paulo,428
+SP,SP,araraquara,osasco,429
+SP,SP,sao paulo,sao paulo,430
+SP,SP,sao paulo,sao paulo,431
+SP,SP,tabapua,sao paulo,432
+SP,SP,sao paulo,porto ferreira,433
+SP,MG,itaoca,belo horizonte,434
+SP,RS,aracariguama,torres,435
+SP,SC,sao caetano do sul,santa catarina,436
+SP,SP,sao paulo,sao paulo,437
+SP,SC,itapecerica da serra,jaragua do sul,438
+SP,SP,igarapava,santo andre,439
+SP,SP,sao paulo,bady bassitt,440
+SP,MT,osasco,sinop,441
+SP,SP,sao paulo,marilia,442
+SP,PR,carapicuiba,araucaria,443
+SP,SP,sao paulo,taubate,444
+SP,SP,sao paulo,sao paulo,445
+SP,SC,sao paulo,sao jose,446
+SP,ES,itapetininga,vitoria,447
+SP,SC,santos,chapeco,448
+SP,PR,sao paulo,cascavel,449
+SP,BA,sao paulo,salvador,450
+SP,RJ,sao paulo,rio de janeiro,451
+SP,PR,sao caetano do sul,umuarama,452
+SP,PR,itaporanga,araucaria,453
+SP,SP,americana,santo andre,454
+SP,SP,guarulhos,sao paulo,455
+SP,ES,sorocaba,cariacica,456
+SP,SP,sao paulo,valinhos,457
+SP,SP,limeira,sao paulo,458
+SP,SP,sao paulo,sao paulo,459
+SP,SP,sao paulo,maua,460
+SP,MG,sao paulo,lagoa da prata,461
+SP,RS,guarulhos,rolante,462
+SP,SP,sao paulo,sao paulo,463
+SP,SP,sao paulo,sao paulo,464
+SP,SP,sao paulo,sao caetano do sul,465
+SP,SP,sao jose dos campos,campinas,466
+SP,SP,sao paulo,sao paulo,467
+SP,SP,igarapava,franca,468
+SP,SP,santo andre,lencois paulista,469
+SP,SP,sao bernardo do campo,sao paulo,470
+SP,SC,ribeirao pires,joinville,471
+SP,SP,sao paulo,sao paulo,472
+SP,RJ,guarulhos,rio de janeiro,473
+SP,SP,guaruja,guarulhos,474
+SP,SP,rio claro,sao carlos,475
+SP,SP,campinas,sao paulo,476
+SP,RJ,taubate,sao joao de meriti,477
+SP,SP,sao paulo,bom jesus dos perdoes,478
+SP,SP,campos do jordao,sao paulo,479
+SP,PR,sao paulo,fazenda rio grande,480
+SP,SP,sao paulo,sao paulo,481
+SP,SP,sao paulo,santo andre,482
+SP,SP,barueri,sao paulo,483
+SP,SP,sao paulo,sao paulo,484
+SP,SP,sao paulo,sao paulo,485
+SP,BA,sao paulo,irece,486
+SP,MS,bauru,coxim,487
+SP,SP,sao paulo,ibitinga,488
+SP,SP,sao paulo,sao paulo,489
+SP,SP,sao paulo,jau,490
+SP,PR,avare,pinhais,491
+SP,SP,sao paulo,sao paulo,492
+SP,MG,sao paulo,araguari,493
+SP,PR,sao paulo,londrina,494
+SP,SP,sao paulo,sao paulo,495
+SP,SP,santos,carapicuiba,496
+SP,SP,sao paulo,cotia,497
+SP,PR,sao paulo,apucarana,498
+SP,SC,ipero,sao miguel do oeste,499
+SP,RJ,poa,nova friburgo,500
+SP,SC,votuporanga,gaspar,501
+SP,RS,sao bernardo do campo,porto alegre,502
+SP,SC,sao bernardo do campo,lages,503
+SP,SP,guarulhos,penapolis,504
+SP,SP,hortolandia,sao paulo,505
+SP,ES,sao paulo,cachoeiro de itapemirim,506
+SP,PR,porto feliz,arapongas,507
+SP,SP,valinhos,sao paulo,508
+SP,MG,sao paulo,varginha,509
+SP,SP,barueri,taboao da serra,510
+SP,SP,sao paulo,curitiba,511
+SP,SC,sao paulo,joinville,512
+SP,SP,osasco,maua,513
+SP,SP,sao paulo,sao jose dos campos,514
+SP,SP,itapeva,jacarei,515
+SP,SP,piracicaba,vargem grande paulista,516
+SP,MG,sao paulo,belo horizonte,517
+SP,MG,sorocaba,contagem,518
+SP,SP,campinas,franca,519
+SP,GO,jales,goiania,520
+SP,SP,sao paulo,conchal,521
+SP,SP,piracicaba,sao paulo,522
+SP,PR,rio das pedras,cambe,523
+SP,ES,piratininga,vila velha,524
+SP,MG,sao jose do rio preto,itauna,525
+SP,RS,santos,cachoeirinha,526
+SP,SP,presidente venceslau,sao paulo,527
+SP,PR,tapiratiba,curitiba,528
+SP,PR,mairinque,marialva,529
+SP,SP,sao paulo,santo andre,530
+SP,SP,guarulhos,sao roque,531
+SP,SP,limeira,sao paulo,532
+SP,SP,sao paulo,rio claro,533
+SP,SP,campos do jordao,sao caetano do sul,534
+SP,SP,cajamar,sao jose dos campos,535
+SP,RJ,sao paulo,rio de janeiro,536
+SP,PR,hortolandia,curitiba,537
+SP,SC,guaicara,palhoca,538
+SP,SP,barueri,sao bernardo do capo,539
+SP,SP,sao paulo,sorocaba,540
+SP,SP,sao paulo,guarulhos,541
+SP,SP,sao paulo,sao paulo,542
+SP,SC,aracatuba,joinville,543
+SP,MG,sao paulo,santa rita do sapucai,544
+SP,SP,guaratingueta,sao paulo,545
+SP,RJ,sao paulo,rio de janeiro,546
+SP,SP,poa,guara,547
+SP,SP,santo andre,itajai,548
+SP,PR,sao paulo,londrina,549
+SP,SP,guaicara,rio claro,550
+SP,SP,sao paulo,atibaia,551
+SP,SP,franca,sao paulo,552
+SP,ES,santo andre,colatina,553
+SP,SP,praia grande,sumare,554
+SP,SP,campinas,sao paulo,555
+SP,PR,itatiba,foz do iguacu,556
+SP,MG,sao paulo,betim,557
+SP,SP,sao paulo,santo andre,558
+SP,SP,barueri,sao paulo,559
+SP,SP,rio claro,sao paulo,560
+SP,SP,sao paulo,ribeirao preto,561
+SP,SC,lencois paulista,florianopolis,562
+SP,SP,sorocaba,lencois paulista,563
+SP,RJ,sao paulo,rio de janeiro,564
+SP,SC,dracena,paulo lopes,565
+SP,RJ,sao paulo,rio de janeiro,566
+SP,DF,sao jose do rio preto,brasilia,567
+SP,SC,cajamar,brusque,568
+SP,SC,guarulhos,florianopolis,569
+SP,SC,jundiai,santa cecilia,570
+SP,SP,sao paulo,bauru,571
+SP,SP,santos,fernandopolis,572
+SP,SC,sao paulo,braco do norte,573
+SP,PR,sao paulo,floresta,574
+SP,SP,santo anastacio,sao paulo,575
+SP,RS,sao paulo,farroupilha,576
+SP,PR,carapicuiba,castro,577
+SP,SP,sao paulo,sao paulo,578
+SP,RS,cajamar,porto alegre,579
+SP,RJ,sorocaba,campos dos goytacazes,580
+SP,RS,sao paulo,caxias do sul,581
+SP,MG,santos,ouro fino,582
+SP,PR,sorocaba,sao jose dos pinhas,583
+SP,RJ,aruja,macae,584
+SP,RS,tupa,viamao,585
+SP,RJ,guarulhos,rio de janeiro,586
+SP,MG,itapecerica da serra,janauba,587
+SP,SP,sao bernardo do campo,sao paulo,588
+SP,PR,cotia,santa terezinha de itaipu,589
+SP,SP,maua,sao paulo,590
+SP,MG,miguelopolis,uberlandia,591
+SP,SP,sao jose do rio preto,sao paulo,592
+SP,RS,osasco,igrejinha,593
+SP,SC,leme,sao bento do sul,594
+SP,SP,sao paulo,itu,595
+SP,SP,sao paulo,santo andre,596
+SP,MG,barueri,varginha,597
+SP,SP,sao paulo,santo andre,598
+SP,PR,sao paulo,pinhais,599
+SP,SP,sao paulo,ibitinga,600
+SP,SP,araras,sao carlos,601
+SP,SP,sao paulo,tabatinga,602
+SP,SP,sao paulo,sao jose do rio preto,603
+SP,SP,sao paulo,sao paulo,604
+SP,SP,sao paulo,guarulhos,605
+SP,RS,sao paulo,estancia velha,606
+SP,SP,sumare,sao jose do rio preto,607
+SP,MG,mogi mirim,santa rita do sapucai,608
+SP,RS,sao carlos,cachoeirinha,609
+SP,MG,piracicaba,barbacena,610
+SP,SP,sao paulo,itajai,611
+SP,SP,ilhabela,ribeirao pires,612
+SP,SP,sao bernardo do campo,santos,613
+SP,RN,sao paulo,parnamirim,614
+SP,SP,sao jose dos campos,sao bernardo do campo,615
+SP,SP,sao roque,sao paulo,616
+SP,SP,sao paulo,campinas,617
+SP,PR,guaruja,foz do iguacu,618
+SP,SP,campinas,sorocaba,619
+SP,SP,jundiai,osasco,620
+SP,RJ,promissao,rio de janeiro,621
+SP,MG,sao paulo,belo horizonte,622
+SP,SP,sao paulo,sao paulo,623
+SP,SP,santa barbara d'oeste,sao jose dos campos,624
+SP,SP,campinas,catanduva,625
+SP,SP,santos,maua,626
+SP,PR,sao bernardo do campo,curitiba,627
+SP,PR,jundiai,paincandu,628
+SP,SP,sao paulo,palhoca,629
+SP,SP,guarulhos,santo andre,630
+SP,SP,ribeirao preto,salto,631
+SP,SP,sorocaba,sao paulo,632
+SP,SP,ibiuna,mirassol,633
+SP,MG,braganca paulista,belo horizonte,634
+SP,SP,salto,sao jose dos campos,635
+SP,SP,sao paulo,santo andre,636
+SP,SP,sumare,sao paulo,637
+SP,GO,sao paulo,goiania,638
+SP,MG,sao paulo,uba,639
+SP,SP,sao paulo,portoferreira,640
+SP,SP,campinas,sorocaba,641
+SP,SP,sao jose dos campos,batatais,642
+SP,SP,sao bernardo do campo,sao paulo,643
+SP,SP,sao bernardo do campo,sao paulo,644
+SP,SP,piracicaba,sorocaba,645
+SP,SP,caieiras,sao paulo,646
+SP,SP,sao paulo,capivari,647
+SP,DF,sao paulo,brasilia,648
+SP,SP,tatui,araraquara,649
+SP,SP,sao jose dos campos,sao paulo,650
+SP,SP,sao paulo,sao paulo,651
+SP,SP,sao paulo,votorantim,652
+SP,SP,guarulhos,cravinhos,653
+SP,DF,barueri,brasilia,654
+SP,SP,valinhos,bebedouro,655
+SP,GO,sao caetano do sul,goiania,656
+SP,PR,sao paulo,almirante tamandare,657
+SP,SP,sao paulo,presidente prudente,658
+SP,SP,sao paulo,barretos,659
+SP,SP,sorocaba,bertioga,660
+SP,SP,guariba,sao paulo,661
+SP,SP,sao paulo,sao paulo,662
+SP,CE,sao bernardo do campo,fortaleza,663
+SP,SP,diadema,sao paulo,664
+SP,SP,cajamar,jundiai,665
+SP,SP,barueri,jaci,666
+SP,RJ,maua,rio de janeiro,667
+SP,SP,guaruja,sao paulo,668
+SP,PR,sao jose do rio preto,curitiba,669
+SP,PR,ferraz de vasconcelos,curitiba,670
+SP,RJ,cacapava,rio de janeiro,671
+SP,RS,maua,porto alegre,672
+SP,RJ,itupeva,rio de janeiro,673
+SP,SP,jundiai,guarulhos,674
+SP,SP,sao paulo,sao paulo,675
+SP,SP,sao paulo,mogi guacu,676
+SP,SP,osasco,sao carlos,677
+SP,SP,itapevi,araraquara,678
+SP,PR,sao paulo,cascavel,679
+SP,PR,maua,andira,680
+SP,PB,osasco,joao pessoa,681
+SP,SP,campinas,sao paulo,682
+SP,SP,sao paulo,osasco,683
+SP,SP,botucatu,sao paulo,684
+SP,RS,sao paulo,porto alegre,685
+SP,PR,salto grande,arapongas,686
+SP,SP,sao paulo,santo andre,687
+SP,SC,franca,balneario camboriu,688
+SP,SP,guaruja,praia grande,689
+SP,MG,sao paulo,betim,690
+SP,SP,sao paulo,sao paulo,691
+SP,SP,barueri,taboao da serra,692
+SP,SP,barueri,sao jose dos pinhais,693
+SP,SP,sao paulo,sao paulo,694
+SP,RS,sao paulo,porto alegre,695
+SP,SC,itapolis,joinville,696
+SP,RS,guarulhos,lajeado,697
+SP,SP,sorocaba,sao paulo,698
+SP,MG,sao paulo,divinopolis,699
+SP,SP,sao jose do rio pardo,sao paulo,700
+SP,SP,guara,diadema,701
+SP,RJ,itatiba,duque de caxias,702
+SP,SP,sao paulo,sao paulo,703
+SP,SP,taboao da serra,franca,704
+SP,DF,guarulhos,brasilia,705
+SP,SP,sao paulo,nova odessa,706
+SP,SP,cruzeiro,barueri,707
+SP,SP,osasco,paulinia,708
+SP,SP,jacarei,votuporanga,709
+SP,MG,sao bernardo do campo,extrema,710
+SP,SP,sao paulo,sao paulo,711
+SP,SP,sao paulo,santo andre,712
+SP,RJ,sao paulo,angra dos reis rj,713
+SP,SP,campinas,taboao da serra,714
+SP,SP,sao paulo,sao paulo,715
+SP,SP,sao roque,osasco,716
+SP,PR,aguai,londrina,717
+SP,PR,sao carlos,umuarama,718
+SP,SP,sao paulo,birigui,719
+SP,RJ,botucatu,rio de janeiro,720
+SP,PR,campinas,curitiba,721
+SP,GO,sao paulo,goiania,722
+SP,SP,sao bernardo do campo,sao paulo,723
+SP,SP,sao bernardo do campo,sao paulo,724
+SP,SC,campinas,tubarao,725
+SP,SP,sao paulo,registro,726
+SP,MG,sao paulo,formiga,727
+SP,PR,sao carlos,londrina,728
+SP,PR,mogi-guacu,curitiba,729
+SP,RJ,sao bernardo do campo,rio de janeiro,730
+SP,SP,santa isabel,sao paulo,731
+SP,SP,sao paulo,sao paulo,732
+SP,MG,sao paulo,carmo do cajuru,733
+SP,SP,bom jesus dos perdoes,ibitinga,734
+SP,SP,guarulhos,sao paulo,735
+SP,SP,jaboticabal,sao paulo,736
+SP,PR,jales,curitiba,737
+SP,PR,sao paulo,curitiba,738
+SP,MG,cravinhos,castro pires,739
+SP,SP,sao jose dos campos,vargem grande do sul,740
+SP,SC,braganca paulista,florianopolis,741
+SP,SP,sao paulo,guarulhos,742
+SP,SP,sao paulo,rio claro,743
+SP,PR,sao paulo,curitiba,744
+SP,SP,sao paulo,votuporanga,745
+SP,SP,taubate,ribeirao preto,746
+SP,SP,sao paulo,sao paulo,747
+SP,PR,sao paulo,curitiba,748
+SP,SP,santa cruz do rio pardo,sorocaba,749
+SP,SP,sao paulo,sao paulo,750
+SP,GO,santo andre,goiania,751
+SP,SP,sao paulo,atibaia,752
+SP,RJ,luiziania,sao pedro da aldeia,753
+SP,PR,mogi das cruzes,pinhais,754
+SP,SP,sao paulo,salto,755
+SP,SP,piracicaba,miguelopolis,756
+SP,SP,piquete,campinas,757
+SP,SP,praia grande,carapicuiba,758
+SP,SP,indaiatuba,sorocaba,759
+SP,SP,sao paulo,mairipora,760
+SP,SP,sao paulo,sao paulo,761
+SP,SP,sao paulo,itapui,762
+SP,SP,cristais paulista,campinas,763
+SP,PR,sao paulo,curitiba,764
+SP,SP,sao paulo,catanduva,765
+SP,MG,sao bernardo do campo,andradas,766
+SP,SE,barueri,neopolis,767
+SP,SP,cotia,varzea paulista,768
+SP,SP,estiva gerbi,franco da rocha,769
+SP,SP,sao paulo,rio claro,770
+SP,SP,piracicaba,carapicuiba,771
+SP,SP,sao paulo,jundiai,772
+SP,SP,jaboticabal,ribeirao preto,773
+SP,MG,taboao da serra,barbacena,774
+SP,SP,sao paulo,maua,775
+SP,SP,francisco morato,caieiras,776
+SP,SP,jundiai,santo andre,777
+SP,SP,sao paulo,franca,778
+SP,GO,hortolandia,morrinhos,779
+SP,RS,sao paulo,erechim,780
+SP,SP,sao paulo,sao paulo,781
+SP,SP,sao paulo,sao jose dos campos,782
+SP,SP,osasco,descalvado,783
+SP,PR,mogi das cruzes,pitanga,784
+SP,RJ,sao paulo,rio de janeiro,785
+SP,SP,sao paulo,vargem grande do sul,786
+SP,SP,severinia,sao paulo,787
+SP,SC,taciba,brusque,788
+SP,SP,braganca paulista,marilia,789
+SP,SP,sao paulo,sao paulo,790
+SP,RS,sertaozinho,caxias do sul,791
+SP,RS,pompeia,bage,792
+SP,SP,barra bonita,sao paulo,793
+SP,SP,sao paulo,sao paulo,794
+SP,SP,sumare,sorocaba,795
+SP,SP,sao paulo,sao paulo,796
+SP,SP,sao paulo,ribeirao preto,797
+SP,SP,santo andre,assis,798
+SP,SP,sao paulo,garulhos,799
+SP,MG,sao joao da boa vista,belo horizonte,800
+SP,PR,santa rita d'oeste,curitiba,801
+SP,PR,sao paulo,francisco beltrao,802
+SP,PR,diadema,maringa,803
+SP,SP,taubate,sao paulo,804
+SP,SP,sao paulo,marilia,805
+SP,SP,sao paulo,sao paulo,806
+SP,SP,votorantim,jarinu,807
+SP,SP,sao paulo,sao jose do rio preto,808
+SP,MG,sao paulo,uberlandia,809
+SP,PR,sao paulo,curitiba,810
+SP,RS,barueri,nova petropolis,811
+SP,SP,sao paulo,sao paulo,812
+SP,SP,sao paulo,rio claro,813
+SP,SC,santos,camboriu,814
+SP,SP,sao paulo,ribeirao preto,815
+SP,RS,santa barbara d'oeste,pelotas,816
+SP,MA,santa barbara d'oeste,sao luis,817
+SP,PR,sao paulo,curitiba,818
+SP,RJ,buri,rio de janeiro,819
+SP,SP,sao paulo,sao paulo,820
+SP,SP,itapetininga,sao jose do rio pret,821
+SP,SP,morro agudo,artur nogueira,822
+SP,SP,sao paulo,assis,823
+SP,SP,sao paulo,indaiatuba,824
+SP,PR,cotia,itaipulandia,825
+SP,SP,sao bernardo do campo,sao paulo,826
+SP,SP,sao paulo,campinas,827
+SP,PR,sao jose dos campos,maringa,828
+SP,PR,guaruja,curitiba,829
+SP,SP,guarulhos,ibitinga,830
+SP,MG,sao carlos,belo horizonte,831
+SP,SP,osasco,sao caetano do sul,832
+SP,SP,olimpia,ribeirao preto,833
+SP,SP,sao bernardo do campo,sao jose do rio preto,834
+SP,SP,itapetininga,sao paulo,835
+SP,RS,cajamar,novo hamburgo,836
+SP,PR,sao paulo,guaratuba,837
+SP,SP,piracicaba,sao paulo,838
+SP,MG,praia grande,belo horizonte,839
+SP,SP,osasco,assis,840
+SP,PR,sao paulo,cascavel,841
+SP,SP,sumare,jundiai,842
+SP,SP,tambau,santo andre,843
+SP,PR,osasco,curitiba,844
+SP,SP,sao paulo,sao paulo,845
+SP,SP,sao paulo,sao paulo,846
+SP,SP,sao paulo,sao paulo,847
+SP,MS,ribeirao preto,campo grande,848
+SP,SP,barueri,sao paulo,849
+SP,PR,sao paulo,arapongas,850
+SP,SP,mogi-guacu,franca,851
+SP,SP,sao paulo,sao paulo,852
+SP,SP,sao paulo,sao caetano do sul,853
+SP,SP,taubate,santa barbara d'oeste,854
+SP,GO,carapicuiba,goiania,855
+SP,SP,sao paulo,guarulhos,856
+SP,PR,sao paulo,curitiba,857
+SP,SC,sao paulo,jaragua do sul,858
+SP,SP,sao paulo,aparecida,859
+SP,MG,sao caetano do sul,cataguases,860
+SP,SP,sao bernardo do campo,sao paulo,861
+SP,SP,sao paulo,bariri,862
+SP,MG,sao paulo,sao joao del rei,863
+SP,SP,maua,sumare,864
+SP,SP,sao paulo,americana,865
+SP,SP,campinas,ibitinga,866
+SP,SP,sao paulo,praia grande,867
+SP,SP,piracicaba,sao paulo,868
+SP,SP,valinhos,aracatuba,869
+SP,SP,santo andre,americana,870
+SP,MG,sao paulo,belo horizonte,871
+SP,SP,pariquera-acu,sao paulo,872
+SP,SP,sao paulo,sao paulo,873
+SP,RS,paulinia,porto alegre,874
+SP,SP,sao paulo,sao jose dos campos,875
+SP,PR,embu das artes,sao jose dos pinhais,876
+SP,RS,marilia,santa maria,877
+SP,PR,registro,foz do iguacu,878
+SP,SP,osasco,sao paulo,879
+SP,SC,santos,palhoca,880
+SP,SP,sao caetano do sul,porto ferreira,881
+SP,SP,ferraz de vasconcelos,sao paulo,882
+SP,MG,santana de parnaiba,contagem,883
+SP,SP,santa branca,sao caetano do sul,884
+SP,PR,sao paulo,maringa,885
+SP,RS,campo limpo paulista,carazinho,886
+SP,SP,sao paulo,osasco,887
+SP,SP,mogi-guacu,mogi mirim,888
+SP,SP,sao paulo,alambari,889
+SP,SP,indaiatuba,aracatuba,890
+SP,SP,sao paulo,osvaldo cruz,891
+SP,PR,sao paulo,cascavel,892
+SP,RJ,praia grande,vassouras,893
+SP,SP,santos,jundiai,894
+SP,SC,piracicaba,rodeio,895
+SP,MG,santos,guanhaes,896
+SP,SP,santo andre,ibitinga,897
+SP,PR,sao paulo,maringa,898
+SP,SP,ribeirao preto,osasco,899
+SP,SP,santana de parnaiba,braganca paulista,900
+SP,SP,itapetininga,sao paulo,901
+SP,SP,sao caetano do sul,sao paulo,902
+SP,SP,sao paulo,sao paulo,903
+SP,SP,sao paulo,sao paulo,904
+SP,SP,sao paulo,itapevi,905
+SP,ES,jundiai,afonso claudio,906
+SP,SP,sao paulo,tatui,907
+SP,SP,guaratingueta,sao paulo,908
+SP,SP,andradina,sao jose do rio preto,909
+SP,SP,sao paulo,sao paulo,910
+SP,SP,sao paulo,campinas,911
+SP,SP,junqueiropolis,sao paulo,912
+SP,SP,campinas,cosmopolis,913
+SP,RJ,sumare,niteroi,914
+SP,SP,piracicaba,sao paulo,915
+SP,SP,sao vicente,sao paulo,916
+SP,MG,franco da rocha,centro,917
+SP,SP,sao paulo,sao paulo,918
+SP,RS,junqueiropolis,porto alegre,919
+SP,SC,sao paulo,bombinhas,920
+SP,SP,adamantina,sao paulo,921
+SP,SP,iracemapolis,osasco,922
+SP,SP,sorocaba,itapevi,923
+SP,SP,aracatuba,franca,924
+SP,PR,sao jose dos campos,maringa,925
+SP,SP,sao paulo,vargem grande do sul,926
+SP,SP,sao bernardo do campo,itapeva,927
+SP,MG,embu-guacu,sete lagoas,928
+SP,SP,cachoeira paulista,atibaia,929
+SP,SP,sao paulo,sao sebastiao,930
+SP,SP,garca,cafelandia,931
+SP,SP,mogi das cruzes,praia grande,932
+SP,SC,osasco,videira,933
+SP,DF,piracicaba,brasilia,934
+SP,SC,santana de parnaiba,palhoca,935
+SP,SP,louveira,sao paulo,936
+SP,PR,osasco,teixeira soares,937
+SP,SP,sao paulo,sao paulo,938
+SP,PR,taboao da serra,mandaguacu,939
+SP,PR,sao carlos,fazenda rio grande,940
+SP,RJ,sao paulo,teresopolis,941
+SP,SP,sao bernardo do campo,sao paulo,942
+SP,SP,guarulhos,sao paulo,943
+SP,SP,mogi mirim,piracicaba,944
+SP,PR,sao paulo,guaratuba,945
+SP,SP,lindoia,sao paulo,946
+SP,SC,guaruja,palhoca,947
+SP,SP,sao paulo,sao jose dos campos,948
+SP,SP,valinhos,santos,949
+SP,RJ,sao paulo,armacao dos buzios,950
+SP,SP,jau,sao paulo,951
+SP,SP,poa,sao paulop,952
+SP,PR,sao paulo,maringa,953
+SP,SP,sao paulo,sao paulo,954
+SP,SP,ibitinga,taboao da serra,955
+SP,GO,sumare,goiania,956
+SP,SP,sao paulo,campinas,957
+SP,ES,campinas,serra,958
+SP,SP,sao bernardo do campo,sao paulo,959
+SP,SP,sao paulo,sao paulo,960
+SP,MG,poloni,belo horizonte,961
+SP,SP,sao paulo,americana,962
+SP,BA,sao paulo,ilheus,963
+SP,SP,sao paulo,barueri,964
+SP,SP,sao jose dos campos,sao jose do rio preto,965
+SP,RS,americana,montenegro,966
+SP,SP,rio grande da serra,ibitinga,967
+SP,SP,diadema,sao paulo,968
+SP,RJ,campinas,sao goncalo,969
+SP,SC,itabera,joinville,970
+SP,MG,guaruja,contagem,971
+SP,SP,sao paulo,sao paulo,972
+SP,SP,presidente epitacio,rio claro,973
+SP,SP,guarulhos,itaquaquecetuba,974
+SP,SP,guaruja,sao paulo,975
+SP,PR,taboao da serra,pinhais,976
+SP,RS,sao paulo,caxias do sul,977
+SP,DF,sao paulo,brasilia,978
+SP,SP,vinhedo,sao paulo,979
+SP,SC,sao jose dos campos,itajai,980
+SP,SP,aracatuba,araraquara,981
+SP,SC,sao jose dos campos,rio negrinho,982
+SP,SP,santo andre,sao jose do rio preto,983
+SP,SP,marilia,sao paulo,984
+SP,SP,campinas,sao paulo,985
+SP,SP,sao paulo,barretos,986
+SP,PR,aguas da prata,londrina,987
+SP,SP,cotia,campo limpo paulista,988
+SP,SC,guarulhos,blumenau,989
+SP,RS,lorena,novo hamburgo,990
+SP,PR,cubatao,maringa,991
+SP,SP,sao paulo,sao paulo,992
+SP,SP,taboao da serra,ribeirao preto,993
+SP,GO,itatiba,goiania,994
+SP,SP,aracatuba,sao paulo,995
+SP,AM,taubate,manaus,996
+SP,SP,sao bernardo do campo,sao paulo,997
+SP,SP,piracicaba,sao paulo,998
+SP,SP,sao paulo,bady bassitt,999
+SP,RJ,sao paulo,niteroi,1000
+SP,PR,piquete,terra boa,1001
+SP,SP,sao paulo,botucatu,1002
+SP,SP,campinas,sao jose do rio preto,1003
+SP,MG,dourado,minas gerais,1004
+SP,SP,cacapava,sao paulo,1005
+SP,SC,guariba,blumenau,1006
+SP,SP,jandira,sao bernardo do campo,1007
+SP,ES,guarulhos,serra,1008
+SP,SP,sao paulo,sao paulo,1009
+SP,SP,embu das artes,sao paulo,1010
+SP,SP,osasco,artur nogueira,1011
+SP,SP,sao paulo,avare,1012
+SP,SP,sao paulo,garca,1013
+SP,MG,osasco,belo horizonte,1014
+SP,SP,sao paulo,sao paulo,1015
+SP,SP,indaiatuba,indaiatuba,1016
+SP,PR,nova granada,curitiba,1017
+SP,SP,osasco,sao paulo,1018
+SP,MG,sao paulo,juiz de fora,1019
+SP,SP,sao jose do rio preto,sao paulo,1020
+SP,SP,franca,sao paulo,1021
+SP,RJ,sao paulo,rio de janeiro,1022
+SP,SP,americana,santa maria da serra,1023
+SP,SP,pindamonhangaba,dois corregos,1024
+SP,SP,franca,sao paulo,1025
+SP,SP,sao paulo,piracicaba,1026
+SP,SP,dois corregos,santana de parnaiba,1027
+SP,PR,suzano,curitiba,1028
+SP,GO,diadema,goiania,1029
+SP,MG,sao manuel,ibia,1030
+SP,SP,taubate,guarulhos,1031
+SP,SP,sao jose dos campos,valinhos,1032
+SP,SP,osasco,sao paulo,1033
+SP,BA,santo andre,guanambi,1034
+SP,CE,santo andre,caucaia,1035
+SP,SP,cruzeiro,blumenau,1036
+SP,MG,guarulhos,carmo da mata,1037
+SP,SC,sao paulo,navegantes,1038
+SP,SP,cacapava,ibitinga,1039
+SP,SP,sao paulo,sao paulo,1040
+SP,SC,aruja,blumenau,1041
+SP,SP,guarulhos,sao paulo,1042
+SP,MG,hortolandia,divinopolis,1043
+SP,SP,ipaussu,guarulhos,1044
+SP,SP,sao paulo,alvares machado,1045
+SP,RJ,sao jose dos campos,rio de janeiro,1046
+SP,SP,sao paulo,sorocaba,1047
+SP,SP,guarulhos,sao bernardo do campo,1048
+SP,SP,itu,assis,1049
+SP,MG,sao paulo,belo horizonte,1050
+SP,PR,sao paulo,curitiba,1051
+SP,SP,atibaia,jundiai,1052
+SP,MG,praia grande,belo horizonte,1053
+SP,RS,sao paulo,santa rosa,1054
+SP,SP,martinopolis,ribeirao preto,1055
+SP,SP,fernando prestes,curitiba,1056
+SP,SP,sao carlos,sao jose do rio preto,1057
+SP,RJ,sao paulo,rio de janeiro,1058
+SP,RJ,guarulhos,rio de janeiro,1059
+SP,SP,ferraz de vasconcelos,sao caetano do sul,1060
+SP,SP,guarulhos,sao paulo,1061
+SP,SP,bauru,sorocaba,1062
+SP,MG,novo horizonte,pocos de caldas,1063
+SP,MG,sao bernardo do campo,uberlandia,1064
+SP,RJ,sao paulo,rio de janeiro,1065
+SP,SP,sao paulo,sao paulo,1066
+SP,SP,caieiras,sp,1067
+SP,RS,espirito santo do pinhal,flores da cunha,1068
+SP,SP,campinas,sao paulo,1069
+SP,CE,sao paulo,fortaleza,1070
+SP,SP,sao bernardo do campo,sao paulo,1071
+SP,SP,sao paulo,capivari,1072
+SP,RS,mogi mirim,caxias do sul,1073
+SP,SP,sao paulo,sao paulo,1074
+SP,PR,tiete,maringa,1075
+SP,SP,sao paulo,limeira,1076
+SP,SP,jundiai,sao paulo,1077
+SP,SP,sao paulo,jacarei,1078
+SP,SP,campinas,sao paulo,1079
+SP,SC,campinas,blumenau,1080
+SP,SP,sao paulo,braganca paulista,1081
+SP,SP,rio claro,ibitinga,1082
+SP,SP,praia grande,sao paulo,1083
+SP,SP,mogi-guacu,jambeiro,1084
+SP,SP,sao paulo,sao paulo,1085
+SP,SP,sao paulo,aguas claras df,1086
+SP,PR,sao paulo,cianorte,1087
+SP,SP,sao paulo,sao paulo,1088
+SP,SP,franca,sao paulo,1089
+SP,SP,cotia,rio de janeiro,1090
+SP,SP,sao paulo,sao paulo,1091
+SP,BA,poa,feira de santana,1092
+SP,MG,campinas,araguari,1093
+SP,SC,lupercio,florianopolis,1094
+SP,SC,sao paulo,rio do sul,1095
+SP,SP,serrana,pedreira,1096
+SP,SP,maua,barueri,1097
+SP,RS,campinas,porto alegre,1098
+SP,RS,santo andre,cachoeira do sul,1099
+SP,SP,santo andre,santos,1100
+SP,SP,sao paulo,dracena,1101
+SP,SP,lins,sao paulo,1102
+SP,SP,sorocaba,sao paulo,1103
+SP,SP,sao caetano do sul,sao paulo,1104
+SP,RJ,sao paulo,rio de janeiro,1105
+SP,SP,sao paulo,garca,1106
+SP,PR,cerquilho,londrina,1107
+SP,SP,jundiai,guarulhos,1108
+SP,SP,sao paulo,ourinhos,1109
+SP,SP,campinas,ibitinga,1110
+SP,PR,santos,curitiba,1111
+SP,PR,sao jose dos campos,loanda,1112
+SP,SP,sao paulo,bariri,1113
+SP,SP,santos,rio bonito,1114
+SP,SP,guara,praia grande,1115
+SP,SP,mombuca,guarulhos,1116
+SP,SP,sao paulo,ribeirao preto,1117
+SP,SC,campinas,cacador,1118
+SP,RJ,santo andre,rio de janeiro,1119
+SP,SP,marilia,araraquara,1120
+SP,SP,matao,marilia,1121
+SP,SP,sao roque,presidente prudente,1122
+SP,PR,sao caetano do sul,sao jose dos pinhais,1123
+SP,SP,braganca paulista,sao pedro,1124
+SP,RJ,americana,queimados,1125
+SP,SP,poa,sao paulo,1126
+SP,SP,sao bernardo do campo,sao caetano do sul,1127
+SP,SP,sao paulo,penapolis,1128
+SP,SP,sao paulo,votorantim,1129
+SP,SP,campinas,sao paulo,1130
+SP,SP,avare,jundiai,1131
+SP,SP,aruja,guarulhos,1132
+SP,MG,florinia,ipatinga,1133
+SP,SP,sao paulo,nova odessa,1134
+SP,PR,atibaia,maringa,1135
+SP,SP,braganca paulista,santo andre,1136
+SP,SP,sao paulo,presidente bernardes,1137
+SP,RS,aracatuba,caxias do sul,1138
+SP,SP,santos,sao paulo,1139
+SP,SC,monte aprazivel,sombrio,1140
+SP,SC,sao paulo,florianopolis,1141
+SP,SP,sao paulo,ribeirao preto,1142
+SP,SP,araras,sao paulo,1143
+SP,SP,cajamar,assis,1144
+SP,SP,sao paulo,piracicaba,1145
+SP,SP,sao paulo,sao paulo,1146
+SP,SP,sao paulo,mogi guacu,1147
+SP,PR,sao jose dos campos,curitiba,1148
+SP,SC,sao paulo,xanxere,1149
+SP,PR,americana,pinhais,1150
+SP,MG,sao paulo,uberlandia,1151
+SP,RJ,barueri,nova iguacu,1152
+SP,SP,sao paulo,sao paulo,1153
+SP,RJ,sao paulo,rio de janeiro,1154
+SP,MG,dracena,dores de campos,1155
+SP,SP,sao paulo,sao caetano do sul,1156
+SP,SP,sao paulo,sao paulo,1157
+SP,SP,sao paulo,carapicuiba,1158
+SP,SP,santos,piracicaba,1159
+SP,SC,marilia,itajai,1160
+SP,SP,santo andre,sao paulo,1161
+SP,SP,sao paulo,sao paulo,1162
+SP,SP,catanduva,ibitinga,1163
+SP,SP,sao vicente,sao caetano do sul,1164
+SP,SP,franca,sorocaba,1165
+SP,MG,sao paulo,itabira,1166
+SP,PR,botelho,marechal candido rondon,1167
+SP,SP,sao paulo,barrinha,1168
+SP,SP,sao paulo,sao paulo,1169
+SP,SP,jundiai,atibaia,1170
+SP,PR,sao paulo,jussara,1171
+SP,PA,olimpia,marechal candido rondon,1172
+SP,SP,sao vicente,sao paulo,1173
+SP,SP,rancharia,cotia,1174
+SP,PR,sao paulo,maringa,1175
+SP,PR,campinas,londrina,1176
+SP,SP,guarulhos,guarulhos,1177
+SP,SP,conchas,jundiai,1178
+SP,SP,poa,echapora,1179
+SP,MG,sao caetano do sul,araxa,1180
+SP,SP,guarulhos,votuporanga,1181
+SP,SC,sao paulo,canoinhas,1182
+SP,SP,campinas,ribeirao preto,1183
+SP,ES,santa cruz do rio pardo,serra,1184
+SP,PR,cerqueira cesar,curitiba,1185
+SP,SP,sao paulo,sao paulo,1186
+SP,PR,sao jose dos campos,colorado,1187
+SP,SP,sao paulo,sao paulo,1188
+SP,SC,sao paulo,joinville,1189
+SP,SP,registro,sao paulo,1190
+SP,RN,sete barras,natal,1191
+SP,PR,sao paulo,maringa,1192
+SP,SP,divinolandia,sao paulo,1193
+SP,RS,braganca paulista,caxias do sul,1194
+SP,SP,sao paulo,sao paulo,1195
+SP,RJ,campinas,rio de janeiro,1196
+SP,SP,sao paulo,sao paulo,1197
+SP,SP,jaboticabal,salto,1198
+SP,SP,carapicuiba,sao paulo,1199
+SP,SP,sao paulo,sao paulo,1200
+SP,SP,sao paulo,sao paulo,1201
+SP,RS,itapecerica da serra,canoas,1202
+SP,MG,sao paulo,uberlandia,1203
+SP,SP,sao paulo,sao paulo,1204
+SP,SP,carapicuiba,ribeirao preto,1205
+SP,MG,campinas,belo horizonte,1206
+SP,RS,sao paulo,alvorada,1207
+SP,RJ,araras,rio de janeiro,1208
+SP,SP,sao paulo,itaquaquecetuba,1209
+SP,SP,guarulhos,sao paulo,1210
+SP,PR,sao bernardo do campo,curitiba,1211
+SP,SP,osasco,tatui,1212
+SP,SP,guarulhos,sao paulo,1213
+SP,DF,sao caetano do sul,brasilia,1214
+SP,RJ,sao paulo,mage,1215
+SP,SP,sao paulo,sao paulo,1216
+SP,SP,varzea paulista,sao paulo,1217
+SP,SP,sao jose do rio preto,sao paulo,1218
+SP,SP,sao joao da boa vista,tabao da serra,1219
+SP,SP,sao paulo,sao paulo,1220
+SP,SP,sao paulo,sao paulo,1221
+SP,SP,sao paulo,sao paulo,1222
+SP,SP,sao paulo,diadema,1223
+SP,SP,sao paulo,sao paulo,1224
+SP,SP,sao paulo,penapolis,1225
+SP,SP,sao paulo,sao paulo,1226
+SP,PR,sao paulo,sarandi,1227
+SP,SP,tatui,sao paulo,1228
+SP,SP,sao paulo,sao jose dos campos,1229
+SP,SP,sao paulo,santo andre,1230
+SP,PR,guarulhos,londrina,1231
+SP,SP,mariapolis,santo andre,1232
+SP,SP,sao paulo,marilia,1233
+SP,SP,sao paulo,sao jose do rio preto,1234
+SP,SP,campinas,guarulhos,1235
+SP,SP,sao paulo,votorantim,1236
+SP,SP,sorocaba,cotia,1237
+SP,SP,suzano,amparo,1238
+SP,MG,itapevi,baependi,1239
+SP,GO,sao sebastiao,morrinhos,1240
+SP,SP,sao paulo,ferraz de vasconcelos,1241
+SP,SP,barueri,sao paulo,1242
+SP,SP,santos,sao roque,1243
+SP,GO,sao carlos,goiania,1244
+SP,SP,sao paulo,sao paulo,1245
+SP,SP,sao paulo,mirassol,1246
+SP,SC,sao paulo,sombrio,1247
+SP,ES,bauru,vila velha,1248
+SP,RJ,osasco,niteroi,1249
+SP,MG,sao paulo,conselheiro lafaiete,1250
+SP,PR,sao paulo,cascavel,1251
+SP,SP,sao paulo,sao paulo,1252
+SP,SP,sao paulo,sao paulo,1253
+SP,PR,caieiras,curitiba,1254
+SP,SP,biritiba-mirim,sao paulo,1255
+SP,SP,tupa,jundiai,1256
+SP,SP,santo andre,sao paulo,1257
+SP,MG,jandira,governador valadares,1258
+SP,SP,osasco,tanabi,1259
+SP,SP,sao carlos,sao paulo,1260
+SP,SP,taboao da serra,maua,1261
+SP,SP,sao paulo,mogi guacu,1262
+SP,DF,sao paulo,brasilia,1263
+SP,SP,monte alto,sao paulo,1264
+SP,SP,franco da rocha,sao paulo,1265
+SP,SC,sao paulo,blumenau,1266
+SP,SP,sao paulo,sao paulo,1267
+SP,SP,franca,marilia,1268
+SP,SP,sao sebastiao da grama,sao paulo,1269
+SP,SP,sao paulo,sao paulo,1270
+SP,SP,guaruja,sao paulo,1271
+SP,MG,cachoeira paulista,juiz de fora,1272
+SP,CE,jundiai,varzea alegre,1273
+SP,SP,sao paulo,suzano,1274
+SP,SP,piracicaba,guaratingueta,1275
+SP,SP,sao paulo,sao paulo,1276
+SP,SP,jundiai,tambau,1277
+SP,SP,guarulhos,sao jose do rio pardo,1278
+SP,RJ,taboao da serra,rio de janeiro,1279
+SP,PR,rio das pedras,irati,1280
+SP,SC,sao paulo,florianopolis,1281
+SP,SP,presidente prudente,itatiba,1282
+SP,SP,mirassol,sao paulo,1283
+SP,SC,sao paulo,rodeio,1284
+SP,GO,santo andre,formosa,1285
+SP,GO,sao jose do rio preto,aparecida de goiania,1286
+SP,SP,barretos,sao paulo,1287
+SP,SC,aluminio,blumenau,1288
+SP,SP,monte azul paulista,ribeirao preto,1289
+SP,MG,sao paulo,uberlandia,1290
+SP,SP,sao paulo,sao paulo,1291
+SP,PR,franca,curitiba,1292
+SP,RJ,sao paulo,rio de janeiro,1293
+SP,SC,franca,indaial,1294
+SP,SP,campinas,hortolandia,1295
+SP,SP,franca,sao caetano do sul,1296
+SP,PE,cosmopolis,vitoria de santo antao,1297
+SP,MG,sao bernardo do campo,conselheiro lafaiete,1298
+SP,SP,santo andre,leme,1299
+SP,SP,sao paulo,sao paulo,1300
+SP,PR,sao paulo,sarandi,1301
+TO,SP,divinopolis do tocantins,guarulhos,1
+TO,ES,gurupi,cachoeiro de itapemirim,2
+TO,SP,palmas,mogi das cruzes,3
+TO,RS,araguaina,lajeado,4
+TO,PR,araguaina,curitiba,5
+TO,SP,lagoa da confusao,porto ferreira,6
+TO,SP,arraias,sao paulo,7
+TO,RS,pedro afonso,sapiranga,8
+TO,SP,palmas,sao paulo,9
+TO,SP,alvorada,sao paulo,10
+TO,SP,paraiso do tocantins,sao paulo,11

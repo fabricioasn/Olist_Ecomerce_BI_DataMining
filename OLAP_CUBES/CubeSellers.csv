@@ -1,0 +1,613 @@
+QTY_SELLERS,seller_city,seller_state
+1,rio branco,AC
+1,manaus,AM
+1,arraial d'ajuda (porto seguro),BA
+1,bahia,BA
+1,barro alto,BA
+1,eunapolis,BA
+1,feira de santana,BA
+1,guanambi,BA
+1,ilheus,BA
+1,ipira,BA
+1,irece,BA
+2,lauro de freitas,BA
+1,porto seguro,BA
+7,salvador,BA
+1,caucaia,CE
+1,eusebio,CE
+7,fortaleza,CE
+1,juzeiro do norte,CE
+1,mucambo,CE
+1,pacatuba,CE
+1,varzea alegre,CE
+28,brasilia,DF
+1,brasilia df,DF
+1,gama,DF
+1,afonso claudio,ES
+4,cachoeiro de itapemirim,ES
+3,cariacica,ES
+1,colatina,ES
+1,domingos martins,ES
+1,muqui,ES
+3,serra,ES
+1,viana,ES
+4,vila velha,ES
+4,vitoria,ES
+1,abadia de goias,GO
+3,anapolis,GO
+1,aparecida de goiania,GO
+2,formosa,GO
+23,goiania,GO
+1,jaragua,GO
+1,luziania,GO
+3,morrinhos,GO
+1,piracanjuba,GO
+1,rio verde,GO
+1,santa terezinha de goias,GO
+2,uruacu,GO
+1,sao luis,MA
+2,alfenas,MG
+1,andradas,MG
+4,araguari,MG
+2,araxa,MG
+1,arinos,MG
+2,baependi,MG
+2,barbacena,MG
+1,belo horizont,MG
+66,belo horizonte,MG
+5,betim,MG
+1,bonfinopolis de minas,MG
+4,borda da mata,MG
+1,camanducaia,MG
+1,campanha,MG
+1,campo do meio,MG
+1,caratinga,MG
+1,carmo da mata,MG
+1,carmo do cajuru,MG
+1,castro pires,MG
+1,cataguases,MG
+1,centro,MG
+6,claudio,MG
+1,congonhal,MG
+1,congonhas,MG
+3,conselheiro lafaiete,MG
+12,contagem,MG
+2,coronel fabriciano,MG
+8,divinopolis,MG
+1,divisa nova,MG
+2,dores de campos,MG
+1,extrema,MG
+4,formiga,MG
+1,fronteira,MG
+1,governador valadares,MG
+1,guanhaes,MG
+1,guiricema,MG
+1,ibia,MG
+1,ibirite,MG
+1,ilicinea,MG
+2,ipatinga,MG
+1,itabira,MG
+1,itau de minas,MG
+2,itauna,MG
+2,jacutinga,MG
+1,janauba,MG
+1,joao monlevade,MG
+1,joao pinheiro,MG
+9,juiz de fora,MG
+2,lagoa da prata,MG
+1,lagoa santa,MG
+1,lambari,MG
+1,mateus leme,MG
+1,minas gerais,MG
+1,monte siao,MG
+3,montes claros,MG
+1,muriae,MG
+1,nova lima,MG
+1,oliveira,MG
+1,ouro fino,MG
+1,ouro preto,MG
+1,passos,MG
+2,patos de minas,MG
+1,pedro leopoldo,MG
+5,pocos de caldas,MG
+1,ponte nova,MG
+1,pouso alegre,MG
+1,prados,MG
+2,ribeirao das neves,MG
+1,sabara,MG
+6,santa rita do sapucai,MG
+2,sao joao del rei,MG
+4,sete lagoas,MG
+1,timoteo,MG
+2,tiradentes,MG
+3,tres coracoes,MG
+6,uba,MG
+3,uberaba,MG
+12,uberlandia,MG
+4,varginha,MG
+1,vespasiano,MG
+2,vicosa,MG
+4,campo grande,MS
+1,coxim,MS
+2,cuiaba,MT
+1,jaciara,MT
+1,sinop,MT
+1,marechal candido rondon,PA
+1,campina grande,PB
+2,joao pessoa,PB
+1,mamanguape,PB
+1,sao bento,PB
+1,serra redonda,PB
+1,brejao,PE
+2,caruaru,PE
+5,recife,PE
+1,vitoria de santo antao,PE
+1,teresina,PI
+1,almirante tamandare,PR
+1,ampere,PR
+1,andira,PR
+8,apucarana,PR
+10,arapongas,PR
+2,araucaria,PR
+1,bandeirantes,PR
+1,bocaiuva do sul,PR
+1,california,PR
+3,cambe,PR
+3,campo largo,PR
+1,campo magro,PR
+1,campo mourao,PR
+1,cascavael,PR
+14,cascavel,PR
+2,castro,PR
+1,cianorte,PR
+8,colombo,PR
+1,colorado,PR
+1,cornelio procopio,PR
+124,curitiba,PR
+1,entre rios do oeste,PR
+6,fazenda rio grande,PR
+1,floresta,PR
+1,formosa do oeste,PR
+5,foz do iguacu,PR
+4,francisco beltrao,PR
+1,guaira,PR
+1,guarapuava,PR
+3,guaratuba,PR
+1,imbituva,PR
+1,irati,PR
+2,itaipulandia,PR
+1,japira,PR
+1,jussara,PR
+3,loanda,PR
+25,londrina,PR
+1,mandaguacu,PR
+1,mandaguari,PR
+1,mandirituba,PR
+1,marechal candido rondon,PR
+1,marialva,PR
+40,maringa,PR
+1,medianeira,PR
+1,paincandu,PR
+1,palotina,PR
+1,parana,PR
+1,paranavai,PR
+1,pato bragado,PR
+2,pato branco,PR
+8,pinhais,PR
+1,pinhalao,PR
+2,pitanga,PR
+6,ponta grossa,PR
+3,rolandia,PR
+3,santa terezinha de itaipu,PR
+1,sao  jose dos pinhais,PR
+9,sao jose dos pinhais,PR
+1,sao jose dos pinhas,PR
+3,sarandi,PR
+1,teixeira soares,PR
+1,terra boa,PR
+8,toledo,PR
+4,umuarama,PR
+1,uniao da vitoria,PR
+2,angra dos reis,RJ
+1,aperibe,RJ
+2,armacao dos buzios,RJ
+4,barra mansa,RJ
+2,belford roxo,RJ
+1,bom jardim,RJ
+1,campos dos goytacazes,RJ
+3,duque de caxias,RJ
+1,itaborai,RJ
+3,macae,RJ
+1,mage,RJ
+1,marica,RJ
+3,mesquita,RJ
+2,nilopolis,RJ
+8,niteroi,RJ
+5,nova friburgo,RJ
+5,nova iguacu,RJ
+1,paracambi,RJ
+1,paraiba do sul,RJ
+6,petropolis,RJ
+1,queimados,RJ
+1,resende,RJ
+1,rio bonito,RJ
+97,rio de janeiro,RJ
+1,santo antonio de padua,RJ
+7,sao goncalo,RJ
+3,sao joao de meriti,RJ
+1,sao pedro da aldeia,RJ
+1,saquarema,RJ
+2,teresopolis,RJ
+1,tres rios,RJ
+1,vassouras,RJ
+1,volta redonda,RJ
+1,messias targino,RN
+2,natal,RN
+1,parnamirim,RN
+1,rio de janeiro,RN
+1,ji parana,RO
+1,porto velho,RO
+1,alvorada,RS
+1,arvorezinha,RS
+1,bage,RS
+3,bento goncalves,RS
+1,cachoeira do sul,RS
+3,cachoeirinha,RS
+1,campina das missoes,RS
+2,campo bom,RS
+9,canoas,RS
+3,carazinho,RS
+16,caxias do sul,RS
+1,condor,RS
+1,erechim,RS
+2,estancia velha,RS
+2,farroupilha,RS
+2,flores da cunha,RS
+1,horizontina,RS
+1,igrejinha,RS
+1,imbe,RS
+1,imigrante,RS
+1,ipe,RS
+1,ivoti,RS
+1,jacutinga,RS
+5,lajeado,RS
+2,montenegro,RS
+1,nova petropolis,RS
+7,novo hamburgo,RS
+1,parai,RS
+1,paraiso do sul,RS
+3,pelotas,RS
+1,portao,RS
+27,porto alegre,RS
+1,rio grande,RS
+1,rolante,RS
+1,ronda alta,RS
+1,santa cruz do sul,RS
+3,santa maria,RS
+2,santa rosa,RS
+1,santo angelo,RS
+1,santo antonio da patrulha,RS
+2,sao leopoldo,RS
+1,sapiranga,RS
+1,soledade,RS
+1,torres,RS
+1,tres coroas,RS
+1,tres de maio,RS
+1,triunfo,RS
+1,uruguaiana,RS
+3,venancio aires,RS
+2,viamao,RS
+1,araquari,SC
+1,ararangua,SC
+1,balenario camboriu,SC
+3,balneario camboriu,SC
+1,barra velha,SC
+20,blumenau,SC
+1,bombinhas,SC
+1,braco do norte,SC
+10,brusque,SC
+1,cacador,SC
+1,camboriu,SC
+1,campos novos,SC
+2,canoinhas,SC
+2,chapeco,SC
+1,concordia,SC
+1,cordilheira alta,SC
+4,criciuma,SC
+2,curitibanos,SC
+1,floranopolis,SC
+17,florianopolis,SC
+2,garopaba,SC
+1,garuva,SC
+2,gaspar,SC
+1,icara,SC
+2,imbituba,SC
+2,indaial,SC
+8,itajai,SC
+1,itapema,SC
+2,jaguaruna,SC
+9,jaragua do sul,SC
+22,joinville,SC
+3,lages,SC
+2,laurentino,SC
+1,luiz alves,SC
+1,massaranduba,SC
+3,navegantes,SC
+1,nova trento,SC
+1,orleans,SC
+7,palhoca,SC
+2,paulo lopes,SC
+1,picarras,SC
+1,pinhalzinho,SC
+2,porto belo,SC
+1,presidente getulio,SC
+1,rio do oeste,SC
+4,rio do sul,SC
+1,rio negrinho,SC
+2,rodeio,SC
+1,santa catarina,SC
+1,santa cecilia,SC
+3,sao bento do sul,SC
+1,sao francisco do sul,SC
+5,sao jose,SC
+2,sao ludgero,SC
+1,sao miguel do oeste,SC
+1,sao miguel d'oeste,SC
+2,sombrio,SC
+1,taio,SC
+2,timbo,SC
+2,treze tilias,SC
+5,tubarao,SC
+2,videira,SC
+2,xanxere,SC
+1,xaxim,SC
+1,aracaju,SE
+1,neopolis,SE
+1,aguas claras df,SP
+1,alambari,SP
+1,alvares machado,SP
+10,americana,SP
+5,amparo,SP
+1,andradas,SP
+1,ao bernardo do campo,SP
+1,aparecida,SP
+4,aracatuba,SP
+11,araraquara,SP
+3,araras,SP
+3,artur nogueira,SP
+3,aruja,SP
+8,assis,SP
+11,atibaia,SP
+2,auriflama,SP
+1,avare,SP
+2,bady bassitt,SP
+2,bariri,SP
+4,barretos,SP
+1,barrinha,SP
+13,barueri,SP
+3,batatais,SP
+14,bauru,SP
+1,bebedouro,SP
+2,belo horizonte,SP
+1,bertioga,SP
+10,birigui,SP
+1,blumenau,SP
+1,bofete,SP
+3,boituva,SP
+1,bom jesus dos perdoes,SP
+4,botucatu,SP
+5,braganca paulista,SP
+1,brotas,SP
+1,buritama,SP
+2,cafelandia,SP
+1,caieiras,SP
+2,cajamar,SP
+41,campinas,SP
+2,campo limpo paulista,SP
+1,cananeia,SP
+4,capivari,SP
+11,carapicuiba,SP
+10,catanduva,SP
+2,caxias do sul,SP
+1,cerqueira cesar,SP
+1,chapeco,SP
+1,clementina,SP
+2,conchal,SP
+1,cordeiropolis,SP
+2,cosmopolis,SP
+10,cotia,SP
+1,cravinhos,SP
+1,cruzeiro,SP
+3,curitiba,SP
+1,descalvado,SP
+9,diadema,SP
+2,dois corregos,SP
+1,dracena,SP
+2,echapora,SP
+2,embu das artes,SP
+1,embu guacu,SP
+1,engenheiro coelho,SP
+1,fernando prestes,SP
+4,fernandopolis,SP
+1,ferraz de  vasconcelos,SP
+3,ferraz de vasconcelos,SP
+1,florianopolis,SP
+20,franca,SP
+1,francisco morato,SP
+2,franco da rocha,SP
+4,garca,SP
+1,garulhos,SP
+1,goioere,SP
+1,guaimbe,SP
+1,guaira,SP
+1,guara,SP
+1,guaratingueta,SP
+1,guariba,SP
+6,guaruja,SP
+50,guarulhos,SP
+1,holambra,SP
+2,hortolandia,SP
+49,ibitinga,SP
+2,igaracu do tiete,SP
+8,indaiatuba,SP
+1,ipaussu,SP
+1,ipira,SP
+1,ipua,SP
+2,itajai,SP
+2,itajobi,SP
+4,itapecerica da serra,SP
+2,itapetininga,SP
+1,itapeva,SP
+4,itapevi,SP
+1,itaporanga,SP
+1,itapui,SP
+9,itaquaquecetuba,SP
+4,itatiba,SP
+1,itirapina,SP
+4,itu,SP
+2,jaboticabal,SP
+8,jacarei,SP
+4,jaci,SP
+4,jaguariuna,SP
+1,jales,SP
+1,jambeiro,SP
+1,jarinu,SP
+4,jau,SP
+1,juiz de fora,SP
+14,jundiai,SP
+1,laguna,SP
+3,laranjal paulista,SP
+1,laranjeiras do sul,SP
+1,leme,SP
+6,lencois paulista,SP
+17,limeira,SP
+1,londrina,SP
+2,lorena,SP
+1,louveira,SP
+1,macatuba,SP
+1,mairinque,SP
+2,mairipora,SP
+1,marapoama,SP
+1,marechal candido rondon,SP
+15,marilia,SP
+14,maua,SP
+1,miguelopolis,SP
+1,mineiros do tiete,SP
+1,mirandopolis,SP
+4,mirassol,SP
+1,mococa,SP
+1,mogi das cruses,SP
+16,mogi das cruzes,SP
+8,mogi guacu,SP
+3,mogi mirim,SP
+1,mombuca,SP
+1,monte alegre do sul,SP
+1,monte alto,SP
+1,monteiro lobato,SP
+1,nhandeara,SP
+2,nova odessa,SP
+1,novo horizonte,SP
+1,olimpia,SP
+1,orlandia,SP
+32,osasco,SP
+3,osvaldo cruz,SP
+1,ourinhos,SP
+1,palhoca,SP
+4,paulinia,SP
+1,pederneiras,SP
+1,pedregulho,SP
+9,pedreira,SP
+1,pedrinhas paulista,SP
+5,penapolis,SP
+1,pilar do sul,SP
+1,pinhais,SP
+1,pinhalzinho,SP
+12,piracicaba,SP
+1,pirassununga,SP
+1,pirituba,SP
+1,pitangueiras,SP
+1,poa,SP
+3,pompeia,SP
+1,porto alegre,SP
+9,porto ferreira,SP
+1,portoferreira,SP
+2,pradopolis,SP
+10,praia grande,SP
+1,presidente bernardes,SP
+1,presidente epitacio,SP
+12,presidente prudente,SP
+2,registro,SP
+6,ribeirao pires,SP
+53,ribeirao preto,SP
+1,ribeirao pretp,SP
+1,riberao preto,SP
+1,rio bonito,SP
+12,rio claro,SP
+1,rio das pedras,SP
+2,rio de janeiro,SP
+1,robeirao preto,SP
+1,s jose do rio preto,SP
+9,salto,SP
+1,sando andre,SP
+1,santa barbara d oeste,SP
+6,santa barbara D'Oeste,SP
+1,santa maria da serra,SP
+1,santa rosa de viterbo,SP
+9,santana de parnaiba,SP
+46,santo andre,SP
+1,santo antonio de posse,SP
+16,santos,SP
+1,sao  paulo,SP
+32,sao bernardo do campo,SP
+1,sao bernardo do capo,SP
+20,sao caetano do sul,SP
+13,sao carlos,SP
+1,sao joao da boa vista,SP
+1,sao joaquim da barra,SP
+2,sao jose do rio pardo,SP
+1,sao jose do rio pret,SP
+33,sao jose do rio preto,SP
+18,sao jose dos campos,SP
+1,sao jose dos pinhais,SP
+1,sao paluo,SP
+700,sao paulo,SP
+1,sao paulo sp,SP
+1,sao paulop,SP
+1,sao pauo,SP
+2,sao pedro,SP
+7,sao roque,SP
+1,sao sebastiao,SP
+1,sao sebastiao da grama,SP
+1,sao vicente,SP
+2,sbc,SP
+1,scao jose do rio pardo,SP
+3,serra negra,SP
+1,serrana,SP
+1,sertanopolis,SP
+1,socorro,SP
+32,sorocaba,SP
+4,sp,SP
+5,sumare,SP
+3,suzano,SP
+1,tabao da serra,SP
+3,tabatinga,SP
+10,taboao da serra,SP
+1,tambau,SP
+2,tanabi,SP
+1,taruma,SP
+3,tatui,SP
+6,taubate,SP
+1,tiete,SP
+1,tocantins,SP
+4,tupa,SP
+1,ubatuba,SP
+7,valinhos,SP
+3,vargem grande do sul,SP
+1,vargem grande paulista,SP
+1,varzea paulista,SP
+1,vera cruz,SP
+1,vicente de carvalho,SP
+1,vila velha,SP
+1,volta redonda,SP
+4,votorantim,SP
+4,votuporanga,SP
