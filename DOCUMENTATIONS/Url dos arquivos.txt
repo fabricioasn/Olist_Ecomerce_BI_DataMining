@@ -1,0 +1,33 @@
+Arquivos do DataSet utilizado:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+########################################################################
+
+Código Python hospedado no Colab:
+https://colab.research.google.com/drive/1mLS9YcrKVaoidK1RfK_PDee_6WwbN2DI
+
+########################################################################
+
+Execução do código em Python:
+https://drive.google.com/file/d/1QhohfRA4EJXLhK_Om7OFOTb0l1E9TEkQ/view?usp=sharing
+
+########################################################################
+
+Dados com os rótulos dos Clusters obtidos:
+https://drive.google.com/file/d/1yN9XSmbzDKMA5dFB0U1zCcFQO2C-wM9s/view?usp=sharing
+
+########################################################################
+
+Link com as análises online dos Clusters obtidos feito no POWER BI:
+https://app.powerbi.com/view?r=eyJrIjoiMjdiYTY0MDItNTYxYS00M2UxLThiNjAtMTBiNDU2ZGNkOWNhIiwidCI6ImY0MTE4N2VhLTlkNmItNDNlNy04YjNiLWU1NmFmNjQ4N2IwYSJ9&pageName=ReportSection88e0d1aabd9fc358b906
+
+########################################################################
+
+Link com apresentação do POWER BI:
+https://drive.google.com/file/d/1rNXskhKpJ_zdQECYmZh24bSmqKDlcDaH/view?usp=sharing
+
+########################################################################
+
+
+Link com todas as pastas:
+https://drive.google.com/drive/folders/1joiBzuPJ3Qj2lggxAla06_xb14bk72xR?usp=sharing

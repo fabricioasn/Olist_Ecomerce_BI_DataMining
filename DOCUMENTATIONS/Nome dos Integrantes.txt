@@ -1,0 +1,30 @@
+########################################################################
+
+Os grupos para esses trabalhos foram compostos pelos integrantes:
+
+
+2016103039 - Fabricio Almeida da Silva Nunes
+
+2018100450 - Lorran Richardson de Sa Freire
+
+2018101710 - Ismael Weslley Neves de Brito
+
+2014103280 - Mateus do Nascimento Magalhães da Silva
+
+########################################################################
+
+
+
+
+
+Observação:
+
+Como ambos os trabalhos utilizam das mesmas bases de dados, optamos por enviar o trabalho dos dois módulos no mesmo arquivo
+para caso algo realizado em um trabalho possa acrescentar valor no outro.
+
+As análiseses feitas em um trabalho, podem ser interessantes de serem observadas também no outro, seja no Python ou no Power Bi
+
+
+
+Link com todas as pastas:
+https://drive.google.com/drive/folders/1joiBzuPJ3Qj2lggxAla06_xb14bk72xR?usp=sharing
